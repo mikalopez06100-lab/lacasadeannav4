@@ -1,0 +1,4040 @@
+{
+  "generatedAt": "2026-06-17T15:07:08.058Z",
+  "images": [
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-005",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-005.jpg",
+      "original": {
+        "width": 4160,
+        "height": 6240,
+        "bytes": 15286326
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-005-full.webp",
+          "width": 2000,
+          "height": 3000,
+          "bytes": 551398
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-005-lg.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 182942
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-005-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 36102
+        }
+      ]
+    },
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-025",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-025.jpg",
+      "original": {
+        "width": 4160,
+        "height": 6240,
+        "bytes": 15768395
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-025-full.webp",
+          "width": 2000,
+          "height": 3000,
+          "bytes": 574886
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-025-lg.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 162796
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-025-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 37708
+        }
+      ]
+    },
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-033",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-033.jpg",
+      "original": {
+        "width": 6240,
+        "height": 4160,
+        "bytes": 14670711
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-033-full.webp",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 231032
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-033-lg.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 91996
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-033-thumb.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 21338
+        }
+      ]
+    },
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-036",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-036.jpg",
+      "original": {
+        "width": 6240,
+        "height": 4160,
+        "bytes": 14679757
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-036-full.webp",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 234122
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-036-lg.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 92022
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-036-thumb.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 21004
+        }
+      ]
+    },
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-046",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-046.jpg",
+      "original": {
+        "width": 4160,
+        "height": 6240,
+        "bytes": 15465853
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-046-full.webp",
+          "width": 2000,
+          "height": 3000,
+          "bytes": 921594
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-046-lg.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 413438
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-046-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 88278
+        }
+      ]
+    },
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-047",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-047.jpg",
+      "original": {
+        "width": 4160,
+        "height": 6240,
+        "bytes": 12858915
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-047-full.webp",
+          "width": 2000,
+          "height": 3000,
+          "bytes": 601428
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-047-lg.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 286344
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-047-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 77892
+        }
+      ]
+    },
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-059",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-059.jpg",
+      "original": {
+        "width": 6240,
+        "height": 4160,
+        "bytes": 14563656
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-059-full.webp",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 179194
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-059-lg.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 72006
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-059-thumb.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 18788
+        }
+      ]
+    },
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-064",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-064.jpg",
+      "original": {
+        "width": 4160,
+        "height": 6240,
+        "bytes": 15608657
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-064-full.webp",
+          "width": 2000,
+          "height": 3000,
+          "bytes": 579888
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-064-lg.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 163514
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-064-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 32650
+        }
+      ]
+    },
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-074",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-074.jpg",
+      "original": {
+        "width": 4160,
+        "height": 6240,
+        "bytes": 15666547
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-074-full.webp",
+          "width": 2000,
+          "height": 3000,
+          "bytes": 576722
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-074-lg.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 159792
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-074-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 27638
+        }
+      ]
+    },
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-077",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-077.jpg",
+      "original": {
+        "width": 6240,
+        "height": 4160,
+        "bytes": 14364079
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-077-full.webp",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 239904
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-077-lg.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 90014
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-077-thumb.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 21026
+        }
+      ]
+    },
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-079",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-079.jpg",
+      "original": {
+        "width": 6240,
+        "height": 4160,
+        "bytes": 13450697
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-079-full.webp",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 227086
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-079-lg.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 87850
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-079-thumb.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 18878
+        }
+      ]
+    },
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-116",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-116.jpg",
+      "original": {
+        "width": 6240,
+        "height": 4160,
+        "bytes": 13493261
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-116-full.webp",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 214322
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-116-lg.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 89264
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-116-thumb.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 22102
+        }
+      ]
+    },
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-121",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-121.jpg",
+      "original": {
+        "width": 6240,
+        "height": 4160,
+        "bytes": 17105362
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-121-full.webp",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 256964
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-121-lg.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 94934
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-121-thumb.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 20362
+        }
+      ]
+    },
+    {
+      "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-127",
+      "category": "team",
+      "source": "photo nous/Shooting janv_25 La Casa de Anna©pierremaullet-127.jpg",
+      "original": {
+        "width": 6240,
+        "height": 4160,
+        "bytes": 14040135
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-127-full.webp",
+          "width": 2000,
+          "height": 1333,
+          "bytes": 225564
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-127-lg.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 89768
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/team/shooting-janv-25-la-casa-de-annapierremaullet-127-thumb.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 21698
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc00006-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC00006-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 986955
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00006-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 193552
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00006-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 125580
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00006-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 71250
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00006-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 20752
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc00015-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC00015-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 924683
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00015-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 317788
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00015-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 217570
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00015-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 128050
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00015-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 34774
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc00028-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC00028-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 743006
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00028-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 219968
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00028-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 152680
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00028-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 93216
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00028-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 26838
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc00046-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC00046-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 795278
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00046-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 240894
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00046-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 166210
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00046-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 101404
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc00046-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 32624
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc09836-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC09836-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 701466
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09836-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 108200
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09836-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 74388
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09836-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 45378
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09836-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 13798
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc09847-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC09847-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 731766
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09847-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 97988
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09847-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 66918
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09847-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 39808
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09847-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 13210
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc09867-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC09867-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 924491
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09867-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 169362
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09867-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 108286
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09867-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 63376
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09867-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 18500
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc09883-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC09883-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 1003436
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09883-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 189696
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09883-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 124206
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09883-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 70968
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09883-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 21540
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc09895-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC09895-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 1014461
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09895-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 337942
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09895-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 216002
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09895-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 120112
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09895-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 31012
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc09906-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC09906-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 878460
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09906-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 288014
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09906-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 194216
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09906-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 109298
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09906-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 28620
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc09914-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC09914-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 728887
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09914-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 231360
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09914-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 150518
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09914-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 87354
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09914-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 25602
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc09922-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC09922-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 739220
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09922-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 268244
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09922-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 168900
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09922-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 91582
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09922-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 23228
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc09932-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC09932-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 851362
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09932-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 274576
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09932-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 176688
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09932-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 99780
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09932-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 28066
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc09939-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC09939-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 788731
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09939-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 293030
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09939-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 191286
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09939-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 103836
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09939-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 26564
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc09941-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC09941-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 962779
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09941-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 165070
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09941-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 109710
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09941-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 64620
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09941-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 19832
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/dsc09944-hdr",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/DSC09944-HDR.jpg",
+      "original": {
+        "width": 1919,
+        "height": 1280,
+        "bytes": 925603
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09944-hdr-full.webp",
+          "width": 1919,
+          "height": 1280,
+          "bytes": 168672
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09944-hdr-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 110130
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09944-hdr-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 63452
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/dsc09944-hdr-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 18520
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/img-20190213-194042-307-resized-1",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/IMG_20190213_194042_307_resized_1.jpg",
+      "original": {
+        "width": 1446,
+        "height": 1808,
+        "bytes": 430500
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/img-20190213-194042-307-resized-1-full.webp",
+          "width": 1446,
+          "height": 1808,
+          "bytes": 63874
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/img-20190213-194042-307-resized-1-lg.webp",
+          "width": 1446,
+          "height": 1808,
+          "bytes": 56726
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/img-20190213-194042-307-resized-1-md.webp",
+          "width": 1200,
+          "height": 1500,
+          "bytes": 39532
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/img-20190213-194042-307-resized-1-thumb.webp",
+          "width": 600,
+          "height": 750,
+          "bytes": 13096
+        }
+      ]
+    },
+    {
+      "id": "projects/14-route-de-morat/img-20190221-230007-381-resized-1",
+      "category": "projects/14-route-de-morat",
+      "source": "photo/14 ROUTE DE MORAT/IMG_20190221_230007_381_resized_1.jpg",
+      "original": {
+        "width": 1512,
+        "height": 1831,
+        "bytes": 439800
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/14-route-de-morat/img-20190221-230007-381-resized-1-full.webp",
+          "width": 1512,
+          "height": 1831,
+          "bytes": 48674
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/14-route-de-morat/img-20190221-230007-381-resized-1-lg.webp",
+          "width": 1512,
+          "height": 1831,
+          "bytes": 43196
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/14-route-de-morat/img-20190221-230007-381-resized-1-md.webp",
+          "width": 1200,
+          "height": 1453,
+          "bytes": 27532
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/14-route-de-morat/img-20190221-230007-381-resized-1-thumb.webp",
+          "width": 600,
+          "height": 727,
+          "bytes": 9710
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/allur-roll-36",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/ALLUR_ROLL_36.jpg",
+      "original": {
+        "width": 1084,
+        "height": 1322,
+        "bytes": 533531
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/allur-roll-36-full.webp",
+          "width": 1084,
+          "height": 1322,
+          "bytes": 255144
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/allur-roll-36-lg.webp",
+          "width": 1084,
+          "height": 1322,
+          "bytes": 231898
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/allur-roll-36-md.webp",
+          "width": 1084,
+          "height": 1322,
+          "bytes": 209230
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/allur-roll-36-thumb.webp",
+          "width": 600,
+          "height": 732,
+          "bytes": 60680
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/grayson-vetsak-62",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/GRAYSON_VETSAK_62.jpg",
+      "original": {
+        "width": 2000,
+        "height": 1334,
+        "bytes": 773538
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/grayson-vetsak-62-full.webp",
+          "width": 2000,
+          "height": 1334,
+          "bytes": 306502
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/grayson-vetsak-62-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 185786
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/grayson-vetsak-62-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 98616
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/grayson-vetsak-62-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 25948
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/livea-wasi-gray-brum-gray-mymy-08",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/LIVEA_WASI_GRAY_BRUM_GRAY_MYMY_08.jpg",
+      "original": {
+        "width": 2000,
+        "height": 2999,
+        "bytes": 2347951
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/livea-wasi-gray-brum-gray-mymy-08-full.webp",
+          "width": 2000,
+          "height": 2999,
+          "bytes": 1142324
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/livea-wasi-gray-brum-gray-mymy-08-lg.webp",
+          "width": 1600,
+          "height": 2399,
+          "bytes": 632034
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/livea-wasi-gray-brum-gray-mymy-08-md.webp",
+          "width": 1200,
+          "height": 1799,
+          "bytes": 309702
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/livea-wasi-gray-brum-gray-mymy-08-thumb.webp",
+          "width": 600,
+          "height": 899,
+          "bytes": 70224
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-41",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-41.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 4909870
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-41-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 143150
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-41-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 71468
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-41-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 43386
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-41-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 15674
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-42",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-42.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2512,
+        "bytes": 5897712
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-42-full.webp",
+          "width": 2400,
+          "height": 1570,
+          "bytes": 285538
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-42-lg.webp",
+          "width": 1600,
+          "height": 1047,
+          "bytes": 141702
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-42-md.webp",
+          "width": 1200,
+          "height": 785,
+          "bytes": 78640
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-42-thumb.webp",
+          "width": 600,
+          "height": 393,
+          "bytes": 23218
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-43",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-43.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 6098613
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-43-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 357800
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-43-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 164890
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-43-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 91020
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-43-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 27388
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-44",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-44.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 6265301
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-44-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 342932
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-44-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 157854
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-44-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 85696
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-44-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 25088
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-45",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-45.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 6267912
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-45-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 356248
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-45-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 167898
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-45-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 90594
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-45-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 26558
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-46",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-46.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 6260993
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-46-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 389316
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-46-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 179288
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-46-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 102344
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-46-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 29642
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-47-copie",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-47 copie.jpg",
+      "original": {
+        "width": 578,
+        "height": 840,
+        "bytes": 271829
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-47-copie-full.webp",
+          "width": 578,
+          "height": 840,
+          "bytes": 21670
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-47-copie-lg.webp",
+          "width": 578,
+          "height": 840,
+          "bytes": 15154
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-47-copie-md.webp",
+          "width": 578,
+          "height": 840,
+          "bytes": 12876
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-47-copie-thumb.webp",
+          "width": 578,
+          "height": 840,
+          "bytes": 10922
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-47",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-47.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5978210
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-47-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 261974
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-47-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 127284
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-47-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 77490
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-47-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 27760
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-48",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-48.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5864421
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-48-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 263194
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-48-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 133834
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-48-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 82718
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-48-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 28158
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-49",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-49.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 6356651
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-49-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 347378
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-49-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 176650
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-49-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 103192
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-49-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 32662
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-50",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-50.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5438075
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-50-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 251584
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-50-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 112164
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-50-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 63472
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-50-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 19918
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-51",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-51.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5702661
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-51-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 351928
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-51-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 181932
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-51-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 104518
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-51-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 29550
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-52",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-52.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5250787
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-52-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 214524
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-52-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 113002
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-52-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 70486
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-52-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 24584
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-53",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-53.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5660773
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-53-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 305482
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-53-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 150348
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-53-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 85634
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-53-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 27920
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-54",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-54.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5526575
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-54-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 230188
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-54-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 103616
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-54-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 63242
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-54-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 24000
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-55",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-55.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5833664
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-55-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 354520
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-55-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 182538
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-55-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 104620
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-55-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 34650
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-56",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-56.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 7119023
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-56-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 480884
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-56-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 218334
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-56-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 120744
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-56-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 36004
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-57",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-57.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5222120
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-57-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 285514
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-57-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 135420
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-57-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 75604
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-57-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 23454
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-58-copie",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-58 copie.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 7488608
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-58-copie-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 525802
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-58-copie-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 237536
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-58-copie-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 129904
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-58-copie-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 38422
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-58",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-58.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 7488608
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-58-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 525802
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-58-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 237536
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-58-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 129904
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-58-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 38422
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-59",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-59.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5949125
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-59-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 365766
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-59-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 171256
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-59-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 97556
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-59-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 29796
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-60",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-60.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5797565
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-60-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 359670
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-60-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 171384
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-60-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 95852
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-60-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 28842
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-61",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-61.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 6626976
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-61-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 351782
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-61-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 125522
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-61-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 68572
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-61-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 23248
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-62",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-62.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5723949
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-62-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 352044
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-62-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 168244
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-62-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 95042
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-62-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 29562
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-63",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-63.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5855824
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-63-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 346984
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-63-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 171366
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-63-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 98600
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-63-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 30540
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-64",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-64.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5561716
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-64-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 212264
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-64-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 101880
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-64-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 57766
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-64-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 18056
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-65",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-65.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 4824362
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-65-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 205266
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-65-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 103902
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-65-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 60184
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-65-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 18542
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-66",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-66.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5104793
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-66-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 179826
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-66-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 92060
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-66-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 54482
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-66-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 19266
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-67",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-67.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5755201
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-67-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 226126
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-67-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 99350
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-67-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 52902
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-67-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 15808
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-68",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-68.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 6170680
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-68-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 299406
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-68-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 114522
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-68-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 61224
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-68-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 19332
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-69",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-69.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5604271
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-69-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 289702
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-69-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 141134
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-69-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 81396
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-69-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 26884
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-70",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-70.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 4611203
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-70-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 133028
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-70-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 70472
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-70-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 43448
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-70-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 15694
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-71",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-71.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 4819121
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-71-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 209732
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-71-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 93046
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-71-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 41848
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-71-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 9808
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-72",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-72.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5540087
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-72-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 277476
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-72-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 135806
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-72-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 75020
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-72-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 20190
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-73",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-73.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 4646410
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-73-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 111070
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-73-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 50934
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-73-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 30022
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-73-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 10228
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-74",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-74.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5170510
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-74-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 156578
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-74-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 75038
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-74-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 43430
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-74-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 14610
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-75",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-75.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5119043
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-75-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 264678
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-75-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 133046
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-75-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 77058
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-75-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 23734
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-76",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-76.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5182347
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-76-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 259842
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-76-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 117804
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-76-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 63780
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-76-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 19060
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-77",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-77.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 4608194
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-77-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 162838
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-77-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 74990
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-77-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 41682
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-77-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 13364
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-78",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-78.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5250382
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-78-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 275290
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-78-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 121710
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-78-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 62664
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-78-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 17602
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-79",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-79.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5684092
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-79-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 317998
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-79-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 150804
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-79-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 83130
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-79-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 24568
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-80",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-80.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 5046613
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-80-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 228332
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-80-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 112316
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-80-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 65064
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-80-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 20342
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-81",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-81.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 6423450
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-81-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 340072
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-81-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 134380
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-81-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 73156
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-81-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 22752
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/photos-veyrier-82",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Photos Veyrier-82.jpg",
+      "original": {
+        "width": 3840,
+        "height": 2560,
+        "bytes": 6057605
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-82-full.webp",
+          "width": 2400,
+          "height": 1600,
+          "bytes": 330306
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-82-lg.webp",
+          "width": 1600,
+          "height": 1067,
+          "bytes": 141714
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-82-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 77848
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/photos-veyrier-82-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 23870
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-19",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Shooting Canapé - Casa de Anna-19.jpg",
+      "original": {
+        "width": 1500,
+        "height": 1000,
+        "bytes": 415267
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-19-full.webp",
+          "width": 1500,
+          "height": 1000,
+          "bytes": 116094
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-19-lg.webp",
+          "width": 1500,
+          "height": 1000,
+          "bytes": 107072
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-19-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 69930
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-19-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 24226
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-2",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Shooting Canapé - Casa de Anna-2.jpg",
+      "original": {
+        "width": 1500,
+        "height": 1125,
+        "bytes": 376746
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-2-full.webp",
+          "width": 1500,
+          "height": 1125,
+          "bytes": 138062
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-2-lg.webp",
+          "width": 1500,
+          "height": 1125,
+          "bytes": 124798
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-2-md.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 76500
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-2-thumb.webp",
+          "width": 600,
+          "height": 450,
+          "bytes": 23134
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-23",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Shooting Canapé - Casa de Anna-23.jpg",
+      "original": {
+        "width": 1500,
+        "height": 1000,
+        "bytes": 481188
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-23-full.webp",
+          "width": 1500,
+          "height": 1000,
+          "bytes": 212416
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-23-lg.webp",
+          "width": 1500,
+          "height": 1000,
+          "bytes": 197856
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-23-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 125872
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-23-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 38882
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-28",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Shooting Canapé - Casa de Anna-28.jpg",
+      "original": {
+        "width": 1000,
+        "height": 1500,
+        "bytes": 401353
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-28-full.webp",
+          "width": 1000,
+          "height": 1500,
+          "bytes": 165308
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-28-lg.webp",
+          "width": 1000,
+          "height": 1500,
+          "bytes": 148186
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-28-md.webp",
+          "width": 1000,
+          "height": 1500,
+          "bytes": 135370
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-28-thumb.webp",
+          "width": 600,
+          "height": 900,
+          "bytes": 53458
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-31",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Shooting Canapé - Casa de Anna-31.jpg",
+      "original": {
+        "width": 1500,
+        "height": 1000,
+        "bytes": 454346
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-31-full.webp",
+          "width": 1500,
+          "height": 1000,
+          "bytes": 199686
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-31-lg.webp",
+          "width": 1500,
+          "height": 1000,
+          "bytes": 187094
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-31-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 113582
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-31-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 34236
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-38",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Shooting Canapé - Casa de Anna-38.jpg",
+      "original": {
+        "width": 1500,
+        "height": 1000,
+        "bytes": 467191
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-38-full.webp",
+          "width": 1500,
+          "height": 1000,
+          "bytes": 135966
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-38-lg.webp",
+          "width": 1500,
+          "height": 1000,
+          "bytes": 124754
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-38-md.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 79562
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-38-thumb.webp",
+          "width": 600,
+          "height": 400,
+          "bytes": 25830
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-58",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Shooting Canapé - Casa de Anna-58.jpg",
+      "original": {
+        "width": 1000,
+        "height": 1500,
+        "bytes": 374408
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-58-full.webp",
+          "width": 1000,
+          "height": 1500,
+          "bytes": 120990
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-58-lg.webp",
+          "width": 1000,
+          "height": 1500,
+          "bytes": 110464
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-58-md.webp",
+          "width": 1000,
+          "height": 1500,
+          "bytes": 98908
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-58-thumb.webp",
+          "width": 600,
+          "height": 900,
+          "bytes": 30032
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-59",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Shooting Canapé - Casa de Anna-59.jpg",
+      "original": {
+        "width": 1000,
+        "height": 1500,
+        "bytes": 460392
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-59-full.webp",
+          "width": 1000,
+          "height": 1500,
+          "bytes": 100744
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-59-lg.webp",
+          "width": 1000,
+          "height": 1500,
+          "bytes": 89038
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-59-md.webp",
+          "width": 1000,
+          "height": 1500,
+          "bytes": 80762
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-59-thumb.webp",
+          "width": 600,
+          "height": 900,
+          "bytes": 23406
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-8",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Shooting Canapé - Casa de Anna-8.jpg",
+      "original": {
+        "width": 1500,
+        "height": 1125,
+        "bytes": 504021
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-8-full.webp",
+          "width": 1500,
+          "height": 1125,
+          "bytes": 142782
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-8-lg.webp",
+          "width": 1500,
+          "height": 1125,
+          "bytes": 130268
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-8-md.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 83748
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-8-thumb.webp",
+          "width": 600,
+          "height": 450,
+          "bytes": 27134
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-9",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "photo/HOME VEYRIER DU LAC/Shooting Canapé - Casa de Anna-9.jpg",
+      "original": {
+        "width": 1500,
+        "height": 1125,
+        "bytes": 496806
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-9-full.webp",
+          "width": 1500,
+          "height": 1125,
+          "bytes": 139184
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-9-lg.webp",
+          "width": 1500,
+          "height": 1125,
+          "bytes": 126670
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-9-md.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 79404
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/shooting-canape-casa-de-anna-9-thumb.webp",
+          "width": 600,
+          "height": 450,
+          "bytes": 26122
+        }
+      ]
+    },
+    {
+      "id": "projects/veyrier-lauflo/20240905-160714",
+      "category": "projects/veyrier-lauflo",
+      "source": "photo/VEYRIER DU LAC (LAUFLO)/20240905_160714.jpg",
+      "original": {
+        "width": 3000,
+        "height": 4000,
+        "bytes": 4224665
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-160714-full.webp",
+          "width": 2400,
+          "height": 3200,
+          "bytes": 900708
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-160714-lg.webp",
+          "width": 1600,
+          "height": 2133,
+          "bytes": 261816
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-160714-md.webp",
+          "width": 1200,
+          "height": 1600,
+          "bytes": 109618
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-160714-thumb.webp",
+          "width": 600,
+          "height": 800,
+          "bytes": 22162
+        }
+      ]
+    },
+    {
+      "id": "projects/veyrier-lauflo/20240905-160801",
+      "category": "projects/veyrier-lauflo",
+      "source": "photo/VEYRIER DU LAC (LAUFLO)/20240905_160801.jpg",
+      "original": {
+        "width": 3000,
+        "height": 4000,
+        "bytes": 4307606
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-160801-full.webp",
+          "width": 2400,
+          "height": 3200,
+          "bytes": 849174
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-160801-lg.webp",
+          "width": 1600,
+          "height": 2133,
+          "bytes": 267542
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-160801-md.webp",
+          "width": 1200,
+          "height": 1600,
+          "bytes": 112970
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-160801-thumb.webp",
+          "width": 600,
+          "height": 800,
+          "bytes": 21276
+        }
+      ]
+    },
+    {
+      "id": "projects/veyrier-lauflo/20240905-161459-0",
+      "category": "projects/veyrier-lauflo",
+      "source": "photo/VEYRIER DU LAC (LAUFLO)/20240905_161459(0).jpg",
+      "original": {
+        "width": 4000,
+        "height": 3000,
+        "bytes": 3898007
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-161459-0-full.webp",
+          "width": 2400,
+          "height": 1800,
+          "bytes": 346748
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-161459-0-lg.webp",
+          "width": 1600,
+          "height": 1200,
+          "bytes": 98428
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-161459-0-md.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 46142
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-161459-0-thumb.webp",
+          "width": 600,
+          "height": 450,
+          "bytes": 13204
+        }
+      ]
+    },
+    {
+      "id": "projects/veyrier-lauflo/20240905-161648",
+      "category": "projects/veyrier-lauflo",
+      "source": "photo/VEYRIER DU LAC (LAUFLO)/20240905_161648.jpg",
+      "original": {
+        "width": 3000,
+        "height": 4000,
+        "bytes": 4223376
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-161648-full.webp",
+          "width": 2400,
+          "height": 3200,
+          "bytes": 744680
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-161648-lg.webp",
+          "width": 1600,
+          "height": 2133,
+          "bytes": 128452
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-161648-md.webp",
+          "width": 1200,
+          "height": 1600,
+          "bytes": 29064
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-161648-thumb.webp",
+          "width": 600,
+          "height": 800,
+          "bytes": 8062
+        }
+      ]
+    },
+    {
+      "id": "projects/veyrier-lauflo/20240905-161709",
+      "category": "projects/veyrier-lauflo",
+      "source": "photo/VEYRIER DU LAC (LAUFLO)/20240905_161709.jpg",
+      "original": {
+        "width": 3000,
+        "height": 4000,
+        "bytes": 3145125
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-161709-full.webp",
+          "width": 2400,
+          "height": 3200,
+          "bytes": 414340
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-161709-lg.webp",
+          "width": 1600,
+          "height": 2133,
+          "bytes": 129788
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-161709-md.webp",
+          "width": 1200,
+          "height": 1600,
+          "bytes": 69292
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/veyrier-lauflo/20240905-161709-thumb.webp",
+          "width": 600,
+          "height": 800,
+          "bytes": 27714
+        }
+      ]
+    },
+    {
+      "id": "projects/rideaux/casa-de-anna-inside-blinds-curtains-23",
+      "category": "projects/rideaux",
+      "source": "photo/rideaux/Casa de Anna_Inside blinds curtains-23.jpg",
+      "original": {
+        "width": 2133,
+        "height": 3200,
+        "bytes": 3059800
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-23-full.webp",
+          "width": 2133,
+          "height": 3200,
+          "bytes": 380854
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-23-lg.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 233972
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-23-md.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 140262
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-23-thumb.webp",
+          "width": 600,
+          "height": 901,
+          "bytes": 36402
+        }
+      ]
+    },
+    {
+      "id": "projects/rideaux/casa-de-anna-inside-blinds-curtains-26",
+      "category": "projects/rideaux",
+      "source": "photo/rideaux/Casa de Anna_Inside blinds curtains-26.jpg",
+      "original": {
+        "width": 2133,
+        "height": 3200,
+        "bytes": 4409730
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-26-full.webp",
+          "width": 2133,
+          "height": 3200,
+          "bytes": 729156
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-26-lg.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 453186
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-26-md.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 274332
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-26-thumb.webp",
+          "width": 600,
+          "height": 901,
+          "bytes": 66628
+        }
+      ]
+    },
+    {
+      "id": "projects/rideaux/casa-de-anna-inside-blinds-curtains-33",
+      "category": "projects/rideaux",
+      "source": "photo/rideaux/Casa de Anna_Inside blinds curtains-33.jpg",
+      "original": {
+        "width": 2133,
+        "height": 3200,
+        "bytes": 3038646
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-33-full.webp",
+          "width": 2133,
+          "height": 3200,
+          "bytes": 334938
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-33-lg.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 207776
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-33-md.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 128520
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-33-thumb.webp",
+          "width": 600,
+          "height": 901,
+          "bytes": 39558
+        }
+      ]
+    },
+    {
+      "id": "projects/rideaux/casa-de-anna-inside-blinds-curtains-36",
+      "category": "projects/rideaux",
+      "source": "photo/rideaux/Casa de Anna_Inside blinds curtains-36.jpg",
+      "original": {
+        "width": 2133,
+        "height": 3200,
+        "bytes": 2163315
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-36-full.webp",
+          "width": 2133,
+          "height": 3200,
+          "bytes": 197346
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-36-lg.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 121022
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-36-md.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 71030
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-36-thumb.webp",
+          "width": 600,
+          "height": 901,
+          "bytes": 22778
+        }
+      ]
+    },
+    {
+      "id": "projects/rideaux/casa-de-anna-inside-blinds-curtains-38",
+      "category": "projects/rideaux",
+      "source": "photo/rideaux/Casa de Anna_Inside blinds curtains-38.jpg",
+      "original": {
+        "width": 2133,
+        "height": 3200,
+        "bytes": 2142258
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-38-full.webp",
+          "width": 2133,
+          "height": 3200,
+          "bytes": 201502
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-38-lg.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 119204
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-38-md.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 69558
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-38-thumb.webp",
+          "width": 600,
+          "height": 901,
+          "bytes": 20578
+        }
+      ]
+    },
+    {
+      "id": "projects/rideaux/casa-de-anna-inside-blinds-curtains-43",
+      "category": "projects/rideaux",
+      "source": "photo/rideaux/Casa de Anna_Inside blinds curtains-43.jpg",
+      "original": {
+        "width": 2133,
+        "height": 3200,
+        "bytes": 4343970
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-43-full.webp",
+          "width": 2133,
+          "height": 3200,
+          "bytes": 857634
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-43-lg.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 533638
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-43-md.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 302082
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-43-thumb.webp",
+          "width": 600,
+          "height": 901,
+          "bytes": 55078
+        }
+      ]
+    },
+    {
+      "id": "projects/rideaux/casa-de-anna-inside-blinds-curtains-44",
+      "category": "projects/rideaux",
+      "source": "photo/rideaux/Casa de Anna_Inside blinds curtains-44.jpg",
+      "original": {
+        "width": 2133,
+        "height": 3200,
+        "bytes": 3945399
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-44-full.webp",
+          "width": 2133,
+          "height": 3200,
+          "bytes": 743258
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-44-lg.webp",
+          "width": 1600,
+          "height": 2400,
+          "bytes": 434228
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-44-md.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 238986
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/rideaux/casa-de-anna-inside-blinds-curtains-44-thumb.webp",
+          "width": 600,
+          "height": 901,
+          "bytes": 37804
+        }
+      ]
+    },
+    {
+      "id": "studio/shooting-janv-25-la-casa-de-annapierremaullet-009",
+      "category": "studio",
+      "source": "photo/Shooting janv_25 La Casa de Anna©pierremaullet-009.jpg",
+      "original": {
+        "width": 4160,
+        "height": 6240,
+        "bytes": 13274457
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/studio/shooting-janv-25-la-casa-de-annapierremaullet-009-full.webp",
+          "width": 2000,
+          "height": 3000,
+          "bytes": 340094
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/studio/shooting-janv-25-la-casa-de-annapierremaullet-009-lg.webp",
+          "width": 1200,
+          "height": 1800,
+          "bytes": 106416
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/studio/shooting-janv-25-la-casa-de-annapierremaullet-009-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 26664
+        }
+      ]
+    },
+    {
+      "id": "brand/pictogram-black.webp",
+      "category": "brand",
+      "source": "A_Casa_Black.png",
+      "outputs": [
+        {
+          "variant": "webp",
+          "path": "/assets/brand/pictogram-black.webp",
+          "bytes": 5222
+        }
+      ]
+    },
+    {
+      "id": "brand/pictogram-beige.webp",
+      "category": "brand",
+      "source": "A_Casa_Beige.png",
+      "outputs": [
+        {
+          "variant": "webp",
+          "path": "/assets/brand/pictogram-beige.webp",
+          "bytes": 17108
+        }
+      ]
+    },
+    {
+      "id": "brand/pictogram-terracotta.webp",
+      "category": "brand",
+      "source": "A_Casa_Terracotta.png",
+      "outputs": [
+        {
+          "variant": "webp",
+          "path": "/assets/brand/pictogram-terracotta.webp",
+          "bytes": 22582
+        }
+      ]
+    },
+    {
+      "id": "brand/logo-black.webp",
+      "category": "brand",
+      "source": "Logo_La Casa de Anna_Black.png",
+      "outputs": [
+        {
+          "variant": "webp",
+          "path": "/assets/brand/logo-black.webp",
+          "bytes": 18318
+        }
+      ]
+    },
+    {
+      "id": "brand/logo-beige.webp",
+      "category": "brand",
+      "source": "Logo_La Casa de Anna_Beige.png",
+      "outputs": [
+        {
+          "variant": "webp",
+          "path": "/assets/brand/logo-beige.webp",
+          "bytes": 22620
+        }
+      ]
+    }
+  ]
+}
