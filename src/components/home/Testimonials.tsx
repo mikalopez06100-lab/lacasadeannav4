@@ -15,7 +15,7 @@ export function Testimonials() {
   const go = (dir: number) => setIndex((i) => (i + dir + total) % total);
 
   return (
-    <section className="bg-ink py-24 text-cream md:py-32">
+    <section data-cursor-dark className="bg-ink py-24 text-cream md:py-32">
       <div className="container-x text-center">
         <p className="label text-lin">Ils nous ont fait confiance</p>
 

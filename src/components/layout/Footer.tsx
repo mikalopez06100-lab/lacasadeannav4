@@ -10,7 +10,7 @@ export function Footer() {
 
   return (
     <footer className="bg-sand text-ink">
-      <div className="container-x py-20 md:py-28">
+      <div className="container-x pb-28 pt-20 md:pb-32 md:pt-28">
         <p
           className="font-fraunces text-[clamp(3rem,11vw,7.5rem)] italic leading-none"
           style={{ fontVariationSettings: "'WONK' 1" }}

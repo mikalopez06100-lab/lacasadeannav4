@@ -9,7 +9,7 @@ import { SmoothScroll } from "@/components/providers/SmoothScroll";
 import { CustomCursor } from "@/components/cursor/CustomCursor";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
-import { ProjectCTA } from "@/components/cta/ProjectCTA";
+import { BottomNav } from "@/components/layout/BottomNav";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -64,9 +64,9 @@ export default function RootLayout({
         <SmoothScroll>
           <CustomCursor />
           <Header />
-          <ProjectCTA />
           <main>{children}</main>
           <Footer />
+          <BottomNav />
         </SmoothScroll>
         <Analytics />
         <SpeedInsights />

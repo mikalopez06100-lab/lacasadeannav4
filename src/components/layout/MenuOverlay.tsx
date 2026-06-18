@@ -49,6 +49,7 @@ export function MenuOverlay({
   return (
     <div
       ref={ref}
+      data-cursor-dark
       className="invisible fixed inset-0 z-[90] flex flex-col justify-center bg-ink opacity-0"
       style={{ pointerEvents: "none" }}
       aria-hidden={!open}

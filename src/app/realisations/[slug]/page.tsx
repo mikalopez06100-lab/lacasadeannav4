@@ -123,7 +123,7 @@ export default async function ProjectPage({
 
       {/* Témoignage client */}
       {project.testimonial && (
-        <section className="bg-ink py-24 text-center text-cream md:py-28">
+        <section data-cursor-dark className="bg-ink py-24 text-center text-cream md:py-28">
           <div className="container-x">
             <blockquote
               className="mx-auto max-w-4xl font-fraunces text-3xl italic leading-snug md:text-4xl"
