@@ -145,6 +145,47 @@
     display: block;
     will-change: transform;
   }
+
+  /* Scroll horizontal sans barre visible (rail projets sur tactile) */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Bandeau partenaires — marquee infini deux lignes */
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    user-select: none;
+  }
+  .marquee-track {
+    display: inline-flex;
+    width: max-content;
+    will-change: transform;
+    animation: lcda-marquee var(--marquee-duration, 45s) linear infinite;
+  }
+  .marquee-track.is-reverse {
+    animation-direction: reverse;
+  }
+}
+
+@keyframes lcda-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    /* La piste contient deux copies de la liste → -50% = boucle sans couture */
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
 }
 
 /* ============================================================
