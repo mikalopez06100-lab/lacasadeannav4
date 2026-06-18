@@ -13,6 +13,15 @@ export type Article = {
   body: string[];
 };
 
+/** Visuel de couverture par article (catégorie + index dans le manifest d'images). */
+export const articleImage: Record<string, { category: string; index: number }> = {
+  "choisir-architecte-interieur-annecy": { category: "projects/home-veyrier-du-lac", index: 30 },
+  "matieres-naturelles-interieur-alpin": { category: "projects/home-veyrier-du-lac", index: 6 },
+  "rideaux-sur-mesure-savoir-faire": { category: "projects/rideaux", index: 2 },
+  "renovation-complete-par-ou-commencer": { category: "projects/14-route-de-morat", index: 6 },
+  "quiet-luxury-interieur-definition": { category: "projects/veyrier-lauflo", index: 4 },
+};
+
 export const journal: Article[] = [
   {
     slug: "choisir-architecte-interieur-annecy",

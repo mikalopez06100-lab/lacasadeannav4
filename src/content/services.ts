@@ -15,6 +15,16 @@ export type Service = {
   highlight?: boolean;
 };
 
+/** Visuel associé à chaque prestation (catégorie + index dans le manifest d'images). */
+export const serviceImage: Record<string, { category: string; index: number }> = {
+  consultation: { category: "team", index: 8 },
+  "dossier-conception": { category: "projects/14-route-de-morat", index: 3 },
+  "cle-en-main": { category: "projects/home-veyrier-du-lac", index: 20 },
+  "mobilier-sur-mesure": { category: "projects/home-veyrier-du-lac", index: 44 },
+  "rideaux-confection": { category: "projects/rideaux", index: 0 },
+  "projets-professionnels": { category: "projects/veyrier-lauflo", index: 3 },
+};
+
 export const services: Service[] = [
   {
     id: "consultation",

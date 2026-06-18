@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { journal, getArticle } from "@/content/journal";
+import { journal, getArticle, articleImage } from "@/content/journal";
 import { site } from "@/content/site";
 import { jsonLd } from "@/lib/seo";
+import { resolveImage } from "@/lib/images";
 import { FinalCta } from "@/components/home/FinalCta";
 
 export function generateStaticParams() {
@@ -36,9 +38,14 @@ const dateFmt = new Intl.DateTimeFormat("fr-FR", {
   year: "numeric",
 });
 
-export default function ArticlePage({ params }: { params: { slug: string } }) {
+export default async function ArticlePage({ params }: { params: { slug: string } }) {
   const article = getArticle(params.slug);
   if (!article) notFound();
+
+  const ref = articleImage[article.slug];
+  const cover = ref
+    ? await resolveImage(ref.category, { index: ref.index, variant: "full" })
+    : null;
 
   const schema = {
     "@context": "https://schema.org",
@@ -66,6 +73,12 @@ export default function ArticlePage({ params }: { params: { slug: string } }) {
         </div>
         <h1 className="display-h1 mt-5 max-w-4xl">{article.title}</h1>
       </header>
+
+      {cover && (
+        <div className="relative mb-16 aspect-[16/9] w-full overflow-hidden bg-sand md:mb-24">
+          <Image src={cover.src} alt={article.title} fill priority sizes="100vw" className="object-cover" />
+        </div>
+      )}
 
       <div className="container-x pb-20 md:pb-28">
         <div className="mx-auto max-w-prose space-y-6 text-lg leading-relaxed">

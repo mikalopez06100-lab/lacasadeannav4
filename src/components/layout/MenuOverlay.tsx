@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef } from "react";
-import { nav, site } from "@/content/site";
+import { nav, site, sites } from "@/content/site";
 import { registerGsap, gsap } from "@/lib/gsap";
 
 /**
@@ -77,9 +77,12 @@ export function MenuOverlay({
         ))}
       </nav>
 
-      <div className="container-x mt-16">
+      <div className="container-x mt-16 flex flex-wrap items-center gap-x-8 gap-y-3">
         <a href={site.social.instagram} target="_blank" rel="noopener noreferrer" className="label text-lin transition-colors hover:text-cream">
           Instagram {site.social.instagramHandle}
+        </a>
+        <a href={sites.maison.url} target="_blank" rel="noopener noreferrer" className="label text-lin transition-colors hover:text-cream">
+          Maison · Mobilier {sites.maison.live ? "" : "(bientôt)"}
         </a>
       </div>
     </div>

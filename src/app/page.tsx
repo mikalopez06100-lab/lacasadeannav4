@@ -7,6 +7,7 @@ import { ProjectRail, type RailItem } from "@/components/home/ProjectRail";
 import { VideoSection } from "@/components/home/VideoSection";
 import { Press } from "@/components/home/Press";
 import { Testimonials } from "@/components/home/Testimonials";
+import { Partners } from "@/components/home/Partners";
 import { Faq } from "@/components/home/Faq";
 import { FinalCta } from "@/components/home/FinalCta";
 import { resolveImage } from "@/lib/images";
@@ -122,6 +123,9 @@ export default async function HomePage() {
 
       {/* 10 — Témoignages */}
       <Testimonials />
+
+      {/* 10b — Marques partenaires + passerelle Maison (mobilier) */}
+      <Partners />
 
       {/* 11 — FAQ */}
       <Faq />
