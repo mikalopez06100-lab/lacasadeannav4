@@ -8,7 +8,7 @@ export function Approach() {
       <div className="container-x">
         <p className="label text-lin">Notre approche</p>
         <h2 className="display-h2 mt-4 max-w-2xl">
-          De la première visite au <span className="accent-italic">dernier détail</span>
+          Imaginer, concevoir, <span className="accent-italic">révéler</span>
         </h2>
 
         <div className="mt-16 grid gap-x-12 gap-y-12 md:grid-cols-2">

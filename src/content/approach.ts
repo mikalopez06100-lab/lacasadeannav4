@@ -5,13 +5,13 @@ export type Step = { index: string; title: string; description: string };
 export const approach: Step[] = [
   {
     index: "01",
-    title: "Rencontre",
+    title: "Le rendez-vous déco",
     description:
       "Une consultation de 3 h pour comprendre votre espace, votre vie, votre budget.",
   },
   {
     index: "02",
-    title: "Conception",
+    title: "Dossier de conception",
     description:
       "Un dossier complet : plans, matières, mobilier, lumière. Rien n'est laissé au hasard.",
   },
@@ -19,7 +19,7 @@ export const approach: Step[] = [
     index: "03",
     title: "Réalisation",
     description:
-      "Un suivi de chantier rigoureux. Nous coordonnons les artisans, nous vérifions chaque détail.",
+      "Nous coordonnons les artisans et vérifions chaque détail — pour un résultat fidèle aux plans.",
   },
   {
     index: "04",

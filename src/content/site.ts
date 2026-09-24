@@ -15,8 +15,8 @@ export const site = {
   phone: "+33661243036",
   phoneDisplay: "06 61 24 30 36",
   address: {
-    street: "38A route de Morat",
-    city: "Veyrier-du-Lac",
+    street: "20 chemin du Maltondu",
+    city: "Bluffy",
     postalCode: "74290",
     region: "Haute-Savoie",
     country: "FR",

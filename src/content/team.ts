@@ -21,5 +21,5 @@ export const team: Member[] = [
 export const studioIntro = {
   label: "Le studio",
   heading: "Un duo, une exigence",
-  text: "Natalia Vastel et Coline Rouvière forment La Casa de Anna — un studio de design d'intérieur ancré au bord du lac d'Annecy, mais sans frontières. Ensemble, elles conçoivent des intérieurs sur mesure : conception, mobilier, rideaux confectionnés et suivi de chantier, en Haute-Savoie comme partout où un projet les appelle.",
+  text: "Natalia Vastel et Coline Rouvière forment La Casa de Anna — un studio de design d'intérieur ancré au bord du lac d'Annecy, mais sans frontières. Ensemble, elles conçoivent des intérieurs sur mesure : conception, mobilier et rideaux confectionnés, en Haute-Savoie comme partout où un projet les appelle.",
 };

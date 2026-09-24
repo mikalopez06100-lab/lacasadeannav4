@@ -17,21 +17,34 @@ export function VideoSection({
   alt?: string;
 }) {
   return (
-    <div className="relative h-[50vh] w-full overflow-hidden md:h-[60vh]">
-      {src ? (
-        <video
-          autoPlay
-          muted
-          loop
-          playsInline
-          poster={poster}
-          className="absolute inset-0 h-full w-full object-cover"
-        >
-          <source src={src} type="video/mp4" />
-        </video>
-      ) : (
-        <Image src={poster} alt={alt} fill sizes="100vw" className="object-cover" />
-      )}
-    </div>
+    <section className="bg-ink py-16 md:py-24">
+      <div className="container-x grid items-center gap-10 md:grid-cols-2 md:gap-16">
+        <div>
+          <p className="label text-lin">En image</p>
+          <h2 className="display-h2 mt-4 text-cream">
+            Le studio <span className="accent-italic">en mouvement</span>
+          </h2>
+          <p className="mt-6 max-w-prose text-lin">
+            Natalia présente le studio et l&apos;esprit La Casa de Anna.
+          </p>
+        </div>
+        <div className="relative mx-auto aspect-[9/16] w-full max-w-[360px] overflow-hidden bg-black">
+          {src ? (
+            <video
+              controls
+              playsInline
+              preload="metadata"
+              poster={poster}
+              className="absolute inset-0 h-full w-full object-cover"
+              aria-label={alt}
+            >
+              <source src={src} type="video/mp4" />
+            </video>
+          ) : (
+            <Image src={poster} alt={alt} fill sizes="360px" className="object-cover" />
+          )}
+        </div>
+      </div>
+    </section>
   );
 }

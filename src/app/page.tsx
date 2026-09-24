@@ -8,6 +8,7 @@ import { VideoSection } from "@/components/home/VideoSection";
 import { Press } from "@/components/home/Press";
 import { Testimonials } from "@/components/home/Testimonials";
 import { Partners } from "@/components/home/Partners";
+import { Showroom } from "@/components/home/Showroom";
 import { Faq } from "@/components/home/Faq";
 import { FinalCta } from "@/components/home/FinalCta";
 import { resolveImage } from "@/lib/images";
@@ -15,16 +16,13 @@ import { projects } from "@/content/projects";
 import { faq } from "@/content/faq";
 import { faqSchema, jsonLd } from "@/lib/seo";
 
-/** Home (brief §7) — structure complète des 13 sections. */
+/** Home — structure V4 + demandes debrief client / Notion. */
 export default async function HomePage() {
-  const [hero, teamImage, materialLin, materialChene, videoPoster] =
-    await Promise.all([
-      resolveImage("projects/home-veyrier-du-lac", { index: 0, variant: "full" }),
-      resolveImage("team", { index: 2, variant: "lg" }),
-      resolveImage("projects/rideaux", { index: 0, variant: "full" }),
-      resolveImage("projects/home-veyrier-du-lac", { index: 12, variant: "full" }),
-      resolveImage("projects/veyrier-lauflo", { index: 1, variant: "full" }),
-    ]);
+  const [teamImage, materialLin, materialChene] = await Promise.all([
+    resolveImage("team", { index: 2, variant: "lg" }),
+    resolveImage("projects/rideaux", { index: 0, variant: "full" }),
+    resolveImage("projects/home-veyrier-du-lac", { index: 12, variant: "full" }),
+  ]);
 
   const railItems: RailItem[] = await Promise.all(
     projects.map(async (p) => ({
@@ -44,19 +42,17 @@ export default async function HomePage() {
         dangerouslySetInnerHTML={{ __html: jsonLd(faqSchema(faq)) }}
       />
 
-      {/* 01 — Hero */}
+      {/* 01 — Hero (photo d'accueil Notion) */}
       <section className="relative flex h-svh min-h-[640px] items-center justify-center overflow-hidden bg-cream">
-        {hero && (
-          <Image
-            src={hero.src}
-            alt="Intérieur réalisé par La Casa de Anna — maison au bord du lac d'Annecy"
-            fill
-            priority
-            sizes="100vw"
-            className="object-cover"
-          />
-        )}
-        <div className="absolute inset-0 bg-ink/25" />
+        <Image
+          src="/assets/img/hero/accueil-wide.jpg"
+          alt="Natalia et Coline sur la balcon — La Casa de Anna"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+        />
+        <div className="absolute inset-0 bg-ink/30" />
         <div className="container-x relative z-10 text-center text-cream">
           <p className="label mb-6 text-cream/80">Studio de design d&apos;intérieur</p>
           <TextReveal
@@ -80,9 +76,9 @@ export default async function HomePage() {
           as="p"
           className="display-tagline"
           lines={[
-            <>Du premier croquis</>,
+            <>Imaginer sans limite,</>,
             <>
-              au <span className="accent-italic">dernier coussin</span>.
+              <span className="accent-italic">concevoir sans rien laisser au hasard.</span>
             </>,
           ]}
         />
@@ -94,38 +90,43 @@ export default async function HomePage() {
         </p>
       </section>
 
-      {/* 03 — Transition matière (lin / textile) */}
+      {/* 03 — Transition matière */}
       {materialLin && (
         <MaterialTransition src={materialLin.src} alt="Lin écru — confection sur mesure" />
       )}
 
-      {/* 04 — Studio (duo) */}
+      {/* 04 — Studio */}
       <StudioIntro image={teamImage} />
 
       {/* 05 — Approche */}
       <Approach />
 
-      {/* 06 — Transition matière (chêne / bois) */}
+      {/* 06 — Transition matière */}
       {materialChene && (
         <MaterialTransition src={materialChene.src} alt="Chêne massif — mobilier sur mesure" />
       )}
 
-      {/* 07 — Projets phares (rail drag) */}
+      {/* 07 — Projets */}
       <ProjectRail items={railItems} />
 
-      {/* 08 — Vidéo / matière en mouvement (poster réel en attendant les vidéos) */}
-      {videoPoster && (
-        <VideoSection poster={videoPoster.src} alt="Détail d'une réalisation La Casa de Anna" />
-      )}
+      {/* 08 — Vidéo Notion */}
+      <VideoSection
+        src="/assets/video/natalia-studio.mp4"
+        poster="/assets/img/video-poster.jpg"
+        alt="Présentation du studio La Casa de Anna — Natalia"
+      />
 
-      {/* 09 — Presse */}
+      {/* 09 — Presse feuilletable */}
       <Press />
 
       {/* 10 — Témoignages */}
       <Testimonials />
 
-      {/* 10b — Marques partenaires + passerelle Maison (mobilier) */}
+      {/* 10b — Marques */}
       <Partners />
+
+      {/* 10c — Showroom Bluffy */}
+      <Showroom />
 
       {/* 11 — FAQ */}
       <Faq />

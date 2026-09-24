@@ -10,7 +10,7 @@ export const faq: FaqItem[] = [
   {
     question: "Où intervient le studio La Casa de Anna ?",
     answer:
-      "Le studio est ancré à Veyrier-du-Lac, au bord du lac d'Annecy (Haute-Savoie), et travaille dans tout le bassin annécien — Annecy, Annecy-le-Vieux, Talloires, Menthon-Saint-Bernard, Megève. Mais nous n'avons pas de frontière géographique : nous gérons des projets à distance et nous nous déplaçons partout en France et à l'international, comme actuellement en Corse.",
+      "Notre bureau et showroom sont à Bluffy (20 chemin du Maltondu), au bord du lac d'Annecy. Nous travaillons dans tout le bassin annécien — Annecy, Annecy-le-Vieux, Talloires, Menthon-Saint-Bernard, Megève — et nous n'avons pas de frontière géographique : projets à distance et déplacements partout en France et à l'international.",
   },
   {
     question: "Combien coûte une consultation ?",
@@ -20,7 +20,7 @@ export const faq: FaqItem[] = [
   {
     question: "Quelle est la différence entre le dossier de conception et le clé-en-main ?",
     answer:
-      "Le dossier de conception vous remet un document complet (plans, matières, mobilier, lumière) que vous pilotez ensuite vous-même. Le clé-en-main signifie que le studio prend tout en charge : coordination des artisans, suivi de chantier et livraison finale.",
+      "Le dossier de conception vous remet un document complet (plans, matières, mobilier, lumière) que vous pilotez ensuite vous-même. Le clé-en-main signifie que le studio prend tout en charge : coordination des artisans et livraison finale.",
   },
   {
     question: "Réalisez-vous du mobilier et des rideaux sur mesure ?",

@@ -30,7 +30,7 @@ export function Footer() {
 
         <div className="mt-12 grid gap-8 border-t border-ink/10 pt-10 md:grid-cols-3">
           <div>
-            <p className="label text-lin">Atelier</p>
+            <p className="label text-lin">Bureau &amp; showroom</p>
             <p className="mt-3 leading-relaxed">
               {site.address.street}
               <br />

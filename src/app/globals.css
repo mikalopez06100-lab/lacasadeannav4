@@ -9,11 +9,11 @@
 
 @layer base {
   :root {
-    --cream: #efebe3;
+    --cream: #ffffff;
     --ink: #0c0a08;
-    --sand: #e6e0d3;
-    --terre: #5c3a1e;
-    --lin: #94897a;
+    --sand: #f4f1ea;
+    --terre: #7d724b;
+    --lin: #6e675c;
 
     /* Échelle de titres fluide (clamp) — desktop/mobile sans media queries */
     --h1: clamp(2.75rem, 6vw + 1rem, 6rem); /* 44 → 96px */
@@ -113,10 +113,10 @@
     color: var(--ink);
   }
 
-  /* Emphase italique en terre brûlée (mots d'accroche) */
+  /* Emphase en vert marque — même graisse que le titre (pas d'italique différencié) */
   .accent-italic {
-    font-style: italic;
-    font-variation-settings: "WONK" 1;
+    font-style: normal;
+    font-variation-settings: "WONK" 0;
     color: var(--terre);
   }
 
