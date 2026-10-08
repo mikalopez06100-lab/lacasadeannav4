@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/react";
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
-import { fraunces, bricolage } from "@/lib/fonts";
+import { fontVariables } from "@/lib/fonts";
 import { site } from "@/content/site";
 import { localBusinessSchema, foundersSchema, jsonLd } from "@/lib/seo";
 import { SmoothScroll } from "@/components/providers/SmoothScroll";
@@ -53,7 +53,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="fr" className={`${fraunces.variable} ${bricolage.variable}`}>
+    <html lang="fr" className={fontVariables}>
       <body>
         <script
           type="application/ld+json"

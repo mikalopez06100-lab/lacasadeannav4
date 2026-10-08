@@ -68,8 +68,8 @@ export function MenuOverlay({
             <Link
               href={item.href}
               onClick={onClose}
-              className="menu-link block font-fraunces text-5xl italic text-cream transition-colors duration-200 hover:text-terre md:text-7xl"
-              style={{ fontVariationSettings: "'WONK' 1" }}
+              className="menu-link block font-display text-5xl italic text-cream transition-colors duration-200 hover:text-terre md:text-7xl"
+             
             >
               {item.label}
             </Link>

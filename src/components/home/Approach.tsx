@@ -19,8 +19,8 @@ export function Approach() {
               className="flex gap-6 border-t border-ink/10 pt-6"
             >
               <span
-                className="font-fraunces text-5xl italic leading-none md:text-6xl"
-                style={{ fontVariationSettings: "'WONK' 1", color: "#efebe3" }}
+                className="font-display text-5xl italic leading-none md:text-6xl"
+                style={{ color: "#efebe3" }}
                 aria-hidden="true"
               >
                 {step.index}

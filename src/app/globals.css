@@ -39,7 +39,7 @@
   body {
     background-color: var(--cream);
     color: var(--ink);
-    font-family: var(--font-bricolage), system-ui, sans-serif;
+    font-family: var(--font-body), system-ui, sans-serif;
     font-size: clamp(1.0625rem, 0.4vw + 1rem, 1.125rem); /* 17 → 18px */
     line-height: 1.65;
     font-feature-settings: "kern", "liga";
@@ -79,50 +79,45 @@
    ============================================================ */
 
 @layer components {
-  /* Titre H1 — Fraunces italic WONK=1 */
+  /* Titres — Josefin Sans (cf. dreamdesignbuild.fr) : droit, 600, interlettrage serré */
   .display-h1 {
-    font-family: var(--font-fraunces), Georgia, serif;
-    font-style: italic;
-    font-variation-settings: "WONK" 1, "SOFT" 0, "opsz" 144;
+    font-family: var(--font-display), system-ui, sans-serif;
+    font-weight: 600;
     font-size: var(--h1);
     line-height: 1.02;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.035em;
     color: var(--ink);
   }
 
-  /* Tagline héro / manifeste — Fraunces italic WONK=1, plus grand, centré */
+  /* Tagline héro / manifeste — plus grand, centré */
   .display-tagline {
-    font-family: var(--font-fraunces), Georgia, serif;
-    font-style: italic;
-    font-variation-settings: "WONK" 1, "SOFT" 0, "opsz" 144;
+    font-family: var(--font-display), system-ui, sans-serif;
+    font-weight: 600;
     font-size: var(--tagline);
-    line-height: 1.0;
-    letter-spacing: -0.02em;
+    line-height: 1.02;
+    letter-spacing: -0.035em;
     text-align: center;
     color: var(--ink);
   }
 
-  /* H2 — Fraunces upright, WONK=0 */
   .display-h2 {
-    font-family: var(--font-fraunces), Georgia, serif;
-    font-style: normal;
-    font-variation-settings: "WONK" 0, "opsz" 80;
+    font-family: var(--font-display), system-ui, sans-serif;
+    font-weight: 600;
     font-size: var(--h2);
     line-height: 1.06;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.03em;
     color: var(--ink);
   }
 
   /* Emphase en vert marque — même graisse que le titre (pas d'italique différencié) */
   .accent-italic {
     font-style: normal;
-    font-variation-settings: "WONK" 0;
     color: var(--terre);
   }
 
-  /* Labels / nav / UI — Bricolage 500 uppercase */
+  /* Labels / nav / UI — Inter 500 uppercase */
   .label {
-    font-family: var(--font-bricolage), system-ui, sans-serif;
+    font-family: var(--font-body), system-ui, sans-serif;
     font-weight: 500;
     font-size: 0.8125rem;
     letter-spacing: 0.08em;
@@ -172,6 +167,132 @@
   }
 }
 
+/* ============================================================
+   Réalisations qui défilent (home, sous le manifeste)
+   ============================================================ */
+.project-marquee {
+  overflow: hidden;
+}
+.project-marquee-track {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  height: clamp(300px, 58vh, 620px);
+  will-change: transform;
+  animation: lcda-marquee var(--marquee-duration, 45s) linear infinite;
+}
+.project-marquee:hover .project-marquee-track,
+.project-marquee:focus-within .project-marquee-track {
+  animation-play-state: paused;
+}
+.project-marquee-card {
+  position: relative;
+  display: block;
+  height: 100%;
+  flex-shrink: 0;
+  overflow: hidden;
+  background: var(--sand);
+}
+.project-marquee-cap {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 3rem 1.25rem 1.1rem;
+  color: #fff;
+  background: linear-gradient(to top, rgba(12, 10, 8, 0.6), transparent);
+}
+@media (max-width: 767px) {
+  .project-marquee-track {
+    height: 52vh;
+    max-height: 420px;
+    gap: 0.75rem;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .project-marquee {
+    overflow-x: auto;
+  }
+  .project-marquee-track {
+    animation: none !important;
+  }
+}
+
+/* ============================================================
+   Collaborations — cartes logo (home)
+   ============================================================ */
+.collab-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  min-height: 11rem;
+  padding: 1.75rem 1rem 1.1rem;
+  background: var(--sand);
+  border: 1px solid rgba(12, 10, 8, 0.08);
+  transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
+}
+.collab-card:hover,
+.collab-card:focus-visible {
+  border-color: var(--terre);
+  transform: translateY(-3px);
+  box-shadow: 0 18px 40px rgba(12, 10, 8, 0.07);
+}
+.collab-logo {
+  width: auto;
+  height: auto;
+  max-width: min(100%, 13rem);
+  max-height: 4.5rem;
+  filter: grayscale(1);
+  opacity: 0.8;
+  transition: filter 0.3s, opacity 0.3s;
+}
+.collab-card:hover .collab-logo,
+.collab-card:focus-visible .collab-logo {
+  filter: none;
+  opacity: 1;
+}
+@media (min-width: 768px) {
+  .collab-card {
+    min-height: 13rem;
+    padding: 2.25rem 1.5rem 1.25rem;
+  }
+  .collab-logo {
+    max-height: 5.25rem;
+  }
+}
+
+/* ============================================================
+   Réalisations — tuiles (voile crème au survol, cf. nathalierives.com)
+   ============================================================ */
+.project-tile-over {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  text-align: center;
+  color: var(--ink);
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 0;
+  transition: opacity 0.35s ease-in-out;
+}
+@media (hover: hover) and (pointer: fine) {
+  .project-tile:hover .project-tile-over,
+  .project-tile:focus-visible .project-tile-over {
+    opacity: 1;
+  }
+  /* Le titre est dans le voile : on garde la légende pour les lecteurs d’écran seulement */
+  .project-tile-cap {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
+
 @keyframes lcda-marquee {
   from {
     transform: translateX(0);
@@ -191,6 +312,13 @@
 /* ============================================================
    Curseur personnalisé — desktop pointer fin uniquement
    ============================================================ */
+
+/* Tactile : le pictogramme ne suit aucune souris → on ne l'affiche pas (sinon il reste coincé en haut à gauche) */
+@media (hover: none), (pointer: coarse) {
+  .cursor-root {
+    display: none;
+  }
+}
 
 @media (hover: hover) and (pointer: fine) {
   .has-custom-cursor,

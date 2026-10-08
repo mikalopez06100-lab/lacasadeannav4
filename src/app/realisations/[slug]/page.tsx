@@ -36,11 +36,14 @@ export default async function ProjectPage({
   if (!project) notFound();
 
   const images = await imagesByCategory(project.imageCategory);
-  const hero = variant(images[0], "full");
+  const coverIndex = project.coverIndex ?? 0;
+  const excluded = new Set([coverIndex, ...(project.excludeImages ?? [])]);
+  const hero = variant(images[coverIndex], "full");
   const gallery = images
-    .slice(1)
-    .map((img) => variant(img, "lg")?.path)
-    .filter((p): p is string => Boolean(p));
+    .filter((_, idx) => !excluded.has(idx))
+    .map((img) => variant(img, "lg"))
+    .filter((o): o is NonNullable<typeof o> => Boolean(o))
+    .map((o) => ({ src: o.path, width: o.width ?? 1200, height: o.height ?? 1500 }));
 
   const i = projects.findIndex((p) => p.slug === project.slug);
   const prev = projects[(i - 1 + projects.length) % projects.length];
@@ -93,19 +96,20 @@ export default async function ProjectPage({
         </div>
       </section>
 
-      {/* Galerie — alternance pleine largeur / 2 colonnes */}
-      <section className="flex flex-col gap-4 md:gap-6">
-        {chunkGallery(gallery).map((row, idx) =>
-          row.length === 1 ? (
-            <GalleryImage key={idx} src={row[0]} alt={project.title} full />
-          ) : (
-            <div key={idx} className="grid grid-cols-2 gap-4 md:gap-6">
-              {row.map((src, j) => (
-                <GalleryImage key={j} src={src} alt={project.title} />
-              ))}
-            </div>
-          ),
-        )}
+      {/* Galerie — rangées 1 / 2 / 3 photos, formats respectés (pas de recadrage) */}
+      <section className="container-x flex flex-col gap-3 md:gap-5">
+        {chunkGallery(gallery).map((row, idx) => (
+          <div key={idx} className="flex flex-col gap-3 md:flex-row md:gap-5">
+            {row.map((img, j) => (
+              <GalleryImage
+                key={j}
+                image={img}
+                alt={`${project.title} — ${project.location} (photo ${idx + 1}.${j + 1})`}
+                perRow={row.length}
+              />
+            ))}
+          </div>
+        ))}
       </section>
 
       {/* Matières utilisées */}
@@ -114,7 +118,7 @@ export default async function ProjectPage({
         <ul className="mt-8 grid gap-x-12 gap-y-4 sm:grid-cols-2 md:grid-cols-3">
           {project.materials.map((m) => (
             <li key={m.name} className="border-t border-ink/10 pt-4">
-              <span className="font-fraunces text-xl">{m.name}</span>
+              <span className="font-display text-xl">{m.name}</span>
               {m.note && <span className="mt-1 block text-sm text-lin">{m.note}</span>}
             </li>
           ))}
@@ -126,8 +130,8 @@ export default async function ProjectPage({
         <section data-cursor-dark className="bg-ink py-24 text-center text-cream md:py-28">
           <div className="container-x">
             <blockquote
-              className="mx-auto max-w-4xl font-fraunces text-3xl italic leading-snug md:text-4xl"
-              style={{ fontVariationSettings: "'WONK' 1" }}
+              className="mx-auto max-w-4xl font-display text-3xl italic leading-snug md:text-4xl"
+             
             >
               «&nbsp;{project.testimonial.quote}&nbsp;»
             </blockquote>
@@ -151,42 +155,49 @@ export default async function ProjectPage({
   );
 }
 
-/** Regroupe la galerie : 1 image pleine largeur, puis 2 côte à côte, en alternance. */
-function chunkGallery<T>(items: T[]): T[][] {
-  const rows: T[][] = [];
+type GalleryItem = { src: string; width: number; height: number };
+
+/**
+ * Regroupe la galerie en rangées de 1, 2, 3, 2… photos.
+ * Une photo verticale ne reste jamais seule en pleine largeur : on la groupe avec la suivante.
+ */
+function chunkGallery(items: GalleryItem[]): GalleryItem[][] {
+  const pattern = [1, 2, 3, 2];
+  const rows: GalleryItem[][] = [];
   let idx = 0;
-  let full = true;
+  let r = 0;
   while (idx < items.length) {
-    if (full) {
-      rows.push([items[idx]]);
-      idx += 1;
-    } else {
-      rows.push(items.slice(idx, idx + 2));
-      idx += 2;
-    }
-    full = !full;
+    let n = pattern[r++ % pattern.length];
+    if (n === 1 && items[idx].height > items[idx].width) n = 2;
+    rows.push(items.slice(idx, idx + n));
+    idx += n;
   }
   return rows;
 }
 
+/** Chaque photo occupe une largeur proportionnelle à son ratio : la rangée a une hauteur commune. */
 function GalleryImage({
-  src,
+  image,
   alt,
-  full = false,
+  perRow,
 }: {
-  src: string;
+  image: GalleryItem;
   alt: string;
-  full?: boolean;
+  perRow: number;
 }) {
+  const ratio = image.width / image.height;
   return (
     <div
-      className={
-        full
-          ? "relative aspect-[16/9] w-full overflow-hidden bg-sand"
-          : "relative aspect-[4/5] w-full overflow-hidden bg-sand"
-      }
+      className="relative w-full overflow-hidden bg-sand md:w-auto"
+      style={{ flex: `${ratio} 1 0%`, aspectRatio: String(ratio) }}
     >
-      <Image src={src} alt={alt} fill sizes={full ? "100vw" : "50vw"} className="object-cover" />
+      <Image
+        src={image.src}
+        alt={alt}
+        fill
+        sizes={perRow === 1 ? "100vw" : `(max-width: 768px) 100vw, ${Math.round(100 / perRow)}vw`}
+        className="object-cover"
+      />
     </div>
   );
 }

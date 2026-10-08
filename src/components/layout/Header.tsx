@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { cn } from "@/lib/utils";
 
@@ -12,6 +13,8 @@ import { cn } from "@/lib/utils";
  */
 export function Header() {
   const [scrolled, setScrolled] = useState(false);
+  // Sur l'accueil, le logo passe en blanc tant qu'il est posé sur la photo du hero
+  const overHero = usePathname() === "/" && !scrolled;
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 24);
@@ -29,7 +32,7 @@ export function Header() {
     >
       <Link href="/" aria-label="La Casa de Anna — accueil" className="block">
         <Image
-          src="/assets/brand/logo-black.webp"
+          src={overHero ? "/assets/brand/logo-white.webp" : "/assets/brand/logo-black.webp"}
           alt="La Casa de Anna"
           width={428}
           height={200}

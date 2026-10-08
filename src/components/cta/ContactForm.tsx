@@ -31,7 +31,7 @@ export function ContactForm({ onSuccess }: { onSuccess?: () => void }) {
 
   if (status === "ok") {
     return (
-      <p className="font-fraunces text-3xl italic" style={{ fontVariationSettings: "'WONK' 1" }}>
+      <p className="font-display text-3xl italic">
         Merci — nous vous recontactons très vite.
       </p>
     );

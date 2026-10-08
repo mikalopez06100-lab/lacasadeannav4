@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-17T15:07:08.058Z",
+  "generatedAt": "2026-10-08T13:17:56.921Z",
   "images": [
     {
       "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-005",
@@ -4033,6 +4033,1366 @@
           "variant": "webp",
           "path": "/assets/brand/logo-beige.webp",
           "bytes": 22620
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/01-1c77add0-0322-4af0-9ff8-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:1c77add0-0322-4af0-9ff8-7ad5f323fc2e.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3968550
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/01-1c77add0-0322-4af0-9ff8--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 202370
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/01-1c77add0-0322-4af0-9ff8--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 187248
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/01-1c77add0-0322-4af0-9ff8--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 130182
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/01-1c77add0-0322-4af0-9ff8--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 37746
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/02-46e72fd7-838a-4791-8808-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:46e72fd7-838a-4791-8808-e22220bede91.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3072474
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/02-46e72fd7-838a-4791-8808--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 144060
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/02-46e72fd7-838a-4791-8808--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 132882
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/02-46e72fd7-838a-4791-8808--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 90166
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/02-46e72fd7-838a-4791-8808--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 25438
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/03-d8924bf0-d3f7-4943-a295-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:d8924bf0-d3f7-4943-a295-3b2db726d708.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3316152
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/03-d8924bf0-d3f7-4943-a295--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 151794
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/03-d8924bf0-d3f7-4943-a295--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 139368
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/03-d8924bf0-d3f7-4943-a295--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 98434
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/03-d8924bf0-d3f7-4943-a295--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 33286
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/04-9759c4e0-a65a-45a5-b505-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:9759c4e0-a65a-45a5-b505-fb8260c86097.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3561144
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/04-9759c4e0-a65a-45a5-b505--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 193652
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/04-9759c4e0-a65a-45a5-b505--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 179402
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/04-9759c4e0-a65a-45a5-b505--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 127264
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/04-9759c4e0-a65a-45a5-b505--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 39922
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/05-cde4bdfb-af3e-4aac-a626-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:cde4bdfb-af3e-4aac-a626-1bc07e1fb725.png",
+      "original": {
+        "width": 1087,
+        "height": 1447,
+        "bytes": 3188892
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/05-cde4bdfb-af3e-4aac-a626--full.webp",
+          "width": 1087,
+          "height": 1447,
+          "bytes": 118576
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/05-cde4bdfb-af3e-4aac-a626--lg.webp",
+          "width": 1087,
+          "height": 1447,
+          "bytes": 108670
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/05-cde4bdfb-af3e-4aac-a626--md.webp",
+          "width": 900,
+          "height": 1198,
+          "bytes": 74460
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/05-cde4bdfb-af3e-4aac-a626--thumb.webp",
+          "width": 480,
+          "height": 639,
+          "bytes": 23980
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/06-6a698c23-d7bc-4a0e-83e5-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:6a698c23-d7bc-4a0e-83e5-e7d61ac16105.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3154066
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/06-6a698c23-d7bc-4a0e-83e5--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 142466
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/06-6a698c23-d7bc-4a0e-83e5--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 130384
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/06-6a698c23-d7bc-4a0e-83e5--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 87134
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/06-6a698c23-d7bc-4a0e-83e5--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 25746
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/07-43b71cd5-3464-4cda-aa94-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:43b71cd5-3464-4cda-aa94-20cef6f47673.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3651656
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/07-43b71cd5-3464-4cda-aa94--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 164278
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/07-43b71cd5-3464-4cda-aa94--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 147826
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/07-43b71cd5-3464-4cda-aa94--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 96494
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/07-43b71cd5-3464-4cda-aa94--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 27966
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/08-2bf99a78-a25a-4cc2-a97c-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:2bf99a78-a25a-4cc2-a97c-47d38934eeda.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3805131
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/08-2bf99a78-a25a-4cc2-a97c--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 191124
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/08-2bf99a78-a25a-4cc2-a97c--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 173520
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/08-2bf99a78-a25a-4cc2-a97c--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 117298
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/08-2bf99a78-a25a-4cc2-a97c--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 31554
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/09-785da96e-b5e7-4fd2-be0a-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:785da96e-b5e7-4fd2-be0a-eb901c1a214c.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3414459
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/09-785da96e-b5e7-4fd2-be0a--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 201276
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/09-785da96e-b5e7-4fd2-be0a--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 189660
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/09-785da96e-b5e7-4fd2-be0a--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 127884
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/09-785da96e-b5e7-4fd2-be0a--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 37662
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/10-5e595302-a224-4122-9c63-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:5e595302-a224-4122-9c63-ae22fe022d72.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3751107
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/10-5e595302-a224-4122-9c63--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 260238
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/10-5e595302-a224-4122-9c63--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 240092
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/10-5e595302-a224-4122-9c63--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 168980
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/10-5e595302-a224-4122-9c63--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 51634
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/11-64d843e2-5960-4c09-a176-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:64d843e2-5960-4c09-a176-4551de332ba3.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3309729
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/11-64d843e2-5960-4c09-a176--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 101270
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/11-64d843e2-5960-4c09-a176--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 90870
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/11-64d843e2-5960-4c09-a176--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 61496
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/11-64d843e2-5960-4c09-a176--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 17962
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/12-1fd95fdb-e5ca-4eb3-b52a-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:1fd95fdb-e5ca-4eb3-b52a-08b5bb58dce1.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 4313928
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/12-1fd95fdb-e5ca-4eb3-b52a--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 267294
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/12-1fd95fdb-e5ca-4eb3-b52a--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 245682
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/12-1fd95fdb-e5ca-4eb3-b52a--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 170132
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/12-1fd95fdb-e5ca-4eb3-b52a--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 47980
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/13-0e5a5df1-13a2-411a-a4d5-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:0e5a5df1-13a2-411a-a4d5-7fce5b654850.png",
+      "original": {
+        "width": 941,
+        "height": 1672,
+        "bytes": 3397203
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/13-0e5a5df1-13a2-411a-a4d5--full.webp",
+          "width": 941,
+          "height": 1672,
+          "bytes": 99032
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/13-0e5a5df1-13a2-411a-a4d5--lg.webp",
+          "width": 941,
+          "height": 1672,
+          "bytes": 91894
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/13-0e5a5df1-13a2-411a-a4d5--md.webp",
+          "width": 900,
+          "height": 1599,
+          "bytes": 78346
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/13-0e5a5df1-13a2-411a-a4d5--thumb.webp",
+          "width": 480,
+          "height": 853,
+          "bytes": 28472
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/14-530e8716-a989-457e-9445-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:530e8716-a989-457e-9445-b87df1e74f2d.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 2289133
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/14-530e8716-a989-457e-9445--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 63084
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/14-530e8716-a989-457e-9445--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 57660
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/14-530e8716-a989-457e-9445--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 39162
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/14-530e8716-a989-457e-9445--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 11628
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/15-6b674e8f-d987-466f-92f9-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:6b674e8f-d987-466f-92f9-6d78a23c0069.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3577380
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/15-6b674e8f-d987-466f-92f9--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 199510
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/15-6b674e8f-d987-466f-92f9--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 183158
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/15-6b674e8f-d987-466f-92f9--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 117690
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/15-6b674e8f-d987-466f-92f9--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 26856
+        }
+      ]
+    },
+    {
+      "id": "projects/alpe-d-huez/16-fd592e4b-393e-46da-b269-",
+      "category": "projects/alpe-d-huez",
+      "source": "notion:fd592e4b-393e-46da-b269-e9c7cf71d3a4.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 4028033
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/alpe-d-huez/16-fd592e4b-393e-46da-b269--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 167196
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/alpe-d-huez/16-fd592e4b-393e-46da-b269--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 154132
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/alpe-d-huez/16-fd592e4b-393e-46da-b269--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 111212
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/alpe-d-huez/16-fd592e4b-393e-46da-b269--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 37410
+        }
+      ]
+    },
+    {
+      "id": "projects/comme-a-l-hotel/01-ce961c-6822c8c238434d72b",
+      "category": "projects/comme-a-l-hotel",
+      "source": "wix:ce961c_6822c8c238434d72b61c76600e4e13e0~mv2.jpg",
+      "original": {
+        "width": 2250,
+        "height": 1688,
+        "bytes": 565517
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/comme-a-l-hotel/01-ce961c-6822c8c238434d72b-full.webp",
+          "width": 2000,
+          "height": 1500,
+          "bytes": 327058
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/comme-a-l-hotel/01-ce961c-6822c8c238434d72b-lg.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 124870
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/comme-a-l-hotel/01-ce961c-6822c8c238434d72b-md.webp",
+          "width": 900,
+          "height": 675,
+          "bytes": 71378
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/comme-a-l-hotel/01-ce961c-6822c8c238434d72b-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 22462
+        }
+      ]
+    },
+    {
+      "id": "projects/comme-a-l-hotel/02-ce961c-2e7800b583d34d0b8",
+      "category": "projects/comme-a-l-hotel",
+      "source": "wix:ce961c_2e7800b583d34d0b83c8fa2c025e23da~mv2.jpg",
+      "original": {
+        "width": 2400,
+        "height": 1800,
+        "bytes": 721574
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/comme-a-l-hotel/02-ce961c-2e7800b583d34d0b8-full.webp",
+          "width": 2000,
+          "height": 1500,
+          "bytes": 430624
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/comme-a-l-hotel/02-ce961c-2e7800b583d34d0b8-lg.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 165526
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/comme-a-l-hotel/02-ce961c-2e7800b583d34d0b8-md.webp",
+          "width": 900,
+          "height": 675,
+          "bytes": 92596
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/comme-a-l-hotel/02-ce961c-2e7800b583d34d0b8-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 25972
+        }
+      ]
+    },
+    {
+      "id": "projects/comme-a-l-hotel/03-ce961c-5a5589fc58234b4bb",
+      "category": "projects/comme-a-l-hotel",
+      "source": "wix:ce961c_5a5589fc58234b4bb60e2d095a4e9b43~mv2.jpg",
+      "original": {
+        "width": 2250,
+        "height": 1688,
+        "bytes": 408764
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/comme-a-l-hotel/03-ce961c-5a5589fc58234b4bb-full.webp",
+          "width": 2000,
+          "height": 1500,
+          "bytes": 213692
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/comme-a-l-hotel/03-ce961c-5a5589fc58234b4bb-lg.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 82050
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/comme-a-l-hotel/03-ce961c-5a5589fc58234b4bb-md.webp",
+          "width": 900,
+          "height": 675,
+          "bytes": 46774
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/comme-a-l-hotel/03-ce961c-5a5589fc58234b4bb-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 15374
+        }
+      ]
+    },
+    {
+      "id": "projects/comme-a-l-hotel/04-ce961c-3a9574d09b8747e2b",
+      "category": "projects/comme-a-l-hotel",
+      "source": "wix:ce961c_3a9574d09b8747e2bcebb8c38c6e9df5~mv2.jpg",
+      "original": {
+        "width": 2250,
+        "height": 1688,
+        "bytes": 579591
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/comme-a-l-hotel/04-ce961c-3a9574d09b8747e2b-full.webp",
+          "width": 2000,
+          "height": 1500,
+          "bytes": 378998
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/comme-a-l-hotel/04-ce961c-3a9574d09b8747e2b-lg.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 155740
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/comme-a-l-hotel/04-ce961c-3a9574d09b8747e2b-md.webp",
+          "width": 900,
+          "height": 675,
+          "bytes": 86366
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/comme-a-l-hotel/04-ce961c-3a9574d09b8747e2b-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 20570
+        }
+      ]
+    },
+    {
+      "id": "projects/comme-a-l-hotel/05-ce961c-7202f6a47f4b4b849",
+      "category": "projects/comme-a-l-hotel",
+      "source": "wix:ce961c_7202f6a47f4b4b849ecbb5d4ea017d09~mv2.jpg",
+      "original": {
+        "width": 2250,
+        "height": 1688,
+        "bytes": 1040921
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/comme-a-l-hotel/05-ce961c-7202f6a47f4b4b849-full.webp",
+          "width": 2000,
+          "height": 1500,
+          "bytes": 810616
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/comme-a-l-hotel/05-ce961c-7202f6a47f4b4b849-lg.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 293476
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/comme-a-l-hotel/05-ce961c-7202f6a47f4b4b849-md.webp",
+          "width": 900,
+          "height": 675,
+          "bytes": 154406
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/comme-a-l-hotel/05-ce961c-7202f6a47f4b4b849-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 38364
+        }
+      ]
+    },
+    {
+      "id": "projects/comme-a-l-hotel/06-ce961c-90c08d08e656430e8",
+      "category": "projects/comme-a-l-hotel",
+      "source": "wix:ce961c_90c08d08e656430e8e32cbd1393be594~mv2.jpg",
+      "original": {
+        "width": 1800,
+        "height": 2400,
+        "bytes": 313790
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/comme-a-l-hotel/06-ce961c-90c08d08e656430e8-full.webp",
+          "width": 1800,
+          "height": 2400,
+          "bytes": 178668
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/comme-a-l-hotel/06-ce961c-90c08d08e656430e8-lg.webp",
+          "width": 1200,
+          "height": 1600,
+          "bytes": 71194
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/comme-a-l-hotel/06-ce961c-90c08d08e656430e8-md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 37526
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/comme-a-l-hotel/06-ce961c-90c08d08e656430e8-thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 10712
+        }
+      ]
+    },
+    {
+      "id": "projects/comme-a-l-hotel/07-ce961c-c3299fa93ead4819b",
+      "category": "projects/comme-a-l-hotel",
+      "source": "wix:ce961c_c3299fa93ead4819bd19d8ad705d82b7~mv2.jpg",
+      "original": {
+        "width": 2250,
+        "height": 1688,
+        "bytes": 339943
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/comme-a-l-hotel/07-ce961c-c3299fa93ead4819b-full.webp",
+          "width": 2000,
+          "height": 1500,
+          "bytes": 150898
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/comme-a-l-hotel/07-ce961c-c3299fa93ead4819b-lg.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 52492
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/comme-a-l-hotel/07-ce961c-c3299fa93ead4819b-md.webp",
+          "width": 900,
+          "height": 675,
+          "bytes": 28820
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/comme-a-l-hotel/07-ce961c-c3299fa93ead4819b-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 8442
+        }
+      ]
+    },
+    {
+      "id": "projects/comme-a-l-hotel/08-ce961c-8a8ab18029754a11a",
+      "category": "projects/comme-a-l-hotel",
+      "source": "wix:ce961c_8a8ab18029754a11aab1f4ac6078e257~mv2.jpg",
+      "original": {
+        "width": 1800,
+        "height": 2400,
+        "bytes": 567530
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/comme-a-l-hotel/08-ce961c-8a8ab18029754a11a-full.webp",
+          "width": 1800,
+          "height": 2400,
+          "bytes": 443500
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/comme-a-l-hotel/08-ce961c-8a8ab18029754a11a-lg.webp",
+          "width": 1200,
+          "height": 1600,
+          "bytes": 164684
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/comme-a-l-hotel/08-ce961c-8a8ab18029754a11a-md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 79990
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/comme-a-l-hotel/08-ce961c-8a8ab18029754a11a-thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 22720
+        }
+      ]
+    },
+    {
+      "id": "projects/menthon-saint-bernard/01-ce961c-0071fe49f1cc47639",
+      "category": "projects/menthon-saint-bernard",
+      "source": "wix:ce961c_0071fe49f1cc4763978ce8b6eb4b9402~mv2.jpg",
+      "original": {
+        "width": 1200,
+        "height": 800,
+        "bytes": 109868
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/menthon-saint-bernard/01-ce961c-0071fe49f1cc47639-full.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 81114
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/menthon-saint-bernard/01-ce961c-0071fe49f1cc47639-lg.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 74922
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/menthon-saint-bernard/01-ce961c-0071fe49f1cc47639-md.webp",
+          "width": 900,
+          "height": 600,
+          "bytes": 38342
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/menthon-saint-bernard/01-ce961c-0071fe49f1cc47639-thumb.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 11732
+        }
+      ]
+    },
+    {
+      "id": "projects/menthon-saint-bernard/02-ce961c-8b6d0f9709e04f8cb",
+      "category": "projects/menthon-saint-bernard",
+      "source": "wix:ce961c_8b6d0f9709e04f8cbcdea0edd56fc285~mv2.jpg",
+      "original": {
+        "width": 800,
+        "height": 1200,
+        "bytes": 112892
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/menthon-saint-bernard/02-ce961c-8b6d0f9709e04f8cb-full.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 84956
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/menthon-saint-bernard/02-ce961c-8b6d0f9709e04f8cb-lg.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 77870
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/menthon-saint-bernard/02-ce961c-8b6d0f9709e04f8cb-md.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 73214
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/menthon-saint-bernard/02-ce961c-8b6d0f9709e04f8cb-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 23976
+        }
+      ]
+    },
+    {
+      "id": "projects/menthon-saint-bernard/03-ce961c-8b586ef30656406a9",
+      "category": "projects/menthon-saint-bernard",
+      "source": "wix:ce961c_8b586ef30656406a9e474d1e0061f9ca~mv2.jpg",
+      "original": {
+        "width": 800,
+        "height": 1200,
+        "bytes": 131565
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/menthon-saint-bernard/03-ce961c-8b586ef30656406a9-full.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 91590
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/menthon-saint-bernard/03-ce961c-8b586ef30656406a9-lg.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 82496
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/menthon-saint-bernard/03-ce961c-8b586ef30656406a9-md.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 75844
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/menthon-saint-bernard/03-ce961c-8b586ef30656406a9-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 27070
+        }
+      ]
+    },
+    {
+      "id": "projects/menthon-saint-bernard/04-ce961c-adfd377f018c45209",
+      "category": "projects/menthon-saint-bernard",
+      "source": "wix:ce961c_adfd377f018c45209369e4f926b9701d~mv2.jpg",
+      "original": {
+        "width": 800,
+        "height": 1200,
+        "bytes": 128609
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/menthon-saint-bernard/04-ce961c-adfd377f018c45209-full.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 94178
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/menthon-saint-bernard/04-ce961c-adfd377f018c45209-lg.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 86796
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/menthon-saint-bernard/04-ce961c-adfd377f018c45209-md.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 78522
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/menthon-saint-bernard/04-ce961c-adfd377f018c45209-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 26306
+        }
+      ]
+    },
+    {
+      "id": "projects/menthon-saint-bernard/05-ce961c-296bbc1d626f4ec0a",
+      "category": "projects/menthon-saint-bernard",
+      "source": "wix:ce961c_296bbc1d626f4ec0a72cb0df58a09008~mv2.jpg",
+      "original": {
+        "width": 800,
+        "height": 1200,
+        "bytes": 89437
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/menthon-saint-bernard/05-ce961c-296bbc1d626f4ec0a-full.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 57746
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/menthon-saint-bernard/05-ce961c-296bbc1d626f4ec0a-lg.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 52030
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/menthon-saint-bernard/05-ce961c-296bbc1d626f4ec0a-md.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 45946
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/menthon-saint-bernard/05-ce961c-296bbc1d626f4ec0a-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 15632
+        }
+      ]
+    },
+    {
+      "id": "projects/menthon-saint-bernard/06-ce961c-160b0d70522a4cb18",
+      "category": "projects/menthon-saint-bernard",
+      "source": "wix:ce961c_160b0d70522a4cb18936af617095e991~mv2.jpg",
+      "original": {
+        "width": 800,
+        "height": 1200,
+        "bytes": 127241
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/menthon-saint-bernard/06-ce961c-160b0d70522a4cb18-full.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 97772
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/menthon-saint-bernard/06-ce961c-160b0d70522a4cb18-lg.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 90190
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/menthon-saint-bernard/06-ce961c-160b0d70522a4cb18-md.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 83312
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/menthon-saint-bernard/06-ce961c-160b0d70522a4cb18-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 27214
+        }
+      ]
+    },
+    {
+      "id": "projects/menthon-saint-bernard/07-ce961c-f3986ea3ee8740138",
+      "category": "projects/menthon-saint-bernard",
+      "source": "wix:ce961c_f3986ea3ee8740138becb14a7137afc4~mv2.jpg",
+      "original": {
+        "width": 1200,
+        "height": 800,
+        "bytes": 87869
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/menthon-saint-bernard/07-ce961c-f3986ea3ee8740138-full.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 59998
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/menthon-saint-bernard/07-ce961c-f3986ea3ee8740138-lg.webp",
+          "width": 1200,
+          "height": 800,
+          "bytes": 55398
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/menthon-saint-bernard/07-ce961c-f3986ea3ee8740138-md.webp",
+          "width": 900,
+          "height": 600,
+          "bytes": 28578
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/menthon-saint-bernard/07-ce961c-f3986ea3ee8740138-thumb.webp",
+          "width": 480,
+          "height": 320,
+          "bytes": 9048
+        }
+      ]
+    },
+    {
+      "id": "projects/menthon-saint-bernard/08-ce961c-3712dfde3d1849ee9",
+      "category": "projects/menthon-saint-bernard",
+      "source": "wix:ce961c_3712dfde3d1849ee9ffa31fef06c71ac~mv2.jpg",
+      "original": {
+        "width": 800,
+        "height": 1200,
+        "bytes": 83549
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/menthon-saint-bernard/08-ce961c-3712dfde3d1849ee9-full.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 49870
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/menthon-saint-bernard/08-ce961c-3712dfde3d1849ee9-lg.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 45054
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/menthon-saint-bernard/08-ce961c-3712dfde3d1849ee9-md.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 41386
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/menthon-saint-bernard/08-ce961c-3712dfde3d1849ee9-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 14844
+        }
+      ]
+    },
+    {
+      "id": "projects/menthon-saint-bernard/09-ce961c-1016054b8d4640b18",
+      "category": "projects/menthon-saint-bernard",
+      "source": "wix:ce961c_1016054b8d4640b18cc40a5a9bc911a5~mv2.jpg",
+      "original": {
+        "width": 800,
+        "height": 1200,
+        "bytes": 137259
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/menthon-saint-bernard/09-ce961c-1016054b8d4640b18-full.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 99094
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/menthon-saint-bernard/09-ce961c-1016054b8d4640b18-lg.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 90936
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/menthon-saint-bernard/09-ce961c-1016054b8d4640b18-md.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 83756
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/menthon-saint-bernard/09-ce961c-1016054b8d4640b18-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 27554
+        }
+      ]
+    },
+    {
+      "id": "projects/menthon-saint-bernard/10-ce961c-b6cd44f391db40818",
+      "category": "projects/menthon-saint-bernard",
+      "source": "wix:ce961c_b6cd44f391db40818e8df9a0980d900c~mv2.jpg",
+      "original": {
+        "width": 800,
+        "height": 1200,
+        "bytes": 142051
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/menthon-saint-bernard/10-ce961c-b6cd44f391db40818-full.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 99602
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/menthon-saint-bernard/10-ce961c-b6cd44f391db40818-lg.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 91420
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/menthon-saint-bernard/10-ce961c-b6cd44f391db40818-md.webp",
+          "width": 800,
+          "height": 1200,
+          "bytes": 83586
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/menthon-saint-bernard/10-ce961c-b6cd44f391db40818-thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 27080
         }
       ]
     }

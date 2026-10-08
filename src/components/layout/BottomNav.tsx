@@ -22,14 +22,14 @@ export function BottomNav() {
         <button
           type="button"
           onClick={() => setMenuOpen(true)}
-          className="label rounded-full px-5 py-2.5 text-ink/80 transition-colors hover:text-terre"
+          className="label whitespace-nowrap rounded-full px-5 py-2.5 text-ink/80 transition-colors hover:text-terre"
         >
           Menu
         </button>
         <button
           type="button"
           onClick={() => setCtaOpen(true)}
-          className="label rounded-full bg-terre px-5 py-2.5 text-cream transition-colors hover:bg-ink"
+          className="label whitespace-nowrap rounded-full bg-terre px-5 py-2.5 text-cream transition-colors hover:bg-ink"
         >
           Démarrer un projet
         </button>

@@ -8,7 +8,7 @@ export function FinalCta() {
       <ScrollReveal>
         <p
           className="display-tagline"
-          style={{ fontVariationSettings: "'WONK' 1" }}
+         
         >
           Votre projet <span className="accent-italic">commence ici</span>.
         </p>

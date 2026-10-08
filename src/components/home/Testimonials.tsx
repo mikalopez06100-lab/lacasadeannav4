@@ -21,14 +21,14 @@ export function Testimonials() {
 
         <blockquote
           key={index}
-          className="mx-auto mt-10 max-w-4xl font-fraunces text-3xl italic leading-snug md:text-5xl"
-          style={{ fontVariationSettings: "'WONK' 1" }}
+          className="mx-auto mt-10 max-w-4xl font-display text-3xl italic leading-snug md:text-5xl"
+         
         >
           «&nbsp;{current.quote}&nbsp;»
         </blockquote>
 
         <p className="mt-8">
-          <span className="font-fraunces text-xl">{current.author}</span>
+          <span className="font-display text-xl">{current.author}</span>
           <span className="label mt-2 block text-lin">{current.project}</span>
         </p>
 

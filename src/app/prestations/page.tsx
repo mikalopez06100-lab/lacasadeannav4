@@ -51,8 +51,8 @@ export default async function PrestationsPage() {
 
             <div className="mt-6 flex items-baseline justify-between gap-4">
               <span
-                className="font-fraunces text-3xl italic text-lin"
-                style={{ fontVariationSettings: "'WONK' 1" }}
+                className="font-display text-3xl italic text-lin"
+               
               >
                 {s.index}
               </span>
@@ -62,7 +62,7 @@ export default async function PrestationsPage() {
               </span>
             </div>
 
-            <h2 className="mt-3 font-fraunces text-2xl md:text-3xl">{s.name}</h2>
+            <h2 className="mt-3 font-display text-2xl md:text-3xl">{s.name}</h2>
             <p className="mt-3 text-lin">{s.description}</p>
 
             <ul className="mt-5 space-y-2">

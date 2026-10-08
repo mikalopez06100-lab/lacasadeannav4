@@ -4,10 +4,12 @@ import { StudioIntro } from "@/components/home/StudioIntro";
 import { Approach } from "@/components/home/Approach";
 import { MaterialTransition } from "@/components/home/MaterialTransition";
 import { ProjectRail, type RailItem } from "@/components/home/ProjectRail";
+import { ProjectMarquee, type MarqueeItem } from "@/components/home/ProjectMarquee";
 import { VideoSection } from "@/components/home/VideoSection";
 import { Press } from "@/components/home/Press";
 import { Testimonials } from "@/components/home/Testimonials";
 import { Partners } from "@/components/home/Partners";
+import { Collaborations } from "@/components/home/Collaborations";
 import { Showroom } from "@/components/home/Showroom";
 import { Faq } from "@/components/home/Faq";
 import { FinalCta } from "@/components/home/FinalCta";
@@ -18,11 +20,34 @@ import { faqSchema, jsonLd } from "@/lib/seo";
 
 /** Home — structure V4 + demandes debrief client / Notion. */
 export default async function HomePage() {
-  const [teamImage, materialLin, materialChene] = await Promise.all([
+  const [teamImage, materialChene] = await Promise.all([
     resolveImage("team", { index: 2, variant: "lg" }),
-    resolveImage("projects/rideaux", { index: 0, variant: "full" }),
     resolveImage("projects/home-veyrier-du-lac", { index: 12, variant: "full" }),
   ]);
+
+  // Réalisations qui défilent : couverture + quelques vues par projet (hors rideaux)
+  const marqueePicks: Record<string, number[]> = {
+    "chalet-vue-lac": [49, 22, 26],
+    "entre-lac-et-montagne": [12, 8, 2],
+    "alpe-d-huez": [0, 3, 6],
+    "comme-a-l-hotel": [0, 1],
+    "menthon-saint-bernard": [0, 3],
+  };
+  const marqueeItems: MarqueeItem[] = (
+    await Promise.all(
+      projects.flatMap((p) =>
+        (marqueePicks[p.slug] ?? []).map(async (index) => {
+          const image = await resolveImage(p.imageCategory, { index, variant: "md" });
+          return image ? { slug: p.slug, title: p.title, location: p.location, image } : null;
+        }),
+      ),
+    )
+  ).filter((item): item is MarqueeItem => item !== null);
+  // Alterne les projets pour que deux vues du même lieu ne se suivent pas
+  const marqueeOrder = marqueeItems
+    .map((item, i) => ({ item, rank: marqueeItems.slice(0, i).filter((x) => x.slug === item.slug).length }))
+    .sort((a, b) => a.rank - b.rank)
+    .map(({ item }) => item);
 
   const railItems: RailItem[] = await Promise.all(
     projects.map(async (p) => ({
@@ -31,7 +56,7 @@ export default async function HomePage() {
       location: p.location,
       year: p.year,
       type: p.type,
-      cover: await resolveImage(p.imageCategory, { index: 0, variant: "md" }),
+      cover: await resolveImage(p.imageCategory, { index: p.coverIndex ?? 0, variant: "md" }),
     })),
   );
 
@@ -90,10 +115,8 @@ export default async function HomePage() {
         </p>
       </section>
 
-      {/* 03 — Transition matière */}
-      {materialLin && (
-        <MaterialTransition src={materialLin.src} alt="Lin écru — confection sur mesure" />
-      )}
+      {/* 03 — Réalisations qui défilent (remplace la transition « rideau », brief v2) */}
+      <ProjectMarquee items={marqueeOrder} />
 
       {/* 04 — Studio */}
       <StudioIntro image={teamImage} />
@@ -127,6 +150,9 @@ export default async function HomePage() {
 
       {/* 10c — Showroom Bluffy */}
       <Showroom />
+
+      {/* 10d — Collaborations (bureaux partagés à Bluffy) */}
+      <Collaborations />
 
       {/* 11 — FAQ */}
       <Faq />

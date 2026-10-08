@@ -12,8 +12,8 @@ export function Footer() {
     <footer className="bg-sand text-ink">
       <div className="container-x pb-28 pt-20 md:pb-32 md:pt-28">
         <p
-          className="font-fraunces text-[clamp(3rem,11vw,7.5rem)] italic leading-none"
-          style={{ fontVariationSettings: "'WONK' 1" }}
+          className="font-display text-[clamp(3rem,11vw,7.5rem)] italic leading-none"
+         
         >
           La Casa de Anna
         </p>

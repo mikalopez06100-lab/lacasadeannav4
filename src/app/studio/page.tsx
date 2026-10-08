@@ -47,7 +47,7 @@ export default async function StudioPage() {
                 />
               )}
             </div>
-            <h2 className="mt-6 font-fraunces text-3xl italic" style={{ fontVariationSettings: "'WONK' 1" }}>
+            <h2 className="mt-6 font-display text-3xl italic">
               {member.name}
             </h2>
             <p className="label mt-2 text-lin">{member.role}</p>

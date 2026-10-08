@@ -18,9 +18,9 @@ const config: Config = {
       },
       fontFamily: {
         // Titres, italiques signature, taglines
-        fraunces: ["var(--font-fraunces)", "Georgia", "serif"],
+        display: ["var(--font-display)", "system-ui", "sans-serif"],
         // Corps, navigation, labels, UI
-        bricolage: ["var(--font-bricolage)", "system-ui", "sans-serif"],
+        body: ["var(--font-body)", "system-ui", "sans-serif"],
       },
       fontSize: {
         // Échelle éditoriale — fluide via clamp dans globals.css pour les gros titres

@@ -18,7 +18,7 @@ export function Faq() {
         <div className="divide-y divide-ink/10 border-t border-ink/10">
           {faq.map((item) => (
             <details key={item.question} className="group py-5">
-              <summary className="flex cursor-pointer items-center justify-between gap-6 font-fraunces text-xl marker:content-['']">
+              <summary className="flex cursor-pointer items-center justify-between gap-6 font-display text-xl marker:content-['']">
                 {item.question}
                 <span className="text-terre transition-transform duration-300 group-open:rotate-45">
                   +

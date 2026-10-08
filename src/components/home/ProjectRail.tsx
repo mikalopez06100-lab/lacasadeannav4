@@ -62,8 +62,8 @@ export function ProjectRail({ items }: { items: RailItem[] }) {
     <section className="overflow-hidden py-24 md:py-32">
       <div className="container-x mb-12 flex items-end justify-between">
         <h2
-          className="font-fraunces text-5xl italic md:text-7xl"
-          style={{ fontVariationSettings: "'WONK' 1" }}
+          className="font-display text-5xl italic md:text-7xl"
+         
         >
           Réalisations
         </h2>
@@ -105,7 +105,7 @@ export function ProjectRail({ items }: { items: RailItem[] }) {
 
                 <div className="mt-4 flex items-start justify-between gap-4">
                   <div>
-                    <h3 className="font-fraunces text-xl">{project.title}</h3>
+                    <h3 className="font-display text-xl">{project.title}</h3>
                     <p className="mt-1 text-sm text-lin">
                       {project.location} · {project.year}
                     </p>

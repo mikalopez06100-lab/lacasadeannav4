@@ -11,7 +11,7 @@ import { ScrollReveal } from "@/components/animations/ScrollReveal";
 function MarqueeRow({ reverse, duration }: { reverse?: boolean; duration: string }) {
   const items = partnerBrands.map((brand, i) => (
     <span key={i} className="flex items-center">
-      <span className="font-fraunces text-2xl text-ink/70 md:text-4xl">{brand}</span>
+      <span className="font-display text-2xl text-ink/70 md:text-4xl">{brand}</span>
       <span className="mx-7 text-terre md:mx-10" aria-hidden="true">
         ✦
       </span>
@@ -66,8 +66,8 @@ export function Partners() {
             className="group inline-flex flex-wrap items-baseline gap-x-3 gap-y-1"
           >
             <span
-              className="font-fraunces text-2xl italic md:text-3xl"
-              style={{ fontVariationSettings: "'WONK' 1" }}
+              className="font-display text-2xl italic md:text-3xl"
+             
             >
               Le catalogue mobilier sur La Casa de Anna · Maison
             </span>

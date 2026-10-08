@@ -15,7 +15,7 @@ export default function ConfidentialitePage() {
       <PageHeader label="Informations" title="Confidentialité" />
       <div className="container-x max-w-prose space-y-8 pb-28 text-lin">
         <section>
-          <h2 className="font-fraunces text-xl text-ink">Données collectées</h2>
+          <h2 className="font-display text-xl text-ink">Données collectées</h2>
           <p className="mt-3 leading-relaxed">
             Lorsque vous remplissez un formulaire de contact, nous collectons les
             informations que vous nous transmettez (nom, téléphone, e-mail, description
@@ -24,7 +24,7 @@ export default function ConfidentialitePage() {
           </p>
         </section>
         <section>
-          <h2 className="font-fraunces text-xl text-ink">Utilisation</h2>
+          <h2 className="font-display text-xl text-ink">Utilisation</h2>
           <p className="mt-3 leading-relaxed">
             Vos données ne sont jamais revendues. Elles sont traitées par La Casa de Anna
             et son prestataire d&apos;e-mailing (Brevo) pour la gestion de la relation
@@ -33,7 +33,7 @@ export default function ConfidentialitePage() {
           </p>
         </section>
         <section>
-          <h2 className="font-fraunces text-xl text-ink">Vos droits</h2>
+          <h2 className="font-display text-xl text-ink">Vos droits</h2>
           <p className="mt-3 leading-relaxed">
             Conformément au RGPD, vous disposez d&apos;un droit d&apos;accès, de
             rectification et de suppression de vos données. Pour l&apos;exercer, écrivez à{" "}

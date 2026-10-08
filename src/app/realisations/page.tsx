@@ -21,7 +21,7 @@ export default async function RealisationsPage() {
       area: p.area,
       year: p.year,
       type: p.type,
-      cover: await resolveImage(p.imageCategory, { index: 0, variant: "md" }),
+      cover: await resolveImage(p.imageCategory, { index: p.coverIndex ?? 0, variant: "md" }),
     })),
   );
 
@@ -34,7 +34,7 @@ export default async function RealisationsPage() {
             Des lieux <span className="accent-italic">habités</span>
           </>
         }
-        intro="Chaque projet est une rencontre. Voici quelques intérieurs conçus par le studio — en Haute-Savoie et ailleurs. D'autres réalisations viendront enrichir cette sélection au fil des prochaines publications."
+        intro="Chaque projet est une rencontre. Voici quelques intérieurs conçus par le studio — au bord du lac d'Annecy, en montagne et ailleurs. Cliquez sur un projet pour découvrir ses photos et son histoire."
       />
       <ProjectsGrid items={items} />
       <FinalCta />

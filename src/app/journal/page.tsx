@@ -60,7 +60,7 @@ export default async function JournalPage() {
                 <span className="label text-terre">{a.category}</span>
                 <span className="label text-lin">{dateFmt.format(new Date(a.date))}</span>
               </div>
-              <h2 className="mt-3 font-fraunces text-2xl transition-colors group-hover:text-terre md:text-3xl">
+              <h2 className="mt-3 font-display text-2xl transition-colors group-hover:text-terre md:text-3xl">
                 {a.title}
               </h2>
               <p className="mt-3 text-lin">{a.excerpt}</p>

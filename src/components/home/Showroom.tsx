@@ -42,7 +42,7 @@ export function Showroom() {
             Venez découvrir matières, mobilier et ambiance dans notre espace partagé
             à Bluffy — au bord du lac d&apos;Annecy.
           </p>
-          <p className="mt-6 font-fraunces text-xl leading-relaxed">
+          <p className="mt-6 font-display text-xl leading-relaxed">
             {site.address.street}
             <br />
             {site.address.postalCode} {site.address.city}
@@ -61,7 +61,7 @@ export function Showroom() {
                 href="https://www.ncdesignstudio.fr/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-fraunces text-2xl transition-colors hover:text-terre"
+                className="font-display text-2xl transition-colors hover:text-terre"
               >
                 Dream Design Build
               </a>
@@ -69,7 +69,7 @@ export function Showroom() {
                 href="https://www.ncdesignstudio.fr/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-fraunces text-2xl transition-colors hover:text-terre"
+                className="font-display text-2xl transition-colors hover:text-terre"
                 title="Aménagements extérieurs & paysagers"
               >
                 Arbolya
