@@ -35,6 +35,8 @@ export default async function PrestationsPage() {
             {image && (
               <RevealImage
                 src={image.src}
+                width={image.width}
+                height={image.height}
                 alt={s.name}
                 className="aspect-[4/3] w-full"
                 sizes="(max-width: 768px) 100vw, 45vw"

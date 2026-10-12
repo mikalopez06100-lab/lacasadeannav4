@@ -43,6 +43,8 @@ export default async function JournalPage() {
               {image && (
                 <RevealImage
                   src={image.src}
+                  width={image.width}
+                  height={image.height}
                   alt={a.title}
                   className="aspect-[3/2] w-full"
                   sizes="(max-width: 768px) 100vw, 45vw"

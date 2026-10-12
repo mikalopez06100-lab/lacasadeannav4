@@ -9,6 +9,10 @@ import { cn } from "@/lib/utils";
  * Image qui « arrive » au scroll : révélation par clip-path (haut→bas) + léger
  * dézoom. One-shot à l'entrée dans le viewport. Réutilisé prestations / journal.
  * Garde reduced-motion : si mouvement réduit, l'image reste simplement visible.
+ *
+ * Cadrage : une photo verticale dans un cadre horizontal est calée sur son tiers
+ * supérieur (les visages y sont) plutôt qu'au centre. `focus` permet de forcer
+ * un point précis (valeur CSS object-position, ex. "50% 30%").
  */
 export function RevealImage({
   src,
@@ -16,13 +20,20 @@ export function RevealImage({
   className,
   sizes = "(max-width: 768px) 100vw, 50vw",
   priority = false,
+  width,
+  height,
+  focus,
 }: {
   src: string;
   alt: string;
   className?: string;
   sizes?: string;
   priority?: boolean;
+  width?: number;
+  height?: number;
+  focus?: string;
 }) {
+  const objectPosition = focus ?? (width && height && height > width ? "50% 20%" : "50% 50%");
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -57,7 +68,7 @@ export function RevealImage({
 
   return (
     <div ref={ref} className={cn("relative overflow-hidden bg-sand", className)}>
-      <Image src={src} alt={alt} fill sizes={sizes} priority={priority} className="object-cover" />
+      <Image src={src} alt={alt} fill sizes={sizes} priority={priority} className="object-cover" style={{ objectPosition }} />
     </div>
   );
 }
