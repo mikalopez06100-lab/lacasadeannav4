@@ -16,18 +16,32 @@ const pages = Array.from({ length: 9 }, (_, i) => {
 /**
  * Presse Art & Décoration (brief client v2) : présentation compacte —
  * couverture cliquable + citation ; le reportage se feuillette dans une visionneuse.
+ * Les pages se tournent au doigt (glisser gauche/droite, défilement natif aimanté),
+ * aux flèches sur ordinateur, ou au clavier.
  */
 export function Press() {
   const [open, setOpen] = useState(false);
   const [index, setIndex] = useState(0);
   const closeRef = useRef<HTMLButtonElement>(null);
   const triggerRef = useRef<HTMLButtonElement>(null);
-  const current = pages[index];
+  const trackRef = useRef<HTMLDivElement>(null);
 
-  const go = useCallback(
-    (dir: number) => setIndex((i) => (i + dir + pages.length) % pages.length),
-    [],
-  );
+  const goTo = useCallback((i: number, smooth = true) => {
+    const track = trackRef.current;
+    if (!track) return;
+    const target = Math.max(0, Math.min(pages.length - 1, i));
+    track.scrollTo({ left: target * track.clientWidth, behavior: smooth ? "smooth" : "auto" });
+  }, []);
+
+  // Index courant lu via une ref : tourner une page ne doit pas relancer l'ouverture
+  const indexRef = useRef(0);
+  indexRef.current = index;
+  const go = useCallback((dir: number) => goTo(indexRef.current + dir), [goTo]);
+
+  const onScroll = () => {
+    const track = trackRef.current;
+    if (track) setIndex(Math.round(track.scrollLeft / track.clientWidth));
+  };
 
   const close = useCallback(() => {
     setOpen(false);
@@ -37,6 +51,8 @@ export function Press() {
   useEffect(() => {
     if (!open) return;
     closeRef.current?.focus();
+    setIndex(0);
+    goTo(0, false);
     const prevOverflow = document.documentElement.style.overflow;
     document.documentElement.style.overflow = "hidden";
     const onKey = (e: KeyboardEvent) => {
@@ -49,7 +65,7 @@ export function Press() {
       window.removeEventListener("keydown", onKey);
       document.documentElement.style.overflow = prevOverflow;
     };
-  }, [open, close, go]);
+  }, [open, close, go, goTo]);
 
   return (
     <section className="container-x py-14 md:py-20">
@@ -109,22 +125,39 @@ export function Press() {
             Fermer ✕
           </button>
 
-          <div className="relative h-full max-h-[78vh] w-full max-w-3xl">
-            <Image
-              key={current.src}
-              src={current.src}
-              alt={current.alt}
-              fill
-              sizes="(max-width:768px) 100vw, 768px"
-              className="object-contain"
-            />
+          <div
+            ref={trackRef}
+            onScroll={onScroll}
+            className="no-scrollbar flex h-full max-h-[78vh] w-full max-w-3xl snap-x snap-mandatory overflow-x-auto overscroll-x-contain"
+            aria-roledescription="carrousel"
+          >
+            {pages.map((page, i) => (
+              <div
+                key={page.src}
+                className="relative h-full w-full flex-shrink-0 snap-center snap-always"
+                aria-hidden={i !== index}
+              >
+                <Image
+                  src={page.src}
+                  alt={page.alt}
+                  fill
+                  sizes="(max-width:768px) 100vw, 768px"
+                  priority={i < 2}
+                  draggable={false}
+                  className="select-none object-contain"
+                />
+              </div>
+            ))}
           </div>
+
+          <p className="label mt-4 text-cream/50 [@media(hover:hover)]:hidden">Glissez pour tourner les pages</p>
 
           <div className="mt-6 flex items-center gap-8">
             <button
               type="button"
               onClick={() => go(-1)}
-              className="label p-2 text-cream/80 transition-colors hover:text-cream"
+              disabled={index === 0}
+              className="label p-2 text-cream/80 transition-colors hover:text-cream disabled:opacity-30"
               aria-label="Page précédente"
             >
               ← Préc.
@@ -135,7 +168,8 @@ export function Press() {
             <button
               type="button"
               onClick={() => go(1)}
-              className="label p-2 text-cream/80 transition-colors hover:text-cream"
+              disabled={index === pages.length - 1}
+              className="label p-2 text-cream/80 transition-colors hover:text-cream disabled:opacity-30"
               aria-label="Page suivante"
             >
               Suiv. →
