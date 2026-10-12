@@ -134,7 +134,9 @@ export async function listEntries<T>(kind: ContentKind): Promise<{ entries: Entr
 function cachedPublished<T>(kind: ContentKind) {
   return unstable_cache(
     async () => (await listEntries<T>(kind)).entries.filter((e) => e.published).map((e) => e.data),
-    ["content", kind],
+    // Clé liée au déploiement : un changement du contenu de repli (src/content) est pris en compte
+    // dès la mise en ligne, sans attendre l'expiration du cache. Les modifs admin passent par revalidateTag.
+    ["content", kind, process.env.VERCEL_DEPLOYMENT_ID ?? process.env.VERCEL_GIT_COMMIT_SHA ?? "local"],
     { tags: [`content:${kind}`], revalidate: 3600 },
   );
 }

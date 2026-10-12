@@ -17,7 +17,7 @@ export type Service = {
 
 /** Visuel associé à chaque prestation (catégorie + index dans le manifest d'images). */
 export const serviceImage: Record<string, { category: string; index: number }> = {
-  consultation: { category: "team", index: 8 },
+  consultation: { category: "team", index: 10 }, // Natalia et Coline en séance de travail
   "dossier-conception": { category: "projects/14-route-de-morat", index: 3 },
   "cle-en-main": { category: "projects/home-veyrier-du-lac", index: 20 },
   "mobilier-sur-mesure": { category: "projects/home-veyrier-du-lac", index: 44 },
