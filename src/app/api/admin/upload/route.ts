@@ -1,29 +1,41 @@
-import { handleUpload, type HandleUploadBody } from "@vercel/blob/client";
+import { put } from "@vercel/blob";
 import { NextResponse } from "next/server";
 import { currentAdmin } from "@/lib/auth";
 
 /**
- * Upload direct navigateur → Vercel Blob (les photos ne transitent pas par le serveur,
- * pas de limite de 4,5 Mo). Le jeton d'upload n'est délivré qu'à une session admin.
+ * Réception d'une photo depuis l'admin (déjà redimensionnée dans le navigateur, < 4 Mo)
+ * et enregistrement dans Vercel Blob (store public, authentification OIDC du projet).
  */
+const MAX_BYTES = 4 * 1024 * 1024; // limite de corps des fonctions Vercel : 4,5 Mo
+const TYPES = ["image/jpeg", "image/png", "image/webp"];
+
 export async function POST(request: Request) {
-  const body = (await request.json()) as HandleUploadBody;
+  if (!(await currentAdmin())) {
+    return NextResponse.json({ error: "Non autorisé" }, { status: 401 });
+  }
+
+  const form = await request.formData();
+  const file = form.get("file");
+  const folder = String(form.get("folder") ?? "divers")
+    .toLowerCase()
+    .replace(/[^a-z0-9/-]+/g, "-")
+    .replace(/\/{2,}/g, "/")
+    .slice(0, 80);
+
+  if (!(file instanceof File)) return NextResponse.json({ error: "Fichier manquant" }, { status: 400 });
+  if (!TYPES.includes(file.type)) return NextResponse.json({ error: "Format non accepté" }, { status: 415 });
+  if (file.size > MAX_BYTES) return NextResponse.json({ error: "Photo trop lourde" }, { status: 413 });
+
+  const name = file.name.normalize("NFD").replace(/[^\w.-]+/g, "-").toLowerCase().slice(-60) || "photo.jpg";
   try {
-    const json = await handleUpload({
-      body,
-      request,
-      onBeforeGenerateToken: async () => {
-        if (!(await currentAdmin())) throw new Error("Non autorisé");
-        return {
-          allowedContentTypes: ["image/jpeg", "image/png", "image/webp", "image/avif"],
-          maximumSizeInBytes: 25 * 1024 * 1024,
-          addRandomSuffix: true,
-        };
-      },
-      onUploadCompleted: async () => {},
+    const blob = await put(`${folder}/${name}`, file, {
+      access: "public",
+      addRandomSuffix: true,
+      contentType: file.type,
     });
-    return NextResponse.json(json);
+    return NextResponse.json({ url: blob.url });
   } catch (err) {
-    return NextResponse.json({ error: (err as Error).message }, { status: 400 });
+    console.error("[admin] upload Blob", err);
+    return NextResponse.json({ error: "Stockage indisponible" }, { status: 502 });
   }
 }

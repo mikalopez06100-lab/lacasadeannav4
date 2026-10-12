@@ -1,34 +1,47 @@
 "use client";
 
 import Image from "next/image";
-import { upload } from "@vercel/blob/client";
 import { useRef, useState } from "react";
 import type { Img } from "@/lib/content";
 
-/** Dimensions réelles d'un fichier image, lues dans le navigateur. */
-function readSize(file: File): Promise<{ width: number; height: number }> {
-  return new Promise((resolve) => {
-    const url = URL.createObjectURL(file);
-    const el = new window.Image();
-    el.onload = () => {
-      resolve({ width: el.naturalWidth, height: el.naturalHeight });
-      URL.revokeObjectURL(url);
-    };
-    el.onerror = () => resolve({ width: 1600, height: 1200 });
-    el.src = url;
-  });
+const MAX_SIDE = 2400; // largeur/hauteur max après redimensionnement
+const MAX_BYTES = 4 * 1024 * 1024; // limite d'envoi vers le serveur
+
+/**
+ * Redimensionne la photo dans le navigateur (2400 px max, JPEG optimisé) avant l'envoi :
+ * une photo d'iPhone de 6 Mo passe sous 1 Mo, le site reste rapide.
+ */
+async function prepare(file: File): Promise<{ blob: Blob; width: number; height: number; name: string }> {
+  const bitmap = await createImageBitmap(file);
+  const scale = Math.min(1, MAX_SIDE / Math.max(bitmap.width, bitmap.height));
+  const width = Math.round(bitmap.width * scale);
+  const height = Math.round(bitmap.height * scale);
+  const canvas = document.createElement("canvas");
+  canvas.width = width;
+  canvas.height = height;
+  canvas.getContext("2d")!.drawImage(bitmap, 0, 0, width, height);
+  bitmap.close();
+
+  let blob: Blob | null = null;
+  for (const quality of [0.86, 0.78, 0.68, 0.58]) {
+    blob = await new Promise<Blob | null>((r) => canvas.toBlob(r, "image/jpeg", quality));
+    if (blob && blob.size <= MAX_BYTES) break;
+  }
+  if (!blob || blob.size > MAX_BYTES) throw new Error("Photo trop lourde même après compression");
+  return { blob, width, height, name: file.name.replace(/\.[^.]+$/, "") + ".jpg" };
 }
 
 async function uploadFiles(files: File[], folder: string, onProgress: (done: number) => void): Promise<Img[]> {
   const out: Img[] = [];
   for (const [i, file] of files.entries()) {
-    const size = await readSize(file);
-    const safe = file.name.normalize("NFD").replace(/[^\w.-]+/g, "-").toLowerCase();
-    const blob = await upload(`${folder}/${safe}`, file, {
-      access: "public",
-      handleUploadUrl: "/api/admin/upload",
-    });
-    out.push({ src: blob.url, ...size });
+    const { blob, width, height, name } = await prepare(file);
+    const body = new FormData();
+    body.append("file", new File([blob], name, { type: "image/jpeg" }));
+    body.append("folder", folder);
+    const res = await fetch("/api/admin/upload", { method: "POST", body });
+    if (!res.ok) throw new Error((await res.json().catch(() => ({}))).error ?? `Erreur ${res.status}`);
+    const { url } = (await res.json()) as { url: string };
+    out.push({ src: url, width, height });
     onProgress(i + 1);
   }
   return out;
@@ -91,7 +104,7 @@ function DropZone({
       <input
         ref={input}
         type="file"
-        accept="image/jpeg,image/png,image/webp,image/avif"
+        accept="image/jpeg,image/png,image/webp,image/heic,image/heif"
         multiple={multiple}
         hidden
         onChange={(e) => handle(e.target.files)}
