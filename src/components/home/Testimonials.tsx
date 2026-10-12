@@ -1,13 +1,14 @@
 "use client";
 
 import { useState } from "react";
-import { testimonials } from "@/content/testimonials";
+
+type Testimonial = { quote: string; author: string; project: string };
 
 /**
  * Bloc témoignages (brief §7 section 10, inspiré Studio X).
  * Citation centrée en grand, navigation gauche/droite, pas de photos.
  */
-export function Testimonials() {
+export function Testimonials({ items: testimonials }: { items: Testimonial[] }) {
   const [index, setIndex] = useState(0);
   const total = testimonials.length;
   const current = testimonials[index];

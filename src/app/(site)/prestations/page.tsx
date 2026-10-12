@@ -4,7 +4,7 @@ import { PageHeader } from "@/components/ui/PageHeader";
 import { FinalCta } from "@/components/home/FinalCta";
 import { ScrollReveal } from "@/components/animations/ScrollReveal";
 import { RevealImage } from "@/components/animations/RevealImage";
-import { services, serviceImage } from "@/content/services";
+import { getServices } from "@/lib/content";
 import { resolveImage } from "@/lib/images";
 
 export const metadata: Metadata = {
@@ -15,15 +15,7 @@ export const metadata: Metadata = {
 };
 
 export default async function PrestationsPage() {
-  const items = await Promise.all(
-    services.map(async (s) => {
-      const ref = serviceImage[s.id];
-      const image = ref
-        ? await resolveImage(ref.category, { index: ref.index, variant: "md" })
-        : null;
-      return { service: s, image };
-    }),
-  );
+  const items = (await getServices()).map((s) => ({ service: s, image: s.image }));
 
   return (
     <>

@@ -1,4 +1,4 @@
-import { faq } from "@/content/faq";
+import type { FaqItem } from "@/lib/content";
 
 /**
  * FAQ accordéon (brief §7 section 11 + §10).
@@ -6,7 +6,7 @@ import { faq } from "@/content/faq";
  * rendu (indexable Google + LLM), même replié. C'est le point SEO/GEO qui distingue
  * le site des références (qui n'ont pas de FAQ).
  */
-export function Faq() {
+export function Faq({ items }: { items: Pick<FaqItem, "question" | "answer">[] }) {
   return (
     <section className="container-x py-16 md:py-24">
       <div className="grid gap-12 md:grid-cols-[1fr_2fr] md:gap-20">
@@ -16,7 +16,7 @@ export function Faq() {
         </div>
 
         <div className="divide-y divide-ink/10 border-t border-ink/10">
-          {faq.map((item) => (
+          {items.map((item) => (
             <details key={item.question} className="group py-5">
               <summary className="flex cursor-pointer items-center justify-between gap-6 font-display text-xl marker:content-['']">
                 {item.question}

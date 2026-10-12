@@ -4,8 +4,7 @@ import { PageHeader } from "@/components/ui/PageHeader";
 import { FinalCta } from "@/components/home/FinalCta";
 import { ScrollReveal } from "@/components/animations/ScrollReveal";
 import { RevealImage } from "@/components/animations/RevealImage";
-import { journal, articleImage } from "@/content/journal";
-import { resolveImage } from "@/lib/images";
+import { getArticles } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Journal — conseils & inspiration design d'intérieur",
@@ -21,16 +20,9 @@ const dateFmt = new Intl.DateTimeFormat("fr-FR", {
 });
 
 export default async function JournalPage() {
-  const sorted = [...journal].sort((a, b) => b.date.localeCompare(a.date));
-  const articles = await Promise.all(
-    sorted.map(async (a) => {
-      const ref = articleImage[a.slug];
-      const image = ref
-        ? await resolveImage(ref.category, { index: ref.index, variant: "md" })
-        : null;
-      return { article: a, image };
-    }),
-  );
+  const articles = [...(await getArticles())]
+    .sort((a, b) => b.date.localeCompare(a.date))
+    .map((a) => ({ article: a, image: a.image }));
 
   return (
     <>

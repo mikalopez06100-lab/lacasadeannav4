@@ -4,12 +4,6 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { fontVariables } from "@/lib/fonts";
 import { site } from "@/content/site";
-import { localBusinessSchema, foundersSchema, jsonLd } from "@/lib/seo";
-import { SmoothScroll } from "@/components/providers/SmoothScroll";
-import { CustomCursor } from "@/components/cursor/CustomCursor";
-import { Header } from "@/components/layout/Header";
-import { Footer } from "@/components/layout/Footer";
-import { BottomNav } from "@/components/layout/BottomNav";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
@@ -55,19 +49,7 @@ export default function RootLayout({
   return (
     <html lang="fr" className={fontVariables}>
       <body>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{
-            __html: jsonLd([localBusinessSchema(), ...foundersSchema()]),
-          }}
-        />
-        <SmoothScroll>
-          <CustomCursor />
-          <Header />
-          <main>{children}</main>
-          <Footer />
-          <BottomNav />
-        </SmoothScroll>
+        {children}
         <Analytics />
         <SpeedInsights />
       </body>

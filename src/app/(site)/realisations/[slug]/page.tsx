@@ -2,14 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { projects, getProject } from "@/content/projects";
-import { imagesByCategory, variant } from "@/lib/images";
+import { getProject, getProjects } from "@/lib/content";
 import { site } from "@/content/site";
 import { jsonLd } from "@/lib/seo";
 import { FinalCta } from "@/components/home/FinalCta";
 
-export function generateStaticParams() {
-  return projects.map((p) => ({ slug: p.slug }));
+export async function generateStaticParams() {
+  return (await getProjects()).map((p) => ({ slug: p.slug }));
 }
 
 export async function generateMetadata({
@@ -17,7 +16,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  const project = getProject(params.slug);
+  const project = await getProject(params.slug);
   if (!project) return {};
   return {
     title: `${project.title} — ${project.location}`,
@@ -32,18 +31,12 @@ export default async function ProjectPage({
 }: {
   params: { slug: string };
 }) {
-  const project = getProject(params.slug);
+  const project = await getProject(params.slug);
   if (!project) notFound();
 
-  const images = await imagesByCategory(project.imageCategory);
-  const coverIndex = project.coverIndex ?? 0;
-  const excluded = new Set([coverIndex, ...(project.excludeImages ?? [])]);
-  const hero = variant(images[coverIndex], "full");
-  const gallery = images
-    .filter((_, idx) => !excluded.has(idx))
-    .map((img) => variant(img, "lg"))
-    .filter((o): o is NonNullable<typeof o> => Boolean(o))
-    .map((o) => ({ src: o.path, width: o.width ?? 1200, height: o.height ?? 1500 }));
+  const projects = await getProjects();
+  const hero = project.images[0];
+  const gallery = project.images.slice(1);
 
   const i = projects.findIndex((p) => p.slug === project.slug);
   const prev = projects[(i - 1 + projects.length) % projects.length];
@@ -57,7 +50,7 @@ export default async function ProjectPage({
     locationCreated: project.location,
     dateCreated: String(project.year),
     creator: { "@type": "Organization", name: site.name, url: site.url },
-    image: hero ? `${site.url}${hero.path}` : undefined,
+    image: hero ? (hero.src.startsWith("http") ? hero.src : `${site.url}${hero.src}`) : undefined,
   };
 
   return (
@@ -80,7 +73,7 @@ export default async function ProjectPage({
       {hero && (
         <div className="relative aspect-[16/10] w-full overflow-hidden bg-sand">
           <Image
-            src={hero.path}
+            src={hero.src}
             alt={project.title}
             fill
             priority

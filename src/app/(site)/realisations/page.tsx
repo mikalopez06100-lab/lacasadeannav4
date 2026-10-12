@@ -2,8 +2,7 @@ import type { Metadata } from "next";
 import { PageHeader } from "@/components/ui/PageHeader";
 import { FinalCta } from "@/components/home/FinalCta";
 import { ProjectsGrid, type GridItem } from "@/components/realisations/ProjectsGrid";
-import { projects } from "@/content/projects";
-import { resolveImage } from "@/lib/images";
+import { getProjects } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Réalisations — projets de design d'intérieur",
@@ -13,18 +12,16 @@ export const metadata: Metadata = {
 };
 
 export default async function RealisationsPage() {
-  const items: GridItem[] = await Promise.all(
-    projects.map(async (p) => ({
-      slug: p.slug,
-      title: p.title,
-      location: p.location,
-      area: p.area,
-      year: p.year,
-      type: p.type,
-      status: p.status,
-      cover: await resolveImage(p.imageCategory, { index: p.coverIndex ?? 0, variant: "md" }),
-    })),
-  );
+  const items: GridItem[] = (await getProjects()).map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    location: p.location,
+    area: p.area,
+    year: p.year,
+    type: p.type,
+    status: p.status,
+    cover: p.images[0] ?? null,
+  }));
 
   return (
     <>

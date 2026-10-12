@@ -7,6 +7,7 @@ import { FinalCta } from "@/components/home/FinalCta";
 import { ScrollReveal } from "@/components/animations/ScrollReveal";
 import { team } from "@/content/team";
 import { resolveImage } from "@/lib/images";
+import { getTestimonials } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Le studio — Natalia Vastel & Coline Rouvière",
@@ -57,7 +58,7 @@ export default async function StudioPage() {
       </section>
 
       <Approach />
-      <Testimonials />
+      <Testimonials items={await getTestimonials()} />
       <FinalCta />
     </>
   );

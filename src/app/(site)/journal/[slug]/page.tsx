@@ -2,14 +2,13 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { journal, getArticle, articleImage } from "@/content/journal";
+import { getArticle, getArticles } from "@/lib/content";
 import { site } from "@/content/site";
 import { jsonLd } from "@/lib/seo";
-import { resolveImage } from "@/lib/images";
 import { FinalCta } from "@/components/home/FinalCta";
 
-export function generateStaticParams() {
-  return journal.map((a) => ({ slug: a.slug }));
+export async function generateStaticParams() {
+  return (await getArticles()).map((a) => ({ slug: a.slug }));
 }
 
 export async function generateMetadata({
@@ -17,7 +16,7 @@ export async function generateMetadata({
 }: {
   params: { slug: string };
 }): Promise<Metadata> {
-  const article = getArticle(params.slug);
+  const article = await getArticle(params.slug);
   if (!article) return {};
   return {
     title: article.title,
@@ -39,13 +38,10 @@ const dateFmt = new Intl.DateTimeFormat("fr-FR", {
 });
 
 export default async function ArticlePage({ params }: { params: { slug: string } }) {
-  const article = getArticle(params.slug);
+  const article = await getArticle(params.slug);
   if (!article) notFound();
 
-  const ref = articleImage[article.slug];
-  const cover = ref
-    ? await resolveImage(ref.category, { index: ref.index, variant: "full" })
-    : null;
+  const cover = article.image;
 
   const schema = {
     "@context": "https://schema.org",

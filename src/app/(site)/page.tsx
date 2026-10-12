@@ -12,29 +12,28 @@ import { Showroom } from "@/components/home/Showroom";
 import { Faq } from "@/components/home/Faq";
 import { FinalCta } from "@/components/home/FinalCta";
 import { resolveImage } from "@/lib/images";
-import { projects } from "@/content/projects";
-import { faq } from "@/content/faq";
+import { getFaq, getProjects, getTestimonials } from "@/lib/content";
 import { faqSchema, jsonLd } from "@/lib/seo";
 
 /** Home — structure V4 + demandes debrief client / Notion. */
 export default async function HomePage() {
-  const [teamImage, materialChene] = await Promise.all([
+  const [teamImage, materialChene, projects, faq, testimonials] = await Promise.all([
     resolveImage("team", { index: 2, variant: "lg" }),
     resolveImage("projects/home-veyrier-du-lac", { index: 12, variant: "full" }),
+    getProjects(),
+    getFaq(),
+    getTestimonials(),
   ]);
 
-
-  const railItems: RailItem[] = await Promise.all(
-    projects.map(async (p) => ({
-      slug: p.slug,
-      title: p.title,
-      location: p.location,
-      year: p.year,
-      type: p.type,
-      status: p.status,
-      cover: await resolveImage(p.imageCategory, { index: p.coverIndex ?? 0, variant: "md" }),
-    })),
-  );
+  const railItems: RailItem[] = projects.map((p) => ({
+    slug: p.slug,
+    title: p.title,
+    location: p.location,
+    year: p.year,
+    type: p.type,
+    status: p.status,
+    cover: p.images[0] ?? null,
+  }));
 
   return (
     <>
@@ -109,7 +108,7 @@ export default async function HomePage() {
       <Press />
 
       {/* 10 — Témoignages */}
-      <Testimonials />
+      <Testimonials items={testimonials} />
 
       {/* 10b — Marques */}
       <Partners />
@@ -121,7 +120,7 @@ export default async function HomePage() {
       <Collaborations />
 
       {/* 11 — FAQ */}
-      <Faq />
+      <Faq items={faq} />
 
       {/* 12 — CTA final */}
       <FinalCta />
