@@ -72,6 +72,9 @@ export default async function ProjectPage({
           {project.type} · {project.location} · {project.year}
         </p>
         <h1 className="display-h1 mt-4">{project.title}</h1>
+        {project.status === "en-cours" && (
+          <span className="badge-en-cours !static mt-5 inline-block">Projet en cours</span>
+        )}
       </header>
 
       {hero && (

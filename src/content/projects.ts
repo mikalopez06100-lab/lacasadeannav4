@@ -30,6 +30,7 @@ export type Project = {
   materials: Material[];
   testimonial?: { quote: string; author: string };
   featured?: boolean;
+  status?: "en-cours"; // affiche un badge « En cours » sur la carte et la fiche
 };
 
 export const projects: Project[] = [
@@ -41,7 +42,7 @@ export const projects: Project[] = [
     year: 2024,
     type: "Résidentiel",
     imageCategory: "projects/home-veyrier-du-lac",
-    coverIndex: 49,
+    coverIndex: 57, // photo extérieure choisie par Natalia (Notion, oct. 2026)
     excludeImages: [9, 21],
     featured: true,
     excerpt:
@@ -63,6 +64,67 @@ export const projects: Project[] = [
         "Natalia et Coline ont compris notre maison avant même que nous sachions la décrire. Le résultat nous ressemble totalement.",
       author: "Famille V., Veyrier-du-Lac",
     },
+  },
+  // ⚠ Textes de Madrid, Corse et Javea rédigés d'après les visuels (pages Notion sans texte) — à faire valider.
+  {
+    slug: "madrid",
+    title: "Maison à Madrid",
+    location: "Madrid, Espagne",
+    area: "Autre",
+    year: 2026,
+    type: "Résidentiel",
+    imageCategory: "projects/madrid",
+    excerpt:
+      "Une maison de plain-pied baignée de soleil : pierre, chêne et enduits clairs, du jardin jusqu'au dressing.",
+    body: [
+      "À Madrid, cette maison de plain-pied s'ouvre largement sur le jardin et la piscine. Murs de pierre, enduits clairs et grandes baies vitrées composent une architecture lumineuse, pensée pour vivre dehors autant que dedans.",
+      "À l'intérieur, le chêne dessine chaque agencement sur mesure : cuisine, dressing, bibliothèque, portes et habillages muraux. La salle de bains s'ouvre sur la végétation, et une cheminée intégrée réchauffe le séjour.",
+    ],
+    materials: [
+      { name: "Pierre sèche", note: "murs extérieurs" },
+      { name: "Chêne", note: "agencements sur mesure" },
+      { name: "Enduits clairs" },
+    ],
+  },
+  {
+    slug: "corse",
+    title: "Maison en Corse",
+    location: "Corse",
+    area: "Corse",
+    year: 2026,
+    type: "Résidentiel",
+    imageCategory: "projects/corse",
+    excerpt:
+      "Une maison de pierre et d'enduit nichée dans le maquis, aux intérieurs doux et naturels tournés vers la mer.",
+    body: [
+      "Nichée dans le maquis, cette maison associe la pierre locale à des volumes enduits aux teintes de sable. Les grandes ouvertures cadrent la végétation et la mer.",
+      "Les intérieurs jouent la douceur : bois clair, lin, rotin et céramique, une cuisine ouverte sur la salle à manger, des chambres apaisées et des salles de bains aux lignes simples.",
+    ],
+    materials: [
+      { name: "Pierre locale" },
+      { name: "Bois clair" },
+      { name: "Lin et rotin", note: "textiles et luminaires" },
+    ],
+  },
+  {
+    slug: "javea",
+    title: "Villa à Jávea",
+    location: "Jávea, Espagne",
+    area: "Autre",
+    year: 2026,
+    type: "Résidentiel",
+    imageCategory: "projects/javea",
+    status: "en-cours",
+    excerpt:
+      "Une villa méditerranéenne au pied de la montagne, en cours de rénovation : arches blanches, terres cuites et azulejos.",
+    body: [
+      "Sur la Costa Blanca, cette villa méditerranéenne fait face à la montagne. Arches blanches, sols en terre cuite, escaliers d'azulejos et piscine en mosaïque : le projet, en cours, révèle et prolonge son caractère.",
+    ],
+    materials: [
+      { name: "Terre cuite", note: "sols" },
+      { name: "Azulejos" },
+      { name: "Enduit à la chaux" },
+    ],
   },
   {
     slug: "entre-lac-et-montagne",

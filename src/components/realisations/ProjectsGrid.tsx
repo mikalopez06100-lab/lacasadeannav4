@@ -12,6 +12,7 @@ export type GridItem = {
   area: string;
   year: number;
   type: string;
+  status?: "en-cours";
   cover: { src: string; width: number; height: number } | null;
 };
 
@@ -70,6 +71,7 @@ export function ProjectsGrid({ items }: { items: GridItem[] }) {
                   className="h-auto w-full transition-transform duration-700 ease-soft group-hover:scale-[1.03]"
                 />
               )}
+              {p.status === "en-cours" && <span className="badge-en-cours">En cours</span>}
               <div className="project-tile-over" aria-hidden="true">
                 <span className="font-display text-lg font-semibold uppercase tracking-[0.06em] md:text-xl">
                   {p.title}

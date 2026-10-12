@@ -10,6 +10,7 @@ export type RailItem = {
   location: string;
   year: number;
   type: string;
+  status?: "en-cours";
   cover: { src: string; width: number; height: number } | null;
 };
 
@@ -104,6 +105,7 @@ export function ProjectRail({ items }: { items: RailItem[] }) {
                   className="object-cover transition-transform duration-700 ease-soft group-hover:scale-105"
                 />
               )}
+              {project.status === "en-cours" && <span className="badge-en-cours">En cours</span>}
               <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-white/90 via-white/60 to-transparent px-5 pb-5 pt-16">
                 <span className="label text-terre">{String(i + 1).padStart(2, "0")}</span>
                 <h3 className="mt-1 font-display text-lg font-semibold leading-tight tracking-tight">

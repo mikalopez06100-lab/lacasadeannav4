@@ -31,6 +31,7 @@ export default async function HomePage() {
       location: p.location,
       year: p.year,
       type: p.type,
+      status: p.status,
       cover: await resolveImage(p.imageCategory, { index: p.coverIndex ?? 0, variant: "md" }),
     })),
   );

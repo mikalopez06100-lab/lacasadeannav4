@@ -4,10 +4,12 @@
  * fichiers dans /public/assets/img/<category>/<id>-<variant>.webp.
  *
  * Sources :
- *  - Notion : export local (NOTION_BASE)
+ *  - Notion : export local (NOTION_BASE), ou export de la page PROJETS avec
+ *             sous-pages (NOTION_PROJETS) — l'ordre des photos suit la page Notion
  *  - Wix    : ancien site lacasadeanna.com (static.wixstatic.com)
  *
- * Usage : node scripts/import-projects.mjs
+ * Usage : node scripts/import-projects.mjs                 (tout)
+ *         ONLY=projects/madrid,projects/corse node scripts/import-projects.mjs
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -18,7 +20,16 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const NOTION =
   process.env.NOTION_BASE ??
   "C:\\Users\\ppmpc\\Desktop\\MasterPrompt\\analyse\\la casa de anna\\base notion";
+const NOTION_PROJETS =
+  process.env.NOTION_PROJETS ??
+  "C:/Users/ppmpc/Desktop/MasterPrompt/analyse/la casa de anna/notion-projets-2026-10/PROJETS";
 const MANIFEST = path.join(ROOT, "public/assets/img/manifest.json");
+
+/** Images d'une page Notion exportée, dans l'ordre de la page. */
+function notionPageImages(pageFile) {
+  const md = fs.readFileSync(path.join(NOTION_PROJETS, pageFile), "utf8");
+  return [...md.matchAll(/!\[[^\]]*\]\(([^)]+)\)/g)].map((m) => decodeURIComponent(m[1]));
+}
 
 /** Largeurs max par variante (alignées sur le manifest existant). */
 const VARIANTS = [
@@ -82,6 +93,29 @@ const IMPORTS = [
       "ce961c_b6cd44f391db40818e8df9a0980d900c~mv2.jpg",
     ],
   },
+  // Brief Natalia (9 oct. 2026) — couverture = 1re photo de la page Notion
+  {
+    category: "projects/home-veyrier-du-lac",
+    kind: "notion2",
+    append: true, // ajoute la nouvelle couverture sans retoucher les 57 photos existantes
+    prefix: "cover",
+    files: ["VEYRIER DU LAC/IMG_1681.jpg"],
+  },
+  {
+    category: "projects/madrid",
+    kind: "notion2",
+    files: notionPageImages("MADRID 3ed4ad4c486c80ceb881d0e9d5975ca1.md"),
+  },
+  {
+    category: "projects/corse",
+    kind: "notion2",
+    files: notionPageImages("CORSE 3ed4ad4c486c807faf5ad1d14719e439.md"),
+  },
+  {
+    category: "projects/javea",
+    kind: "notion2",
+    files: notionPageImages("JAVEA 3ed4ad4c486c80a1beade128f489d55b.md"),
+  },
 ];
 
 const slugify = (s) =>
@@ -94,6 +128,7 @@ const slugify = (s) =>
 
 async function load(kind, file) {
   if (kind === "notion") return fs.readFileSync(path.join(NOTION, file));
+  if (kind === "notion2") return fs.readFileSync(path.join(NOTION_PROJETS, file));
   const url = `https://static.wixstatic.com/media/${file}/v1/fit/w_2400,h_2400,q_90/f.jpg`;
   for (let attempt = 1; ; attempt++) {
     const res = await fetch(url);
@@ -104,14 +139,22 @@ async function load(kind, file) {
 
 const manifest = JSON.parse(fs.readFileSync(MANIFEST, "utf8"));
 
-for (const { category, kind, files } of IMPORTS) {
+const only = process.env.ONLY?.split(",");
+
+for (const { category, kind, files, append, prefix } of IMPORTS) {
+  if (only && !only.includes(category)) continue;
   const dir = path.join(ROOT, "public/assets/img", category);
-  fs.rmSync(dir, { recursive: true, force: true });
+  const idPrefix = `${category}/${prefix ? prefix + "-" : ""}`;
+  if (append) {
+    manifest.images = manifest.images.filter((img) => !(prefix && img.id.startsWith(idPrefix)));
+  } else {
+    fs.rmSync(dir, { recursive: true, force: true });
+    manifest.images = manifest.images.filter((img) => img.category !== category);
+  }
   fs.mkdirSync(dir, { recursive: true });
-  manifest.images = manifest.images.filter((img) => img.category !== category);
 
   for (const [i, file] of files.entries()) {
-    const base = `${String(i + 1).padStart(2, "0")}-${slugify(file).slice(0, 24)}`;
+    const base = `${prefix ? prefix + "-" : ""}${String(i + 1).padStart(2, "0")}-${slugify(path.basename(file)).slice(0, 24)}`;
     const buf = await sharp(await load(kind, file)).rotate().toBuffer();
     const meta = await sharp(buf).metadata();
     const outputs = [];

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-08T13:17:56.921Z",
+  "generatedAt": "2026-10-12T09:49:08.469Z",
   "images": [
     {
       "id": "team/shooting-janv-25-la-casa-de-annapierremaullet-005",
@@ -5393,6 +5393,1286 @@
           "width": 480,
           "height": 720,
           "bytes": 27080
+        }
+      ]
+    },
+    {
+      "id": "projects/home-veyrier-du-lac/cover-01-img-1681",
+      "category": "projects/home-veyrier-du-lac",
+      "source": "notion2:VEYRIER DU LAC/IMG_1681.jpg",
+      "original": {
+        "width": 1206,
+        "height": 1197,
+        "bytes": 233657
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/home-veyrier-du-lac/cover-01-img-1681-full.webp",
+          "width": 1206,
+          "height": 1197,
+          "bytes": 172660
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/home-veyrier-du-lac/cover-01-img-1681-lg.webp",
+          "width": 1200,
+          "height": 1191,
+          "bytes": 157444
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/home-veyrier-du-lac/cover-01-img-1681-md.webp",
+          "width": 900,
+          "height": 893,
+          "bytes": 101562
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/home-veyrier-du-lac/cover-01-img-1681-thumb.webp",
+          "width": 480,
+          "height": 476,
+          "bytes": 34906
+        }
+      ]
+    },
+    {
+      "id": "projects/madrid/01-ea1f7dea-18f9-4243-8a10-",
+      "category": "projects/madrid",
+      "source": "notion2:MADRID/EA1F7DEA-18F9-4243-8A10-B52346F087A4.png",
+      "original": {
+        "width": 1089,
+        "height": 1444,
+        "bytes": 3598293
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/madrid/01-ea1f7dea-18f9-4243-8a10--full.webp",
+          "width": 1089,
+          "height": 1444,
+          "bytes": 149064
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/madrid/01-ea1f7dea-18f9-4243-8a10--lg.webp",
+          "width": 1089,
+          "height": 1444,
+          "bytes": 136192
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/madrid/01-ea1f7dea-18f9-4243-8a10--md.webp",
+          "width": 900,
+          "height": 1193,
+          "bytes": 95750
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/madrid/01-ea1f7dea-18f9-4243-8a10--thumb.webp",
+          "width": 480,
+          "height": 636,
+          "bytes": 31562
+        }
+      ]
+    },
+    {
+      "id": "projects/madrid/02-86450e0b-d1c1-46a8-bd65-",
+      "category": "projects/madrid",
+      "source": "notion2:MADRID/86450E0B-D1C1-46A8-BD65-27A138C0F4A4.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3729111
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/madrid/02-86450e0b-d1c1-46a8-bd65--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 304020
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/madrid/02-86450e0b-d1c1-46a8-bd65--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 279132
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/madrid/02-86450e0b-d1c1-46a8-bd65--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 188128
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/madrid/02-86450e0b-d1c1-46a8-bd65--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 52386
+        }
+      ]
+    },
+    {
+      "id": "projects/madrid/03-5c36029a-b2bf-4631-9cbf-",
+      "category": "projects/madrid",
+      "source": "notion2:MADRID/5C36029A-B2BF-4631-9CBF-D46E55FA0CF8.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3603764
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/madrid/03-5c36029a-b2bf-4631-9cbf--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 166758
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/madrid/03-5c36029a-b2bf-4631-9cbf--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 152340
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/madrid/03-5c36029a-b2bf-4631-9cbf--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 103660
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/madrid/03-5c36029a-b2bf-4631-9cbf--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 30264
+        }
+      ]
+    },
+    {
+      "id": "projects/madrid/04-af8a7a55-1cfa-4f50-a823-",
+      "category": "projects/madrid",
+      "source": "notion2:MADRID/AF8A7A55-1CFA-4F50-A823-7E5FE73CD465.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3287617
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/madrid/04-af8a7a55-1cfa-4f50-a823--full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 112804
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/madrid/04-af8a7a55-1cfa-4f50-a823--lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 100812
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/madrid/04-af8a7a55-1cfa-4f50-a823--md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 65244
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/madrid/04-af8a7a55-1cfa-4f50-a823--thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 17768
+        }
+      ]
+    },
+    {
+      "id": "projects/madrid/05-cbbe61f6-b4dc-4bbb-b7e2-",
+      "category": "projects/madrid",
+      "source": "notion2:MADRID/CBBE61F6-B4DC-4BBB-B7E2-401564EAFEDA.png",
+      "original": {
+        "width": 1178,
+        "height": 1335,
+        "bytes": 3493514
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/madrid/05-cbbe61f6-b4dc-4bbb-b7e2--full.webp",
+          "width": 1178,
+          "height": 1335,
+          "bytes": 80806
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/madrid/05-cbbe61f6-b4dc-4bbb-b7e2--lg.webp",
+          "width": 1178,
+          "height": 1335,
+          "bytes": 71058
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/madrid/05-cbbe61f6-b4dc-4bbb-b7e2--md.webp",
+          "width": 900,
+          "height": 1020,
+          "bytes": 41416
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/madrid/05-cbbe61f6-b4dc-4bbb-b7e2--thumb.webp",
+          "width": 480,
+          "height": 544,
+          "bytes": 12276
+        }
+      ]
+    },
+    {
+      "id": "projects/madrid/06-a2959589-8c97-483e-8b2d-",
+      "category": "projects/madrid",
+      "source": "notion2:MADRID/A2959589-8C97-483E-8B2D-B91832E447E1.png",
+      "original": {
+        "width": 1254,
+        "height": 1254,
+        "bytes": 2936425
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/madrid/06-a2959589-8c97-483e-8b2d--full.webp",
+          "width": 1254,
+          "height": 1254,
+          "bytes": 57928
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/madrid/06-a2959589-8c97-483e-8b2d--lg.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 44988
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/madrid/06-a2959589-8c97-483e-8b2d--md.webp",
+          "width": 900,
+          "height": 900,
+          "bytes": 24838
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/madrid/06-a2959589-8c97-483e-8b2d--thumb.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 6852
+        }
+      ]
+    },
+    {
+      "id": "projects/madrid/07-d88c8877-545d-4490-97a5-",
+      "category": "projects/madrid",
+      "source": "notion2:MADRID/D88C8877-545D-4490-97A5-C0B25FCAD704.png",
+      "original": {
+        "width": 1024,
+        "height": 1536,
+        "bytes": 2695996
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/madrid/07-d88c8877-545d-4490-97a5--full.webp",
+          "width": 1024,
+          "height": 1536,
+          "bytes": 77630
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/madrid/07-d88c8877-545d-4490-97a5--lg.webp",
+          "width": 1024,
+          "height": 1536,
+          "bytes": 71702
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/madrid/07-d88c8877-545d-4490-97a5--md.webp",
+          "width": 900,
+          "height": 1350,
+          "bytes": 56066
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/madrid/07-d88c8877-545d-4490-97a5--thumb.webp",
+          "width": 480,
+          "height": 720,
+          "bytes": 20506
+        }
+      ]
+    },
+    {
+      "id": "projects/madrid/08-e1276fe3-f35a-49fa-9ef3-",
+      "category": "projects/madrid",
+      "source": "notion2:MADRID/E1276FE3-F35A-49FA-9EF3-BF62AFBD1766.png",
+      "original": {
+        "width": 1361,
+        "height": 1156,
+        "bytes": 4119344
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/madrid/08-e1276fe3-f35a-49fa-9ef3--full.webp",
+          "width": 1361,
+          "height": 1156,
+          "bytes": 359624
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/madrid/08-e1276fe3-f35a-49fa-9ef3--lg.webp",
+          "width": 1200,
+          "height": 1019,
+          "bytes": 268106
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/madrid/08-e1276fe3-f35a-49fa-9ef3--md.webp",
+          "width": 900,
+          "height": 764,
+          "bytes": 149434
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/madrid/08-e1276fe3-f35a-49fa-9ef3--thumb.webp",
+          "width": 480,
+          "height": 408,
+          "bytes": 39148
+        }
+      ]
+    },
+    {
+      "id": "projects/madrid/09-9b1fb022-6a31-4d17-b3f7-",
+      "category": "projects/madrid",
+      "source": "notion2:MADRID/9B1FB022-6A31-4D17-B3F7-3B802D23B8C7.png",
+      "original": {
+        "width": 1087,
+        "height": 1447,
+        "bytes": 3155233
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/madrid/09-9b1fb022-6a31-4d17-b3f7--full.webp",
+          "width": 1087,
+          "height": 1447,
+          "bytes": 169804
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/madrid/09-9b1fb022-6a31-4d17-b3f7--lg.webp",
+          "width": 1087,
+          "height": 1447,
+          "bytes": 154556
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/madrid/09-9b1fb022-6a31-4d17-b3f7--md.webp",
+          "width": 900,
+          "height": 1198,
+          "bytes": 109476
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/madrid/09-9b1fb022-6a31-4d17-b3f7--thumb.webp",
+          "width": 480,
+          "height": 639,
+          "bytes": 35176
+        }
+      ]
+    },
+    {
+      "id": "projects/madrid/10-a457114a-4bcd-48d1-b45e-",
+      "category": "projects/madrid",
+      "source": "notion2:MADRID/A457114A-4BCD-48D1-B45E-B55BA1E868B9.png",
+      "original": {
+        "width": 1269,
+        "height": 1240,
+        "bytes": 2166950
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/madrid/10-a457114a-4bcd-48d1-b45e--full.webp",
+          "width": 1269,
+          "height": 1240,
+          "bytes": 29630
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/madrid/10-a457114a-4bcd-48d1-b45e--lg.webp",
+          "width": 1200,
+          "height": 1173,
+          "bytes": 23880
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/madrid/10-a457114a-4bcd-48d1-b45e--md.webp",
+          "width": 900,
+          "height": 879,
+          "bytes": 14444
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/madrid/10-a457114a-4bcd-48d1-b45e--thumb.webp",
+          "width": 480,
+          "height": 469,
+          "bytes": 5062
+        }
+      ]
+    },
+    {
+      "id": "projects/madrid/11-aaaf7c14-931a-4ec1-a2c4-",
+      "category": "projects/madrid",
+      "source": "notion2:MADRID/AAAF7C14-931A-4EC1-A2C4-DEB2CC33B6F1.png",
+      "original": {
+        "width": 1160,
+        "height": 1356,
+        "bytes": 3001763
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/madrid/11-aaaf7c14-931a-4ec1-a2c4--full.webp",
+          "width": 1160,
+          "height": 1356,
+          "bytes": 54622
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/madrid/11-aaaf7c14-931a-4ec1-a2c4--lg.webp",
+          "width": 1160,
+          "height": 1356,
+          "bytes": 48198
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/madrid/11-aaaf7c14-931a-4ec1-a2c4--md.webp",
+          "width": 900,
+          "height": 1052,
+          "bytes": 31742
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/madrid/11-aaaf7c14-931a-4ec1-a2c4--thumb.webp",
+          "width": 480,
+          "height": 561,
+          "bytes": 9664
+        }
+      ]
+    },
+    {
+      "id": "projects/madrid/12-97815f3f-c0c8-44fa-9131-",
+      "category": "projects/madrid",
+      "source": "notion2:MADRID/97815F3F-C0C8-44FA-9131-A49301E828CB.png",
+      "original": {
+        "width": 1168,
+        "height": 1346,
+        "bytes": 3841914
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/madrid/12-97815f3f-c0c8-44fa-9131--full.webp",
+          "width": 1168,
+          "height": 1346,
+          "bytes": 228708
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/madrid/12-97815f3f-c0c8-44fa-9131--lg.webp",
+          "width": 1168,
+          "height": 1346,
+          "bytes": 213822
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/madrid/12-97815f3f-c0c8-44fa-9131--md.webp",
+          "width": 900,
+          "height": 1037,
+          "bytes": 143824
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/madrid/12-97815f3f-c0c8-44fa-9131--thumb.webp",
+          "width": 480,
+          "height": 553,
+          "bytes": 50070
+        }
+      ]
+    },
+    {
+      "id": "projects/madrid/13-4656f38d-e037-47da-8cb3-",
+      "category": "projects/madrid",
+      "source": "notion2:MADRID/4656F38D-E037-47DA-8CB3-21C956D2EE0C.png",
+      "original": {
+        "width": 1368,
+        "height": 1150,
+        "bytes": 3743451
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/madrid/13-4656f38d-e037-47da-8cb3--full.webp",
+          "width": 1368,
+          "height": 1150,
+          "bytes": 281888
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/madrid/13-4656f38d-e037-47da-8cb3--lg.webp",
+          "width": 1200,
+          "height": 1009,
+          "bytes": 217668
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/madrid/13-4656f38d-e037-47da-8cb3--md.webp",
+          "width": 900,
+          "height": 757,
+          "bytes": 134614
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/madrid/13-4656f38d-e037-47da-8cb3--thumb.webp",
+          "width": 480,
+          "height": 404,
+          "bytes": 40546
+        }
+      ]
+    },
+    {
+      "id": "projects/corse/01-faccca7ade20sud20ouest",
+      "category": "projects/corse",
+      "source": "notion2:CORSE/FacCCA7ade20Sud20Ouest.png",
+      "original": {
+        "width": 2048,
+        "height": 2048,
+        "bytes": 10210949
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/corse/01-faccca7ade20sud20ouest-full.webp",
+          "width": 2000,
+          "height": 2000,
+          "bytes": 749290
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/corse/01-faccca7ade20sud20ouest-lg.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 339004
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/corse/01-faccca7ade20sud20ouest-md.webp",
+          "width": 900,
+          "height": 900,
+          "bytes": 194154
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/corse/01-faccca7ade20sud20ouest-thumb.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 51876
+        }
+      ]
+    },
+    {
+      "id": "projects/corse/02-facade20nord20ouest",
+      "category": "projects/corse",
+      "source": "notion2:CORSE/Facade20Nord20Ouest.png",
+      "original": {
+        "width": 2048,
+        "height": 2048,
+        "bytes": 10526218
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/corse/02-facade20nord20ouest-full.webp",
+          "width": 2000,
+          "height": 2000,
+          "bytes": 723566
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/corse/02-facade20nord20ouest-lg.webp",
+          "width": 1200,
+          "height": 1200,
+          "bytes": 311054
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/corse/02-facade20nord20ouest-md.webp",
+          "width": 900,
+          "height": 900,
+          "bytes": 178968
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/corse/02-facade20nord20ouest-thumb.webp",
+          "width": 480,
+          "height": 480,
+          "bytes": 49854
+        }
+      ]
+    },
+    {
+      "id": "projects/corse/03-rendu20ultra-recc81alist",
+      "category": "projects/corse",
+      "source": "notion2:CORSE/Rendu20ultra-reCC81aliste20cuisine.png",
+      "original": {
+        "width": 2048,
+        "height": 1024,
+        "bytes": 4841723
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/corse/03-rendu20ultra-recc81alist-full.webp",
+          "width": 2000,
+          "height": 1000,
+          "bytes": 214726
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/corse/03-rendu20ultra-recc81alist-lg.webp",
+          "width": 1200,
+          "height": 600,
+          "bytes": 93392
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/corse/03-rendu20ultra-recc81alist-md.webp",
+          "width": 900,
+          "height": 450,
+          "bytes": 53900
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/corse/03-rendu20ultra-recc81alist-thumb.webp",
+          "width": 480,
+          "height": 240,
+          "bytes": 16278
+        }
+      ]
+    },
+    {
+      "id": "projects/corse/04-chambre20photorecc81alis",
+      "category": "projects/corse",
+      "source": "notion2:CORSE/Chambre20photoreCC81aliste-2.png",
+      "original": {
+        "width": 1840,
+        "height": 848,
+        "bytes": 3694924
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/corse/04-chambre20photorecc81alis-full.webp",
+          "width": 1840,
+          "height": 848,
+          "bytes": 144964
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/corse/04-chambre20photorecc81alis-lg.webp",
+          "width": 1200,
+          "height": 553,
+          "bytes": 57170
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/corse/04-chambre20photorecc81alis-md.webp",
+          "width": 900,
+          "height": 415,
+          "bytes": 28964
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/corse/04-chambre20photorecc81alis-thumb.webp",
+          "width": 480,
+          "height": 221,
+          "bytes": 8492
+        }
+      ]
+    },
+    {
+      "id": "projects/corse/05-sdb20etage",
+      "category": "projects/corse",
+      "source": "notion2:CORSE/SDB20ETAGE.png",
+      "original": {
+        "width": 1166,
+        "height": 1440,
+        "bytes": 3304198
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/corse/05-sdb20etage-full.webp",
+          "width": 1166,
+          "height": 1440,
+          "bytes": 103440
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/corse/05-sdb20etage-lg.webp",
+          "width": 1166,
+          "height": 1440,
+          "bytes": 93470
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/corse/05-sdb20etage-md.webp",
+          "width": 900,
+          "height": 1111,
+          "bytes": 56636
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/corse/05-sdb20etage-thumb.webp",
+          "width": 480,
+          "height": 593,
+          "bytes": 14976
+        }
+      ]
+    },
+    {
+      "id": "projects/corse/06-capture-decran-2026-10-0",
+      "category": "projects/corse",
+      "source": "notion2:CORSE/Capture_decran_2026-10-03_a_17.55.05.png",
+      "original": {
+        "width": 1746,
+        "height": 1440,
+        "bytes": 4710672
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/corse/06-capture-decran-2026-10-0-full.webp",
+          "width": 1746,
+          "height": 1440,
+          "bytes": 175760
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/corse/06-capture-decran-2026-10-0-lg.webp",
+          "width": 1200,
+          "height": 990,
+          "bytes": 97952
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/corse/06-capture-decran-2026-10-0-md.webp",
+          "width": 900,
+          "height": 742,
+          "bytes": 63974
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/corse/06-capture-decran-2026-10-0-thumb.webp",
+          "width": 480,
+          "height": 396,
+          "bytes": 22726
+        }
+      ]
+    },
+    {
+      "id": "projects/corse/07-capture-decran-2026-10-0",
+      "category": "projects/corse",
+      "source": "notion2:CORSE/Capture_decran_2026-10-03_a_17.55.19.png",
+      "original": {
+        "width": 888,
+        "height": 1426,
+        "bytes": 2229840
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/corse/07-capture-decran-2026-10-0-full.webp",
+          "width": 888,
+          "height": 1426,
+          "bytes": 77362
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/corse/07-capture-decran-2026-10-0-lg.webp",
+          "width": 888,
+          "height": 1426,
+          "bytes": 70120
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/corse/07-capture-decran-2026-10-0-md.webp",
+          "width": 888,
+          "height": 1426,
+          "bytes": 64452
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/corse/07-capture-decran-2026-10-0-thumb.webp",
+          "width": 480,
+          "height": 771,
+          "bytes": 25766
+        }
+      ]
+    },
+    {
+      "id": "projects/javea/01-image-chatgpt-3-oct-2026",
+      "category": "projects/javea",
+      "source": "notion2:JAVEA/Image_ChatGPT_3_oct._2026_a_22_45_28-4.png",
+      "original": {
+        "width": 1448,
+        "height": 1086,
+        "bytes": 4174798
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/javea/01-image-chatgpt-3-oct-2026-full.webp",
+          "width": 1448,
+          "height": 1086,
+          "bytes": 378266
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/javea/01-image-chatgpt-3-oct-2026-lg.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 260568
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/javea/01-image-chatgpt-3-oct-2026-md.webp",
+          "width": 900,
+          "height": 675,
+          "bytes": 153310
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/javea/01-image-chatgpt-3-oct-2026-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 41612
+        }
+      ]
+    },
+    {
+      "id": "projects/javea/02-image-chatgpt-3-oct-2026",
+      "category": "projects/javea",
+      "source": "notion2:JAVEA/Image_ChatGPT_3_oct._2026_a_22_45_38-10.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 4140028
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/javea/02-image-chatgpt-3-oct-2026-full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 423464
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/javea/02-image-chatgpt-3-oct-2026-lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 393174
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/javea/02-image-chatgpt-3-oct-2026-md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 269486
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/javea/02-image-chatgpt-3-oct-2026-thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 80694
+        }
+      ]
+    },
+    {
+      "id": "projects/javea/03-image-chatgpt-3-oct-2026",
+      "category": "projects/javea",
+      "source": "notion2:JAVEA/Image_ChatGPT_3_oct._2026_a_22_45_37-9.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 4233355
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/javea/03-image-chatgpt-3-oct-2026-full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 382740
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/javea/03-image-chatgpt-3-oct-2026-lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 348074
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/javea/03-image-chatgpt-3-oct-2026-md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 246882
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/javea/03-image-chatgpt-3-oct-2026-thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 73840
+        }
+      ]
+    },
+    {
+      "id": "projects/javea/04-image-chatgpt-3-oct-2026",
+      "category": "projects/javea",
+      "source": "notion2:JAVEA/Image_ChatGPT_3_oct._2026_a_22_45_35-8.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 4612990
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/javea/04-image-chatgpt-3-oct-2026-full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 521772
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/javea/04-image-chatgpt-3-oct-2026-lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 495172
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/javea/04-image-chatgpt-3-oct-2026-md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 365286
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/javea/04-image-chatgpt-3-oct-2026-thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 123298
+        }
+      ]
+    },
+    {
+      "id": "projects/javea/05-image-chatgpt-3-oct-2026",
+      "category": "projects/javea",
+      "source": "notion2:JAVEA/Image_ChatGPT_3_oct._2026_a_22_45_34-7.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3945384
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/javea/05-image-chatgpt-3-oct-2026-full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 336108
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/javea/05-image-chatgpt-3-oct-2026-lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 311330
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/javea/05-image-chatgpt-3-oct-2026-md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 219416
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/javea/05-image-chatgpt-3-oct-2026-thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 66308
+        }
+      ]
+    },
+    {
+      "id": "projects/javea/06-image-chatgpt-3-oct-2026",
+      "category": "projects/javea",
+      "source": "notion2:JAVEA/Image_ChatGPT_3_oct._2026_a_22_45_32-6.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3785147
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/javea/06-image-chatgpt-3-oct-2026-full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 236972
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/javea/06-image-chatgpt-3-oct-2026-lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 221156
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/javea/06-image-chatgpt-3-oct-2026-md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 151018
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/javea/06-image-chatgpt-3-oct-2026-thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 45812
+        }
+      ]
+    },
+    {
+      "id": "projects/javea/07-image-chatgpt-3-oct-2026",
+      "category": "projects/javea",
+      "source": "notion2:JAVEA/Image_ChatGPT_3_oct._2026_a_22_45_31-5.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 3800815
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/javea/07-image-chatgpt-3-oct-2026-full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 149156
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/javea/07-image-chatgpt-3-oct-2026-lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 134172
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/javea/07-image-chatgpt-3-oct-2026-md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 90798
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/javea/07-image-chatgpt-3-oct-2026-thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 26440
+        }
+      ]
+    },
+    {
+      "id": "projects/javea/08-image-chatgpt-3-oct-2026",
+      "category": "projects/javea",
+      "source": "notion2:JAVEA/Image_ChatGPT_3_oct._2026_a_22_45_28-4 1.png",
+      "original": {
+        "width": 1448,
+        "height": 1086,
+        "bytes": 4174798
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/javea/08-image-chatgpt-3-oct-2026-full.webp",
+          "width": 1448,
+          "height": 1086,
+          "bytes": 378266
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/javea/08-image-chatgpt-3-oct-2026-lg.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 260568
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/javea/08-image-chatgpt-3-oct-2026-md.webp",
+          "width": 900,
+          "height": 675,
+          "bytes": 153310
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/javea/08-image-chatgpt-3-oct-2026-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 41612
+        }
+      ]
+    },
+    {
+      "id": "projects/javea/09-image-chatgpt-3-oct-2026",
+      "category": "projects/javea",
+      "source": "notion2:JAVEA/Image_ChatGPT_3_oct._2026_a_22_45_27-3.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 4131301
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/javea/09-image-chatgpt-3-oct-2026-full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 454812
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/javea/09-image-chatgpt-3-oct-2026-lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 425216
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/javea/09-image-chatgpt-3-oct-2026-md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 291496
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/javea/09-image-chatgpt-3-oct-2026-thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 81960
+        }
+      ]
+    },
+    {
+      "id": "projects/javea/10-image-chatgpt-3-oct-2026",
+      "category": "projects/javea",
+      "source": "notion2:JAVEA/Image_ChatGPT_3_oct._2026_a_22_45_26-2.png",
+      "original": {
+        "width": 1448,
+        "height": 1086,
+        "bytes": 4160785
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/javea/10-image-chatgpt-3-oct-2026-full.webp",
+          "width": 1448,
+          "height": 1086,
+          "bytes": 371510
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/javea/10-image-chatgpt-3-oct-2026-lg.webp",
+          "width": 1200,
+          "height": 900,
+          "bytes": 255762
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/javea/10-image-chatgpt-3-oct-2026-md.webp",
+          "width": 900,
+          "height": 675,
+          "bytes": 150050
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/javea/10-image-chatgpt-3-oct-2026-thumb.webp",
+          "width": 480,
+          "height": 360,
+          "bytes": 41520
+        }
+      ]
+    },
+    {
+      "id": "projects/javea/11-image-chatgpt-3-oct-2026",
+      "category": "projects/javea",
+      "source": "notion2:JAVEA/Image_ChatGPT_3_oct._2026_a_22_45_24-1.png",
+      "original": {
+        "width": 1086,
+        "height": 1448,
+        "bytes": 4272255
+      },
+      "outputs": [
+        {
+          "variant": "full",
+          "path": "/assets/img/projects/javea/11-image-chatgpt-3-oct-2026-full.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 400542
+        },
+        {
+          "variant": "lg",
+          "path": "/assets/img/projects/javea/11-image-chatgpt-3-oct-2026-lg.webp",
+          "width": 1086,
+          "height": 1448,
+          "bytes": 374812
+        },
+        {
+          "variant": "md",
+          "path": "/assets/img/projects/javea/11-image-chatgpt-3-oct-2026-md.webp",
+          "width": 900,
+          "height": 1200,
+          "bytes": 266178
+        },
+        {
+          "variant": "thumb",
+          "path": "/assets/img/projects/javea/11-image-chatgpt-3-oct-2026-thumb.webp",
+          "width": 480,
+          "height": 640,
+          "bytes": 83452
         }
       ]
     }
