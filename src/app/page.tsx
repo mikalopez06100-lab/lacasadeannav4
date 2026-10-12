@@ -4,8 +4,6 @@ import { StudioIntro } from "@/components/home/StudioIntro";
 import { Approach } from "@/components/home/Approach";
 import { MaterialTransition } from "@/components/home/MaterialTransition";
 import { ProjectRail, type RailItem } from "@/components/home/ProjectRail";
-import { ProjectMarquee, type MarqueeItem } from "@/components/home/ProjectMarquee";
-import { VideoSection } from "@/components/home/VideoSection";
 import { Press } from "@/components/home/Press";
 import { Testimonials } from "@/components/home/Testimonials";
 import { Partners } from "@/components/home/Partners";
@@ -25,29 +23,6 @@ export default async function HomePage() {
     resolveImage("projects/home-veyrier-du-lac", { index: 12, variant: "full" }),
   ]);
 
-  // Réalisations qui défilent : couverture + quelques vues par projet (hors rideaux)
-  const marqueePicks: Record<string, number[]> = {
-    "chalet-vue-lac": [49, 22, 26],
-    "entre-lac-et-montagne": [12, 8, 2],
-    "alpe-d-huez": [0, 3, 6],
-    "comme-a-l-hotel": [0, 1],
-    "menthon-saint-bernard": [0, 3],
-  };
-  const marqueeItems: MarqueeItem[] = (
-    await Promise.all(
-      projects.flatMap((p) =>
-        (marqueePicks[p.slug] ?? []).map(async (index) => {
-          const image = await resolveImage(p.imageCategory, { index, variant: "md" });
-          return image ? { slug: p.slug, title: p.title, location: p.location, image } : null;
-        }),
-      ),
-    )
-  ).filter((item): item is MarqueeItem => item !== null);
-  // Alterne les projets pour que deux vues du même lieu ne se suivent pas
-  const marqueeOrder = marqueeItems
-    .map((item, i) => ({ item, rank: marqueeItems.slice(0, i).filter((x) => x.slug === item.slug).length }))
-    .sort((a, b) => a.rank - b.rank)
-    .map(({ item }) => item);
 
   const railItems: RailItem[] = await Promise.all(
     projects.map(async (p) => ({
@@ -96,7 +71,7 @@ export default async function HomePage() {
       </section>
 
       {/* 02 — Manifeste */}
-      <section className="container-x flex min-h-[80vh] flex-col items-center justify-center py-32 text-center">
+      <section className="container-x flex min-h-[60vh] flex-col items-center justify-center py-20 md:py-24 text-center">
         <TextReveal
           as="p"
           className="display-tagline"
@@ -115,8 +90,8 @@ export default async function HomePage() {
         </p>
       </section>
 
-      {/* 03 — Réalisations qui défilent (remplace la transition « rideau », brief v2) */}
-      <ProjectMarquee items={marqueeOrder} />
+      {/* 03 — Nos réalisations : carrousel compact (retour client v3) */}
+      <ProjectRail items={railItems} />
 
       {/* 04 — Studio */}
       <StudioIntro image={teamImage} />
@@ -128,16 +103,6 @@ export default async function HomePage() {
       {materialChene && (
         <MaterialTransition src={materialChene.src} alt="Chêne massif — mobilier sur mesure" />
       )}
-
-      {/* 07 — Projets */}
-      <ProjectRail items={railItems} />
-
-      {/* 08 — Vidéo Notion */}
-      <VideoSection
-        src="/assets/video/natalia-studio.mp4"
-        poster="/assets/img/video-poster.jpg"
-        alt="Présentation du studio La Casa de Anna — Natalia"
-      />
 
       {/* 09 — Presse feuilletable */}
       <Press />

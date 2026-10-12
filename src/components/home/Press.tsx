@@ -52,7 +52,7 @@ export function Press() {
   }, [open, close, go]);
 
   return (
-    <section className="container-x py-20 md:py-28">
+    <section className="container-x py-14 md:py-20">
       <ScrollReveal className="mx-auto grid max-w-5xl items-center gap-10 sm:grid-cols-[auto_1fr] md:gap-16">
         <button
           ref={triggerRef}
@@ -81,7 +81,7 @@ export function Press() {
 
         <div className="text-center sm:text-left">
           <p className="label text-lin">Presse · {press.outlet}</p>
-          <blockquote className="mt-5 font-display text-2xl font-light italic leading-snug md:text-3xl">
+          <blockquote className="mt-5 font-display text-xl font-light italic leading-snug md:text-2xl">
             «&nbsp;{press.quote}&nbsp;»
           </blockquote>
           <cite className="label mt-6 block not-italic text-lin">

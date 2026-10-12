@@ -11,7 +11,7 @@ import { ScrollReveal } from "@/components/animations/ScrollReveal";
 function MarqueeRow({ reverse, duration }: { reverse?: boolean; duration: string }) {
   const items = partnerBrands.map((brand, i) => (
     <span key={i} className="flex items-center">
-      <span className="font-display text-2xl text-ink/70 md:text-4xl">{brand}</span>
+      <span className="font-display text-xl text-ink/70 md:text-3xl">{brand}</span>
       <span className="mx-7 text-terre md:mx-10" aria-hidden="true">
         ✦
       </span>
@@ -35,7 +35,7 @@ export function Partners() {
   const maison = sites.maison;
 
   return (
-    <section className="bg-sand py-24 md:py-32">
+    <section className="bg-sand py-16 md:py-24">
       <div className="container-x">
         <ScrollReveal>
           <p className="label text-lin">Marques partenaires</p>
@@ -66,7 +66,7 @@ export function Partners() {
             className="group inline-flex flex-wrap items-baseline gap-x-3 gap-y-1"
           >
             <span
-              className="font-display text-2xl italic md:text-3xl"
+              className="font-display text-xl italic md:text-2xl"
              
             >
               Le catalogue mobilier sur La Casa de Anna · Maison

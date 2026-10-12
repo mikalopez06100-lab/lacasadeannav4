@@ -67,7 +67,7 @@ export default async function ProjectPage({
         dangerouslySetInnerHTML={{ __html: jsonLd(schema) }}
       />
 
-      <header className="container-x pb-12 pt-36 md:pt-48">
+      <header className="container-x pb-10 pt-28 md:pt-36">
         <p className="label text-lin">
           {project.type} · {project.location} · {project.year}
         </p>
@@ -88,7 +88,7 @@ export default async function ProjectPage({
       )}
 
       {/* Contexte (300-500 mots — SEO) */}
-      <section className="container-x py-20 md:py-28">
+      <section className="container-x py-14 md:py-20">
         <div className="mx-auto max-w-prose space-y-6 text-lg leading-relaxed">
           {project.body.map((p, idx) => (
             <p key={idx}>{p}</p>
@@ -113,7 +113,7 @@ export default async function ProjectPage({
       </section>
 
       {/* Matières utilisées */}
-      <section className="container-x py-20 md:py-28">
+      <section className="container-x py-14 md:py-20">
         <p className="label text-lin">Matières utilisées</p>
         <ul className="mt-8 grid gap-x-12 gap-y-4 sm:grid-cols-2 md:grid-cols-3">
           {project.materials.map((m) => (
@@ -127,10 +127,10 @@ export default async function ProjectPage({
 
       {/* Témoignage client */}
       {project.testimonial && (
-        <section data-cursor-dark className="bg-ink py-24 text-center text-cream md:py-28">
+        <section data-cursor-dark className="bg-ink py-16 text-center text-cream md:py-20">
           <div className="container-x">
             <blockquote
-              className="mx-auto max-w-4xl font-display text-3xl italic leading-snug md:text-4xl"
+              className="mx-auto max-w-4xl font-display text-2xl italic leading-snug md:text-3xl"
              
             >
               «&nbsp;{project.testimonial.quote}&nbsp;»

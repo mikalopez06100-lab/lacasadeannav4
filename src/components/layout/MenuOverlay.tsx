@@ -68,7 +68,7 @@ export function MenuOverlay({
             <Link
               href={item.href}
               onClick={onClose}
-              className="menu-link block font-display text-5xl italic text-cream transition-colors duration-200 hover:text-terre md:text-7xl"
+              className="menu-link block font-display text-4xl italic text-cream transition-colors duration-200 hover:text-terre md:text-6xl"
              
             >
               {item.label}

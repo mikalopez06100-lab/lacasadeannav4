@@ -21,7 +21,7 @@ export function Testimonials() {
 
         <blockquote
           key={index}
-          className="mx-auto mt-10 max-w-4xl font-display text-3xl italic leading-snug md:text-5xl"
+          className="mx-auto mt-10 max-w-4xl font-display text-2xl italic leading-snug md:text-4xl"
          
         >
           «&nbsp;{current.quote}&nbsp;»

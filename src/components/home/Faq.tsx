@@ -8,7 +8,7 @@ import { faq } from "@/content/faq";
  */
 export function Faq() {
   return (
-    <section className="container-x py-24 md:py-32">
+    <section className="container-x py-16 md:py-24">
       <div className="grid gap-12 md:grid-cols-[1fr_2fr] md:gap-20">
         <div>
           <p className="label text-lin">Questions fréquentes</p>

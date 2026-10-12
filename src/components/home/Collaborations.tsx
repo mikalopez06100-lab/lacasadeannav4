@@ -12,7 +12,7 @@ export function Collaborations() {
   const maison = sites.maison;
 
   return (
-    <section className="py-24 md:py-32">
+    <section className="py-16 md:py-24">
       <div className="container-x">
         <ScrollReveal className="grid gap-8 md:grid-cols-[1.1fr_1fr] md:items-end">
           <div>

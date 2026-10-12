@@ -18,10 +18,10 @@ const gallery = [
   },
 ] as const;
 
-/** Showroom Bluffy + collègues du bureau (debrief client). */
+/** Showroom Bluffy (les partenaires du bureau sont dans la section Collaborations). */
 export function Showroom() {
   return (
-    <section id="showroom" className="bg-sand py-24 md:py-32">
+    <section id="showroom" className="bg-sand py-16 md:py-24">
       <div className="container-x grid items-center gap-12 md:grid-cols-2 md:gap-16">
         <ScrollReveal className="relative aspect-[4/3] overflow-hidden bg-cream">
           <Image
@@ -54,28 +54,6 @@ export function Showroom() {
             Prendre rendez-vous
           </Link>
 
-          <div className="mt-12 border-t border-ink/10 pt-8">
-            <p className="label text-lin">Nos collègues du bureau</p>
-            <div className="mt-4 flex flex-wrap gap-x-10 gap-y-3">
-              <a
-                href="https://www.ncdesignstudio.fr/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-display text-2xl transition-colors hover:text-terre"
-              >
-                Dream Design Build
-              </a>
-              <a
-                href="https://www.ncdesignstudio.fr/"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-display text-2xl transition-colors hover:text-terre"
-                title="Aménagements extérieurs & paysagers"
-              >
-                Arbolya
-              </a>
-            </div>
-          </div>
         </ScrollReveal>
       </div>
 

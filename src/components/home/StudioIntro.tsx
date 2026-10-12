@@ -10,7 +10,7 @@ export function StudioIntro({
   image: { src: string; width: number; height: number } | null;
 }) {
   return (
-    <section className="container-x grid items-center gap-12 py-24 md:grid-cols-2 md:gap-20 md:py-32">
+    <section className="container-x grid items-center gap-12 py-16 md:grid-cols-2 md:gap-20 md:py-24">
       <ScrollReveal>
         <p className="label text-lin">{studioIntro.label}</p>
         <h2 className="display-h2 mt-4">

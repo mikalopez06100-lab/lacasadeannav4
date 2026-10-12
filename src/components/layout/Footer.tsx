@@ -12,7 +12,7 @@ export function Footer() {
     <footer className="bg-sand text-ink">
       <div className="container-x pb-28 pt-20 md:pb-32 md:pt-28">
         <p
-          className="font-display text-[clamp(3rem,11vw,7.5rem)] italic leading-none"
+          className="font-display text-[clamp(2.25rem,6vw,4.5rem)] italic leading-none"
          
         >
           La Casa de Anna

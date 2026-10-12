@@ -15,10 +15,10 @@
     --terre: #7d724b;
     --lin: #6e675c;
 
-    /* Échelle de titres fluide (clamp) — desktop/mobile sans media queries */
-    --h1: clamp(2.75rem, 6vw + 1rem, 6rem); /* 44 → 96px */
-    --tagline: clamp(2.75rem, 8vw, 7.5rem); /* 44 → 120px */
-    --h2: clamp(2rem, 4vw + 0.5rem, 4rem); /* 32 → 64px */
+    /* Échelle de titres fluide — alignée sur dreamdesignbuild.fr (retour client v3) */
+    --h1: clamp(2.25rem, 3.5vw + 1rem, 4.5rem); /* 36 → 72px */
+    --tagline: clamp(2.25rem, 3.5vw + 1rem, 4.5rem); /* 36 → 72px */
+    --h2: clamp(1.75rem, 2.2vw + 0.9rem, 3rem); /* 28 → 48px */
 
     color-scheme: light;
   }
@@ -40,7 +40,7 @@
     background-color: var(--cream);
     color: var(--ink);
     font-family: var(--font-body), system-ui, sans-serif;
-    font-size: clamp(1.0625rem, 0.4vw + 1rem, 1.125rem); /* 17 → 18px */
+    font-size: 1rem; /* 16px, comme le site de référence */
     line-height: 1.65;
     font-feature-settings: "kern", "liga";
   }
@@ -119,16 +119,20 @@
   .label {
     font-family: var(--font-body), system-ui, sans-serif;
     font-weight: 500;
-    font-size: 0.8125rem;
-    letter-spacing: 0.08em;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     line-height: 1.2;
   }
 
   /* Conteneur de gutters cohérent */
   .container-x {
-    padding-left: clamp(1.25rem, 5vw, 4rem);
-    padding-right: clamp(1.25rem, 5vw, 4rem);
+    width: 100%;
+    max-width: 80rem; /* 1280px — contenu centré, comme le site de référence */
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: clamp(1.25rem, 4vw, 3rem);
+    padding-right: clamp(1.25rem, 4vw, 3rem);
   }
 
   /* Masque de révélation ligne par ligne (TextReveal) */
@@ -164,55 +168,6 @@
   }
   .marquee-track.is-reverse {
     animation-direction: reverse;
-  }
-}
-
-/* ============================================================
-   Réalisations qui défilent (home, sous le manifeste)
-   ============================================================ */
-.project-marquee {
-  overflow: hidden;
-}
-.project-marquee-track {
-  display: flex;
-  gap: 1rem;
-  width: max-content;
-  height: clamp(300px, 58vh, 620px);
-  will-change: transform;
-  animation: lcda-marquee var(--marquee-duration, 45s) linear infinite;
-}
-.project-marquee:hover .project-marquee-track,
-.project-marquee:focus-within .project-marquee-track {
-  animation-play-state: paused;
-}
-.project-marquee-card {
-  position: relative;
-  display: block;
-  height: 100%;
-  flex-shrink: 0;
-  overflow: hidden;
-  background: var(--sand);
-}
-.project-marquee-cap {
-  position: absolute;
-  inset: auto 0 0 0;
-  padding: 3rem 1.25rem 1.1rem;
-  color: #fff;
-  background: linear-gradient(to top, rgba(12, 10, 8, 0.6), transparent);
-}
-@media (max-width: 767px) {
-  .project-marquee-track {
-    height: 52vh;
-    max-height: 420px;
-    gap: 0.75rem;
-  }
-}
-@media (prefers-reduced-motion: reduce) {
-  .project-marquee {
-    overflow-x: auto;
-  }
-  .project-marquee-track {
-    animation: none !important;
   }
 }
 
@@ -291,6 +246,37 @@
     clip: rect(0 0 0 0);
     white-space: nowrap;
   }
+}
+
+/* ============================================================
+   « Nos réalisations » — carrousel compact (home)
+   ============================================================ */
+.rail-track {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(12, 10, 8, 0.25) transparent;
+}
+.rail-track::-webkit-scrollbar {
+  height: 6px;
+}
+.rail-track::-webkit-scrollbar-thumb {
+  background: rgba(12, 10, 8, 0.25);
+}
+.rail-arrow {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 1px solid var(--ink);
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s, opacity 0.2s;
+}
+.rail-arrow:hover:not(:disabled) {
+  background: var(--ink);
+  color: #fff;
+}
+.rail-arrow:disabled {
+  opacity: 0.3;
 }
 
 @keyframes lcda-marquee {

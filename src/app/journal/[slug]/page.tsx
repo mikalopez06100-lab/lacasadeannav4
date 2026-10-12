@@ -66,7 +66,7 @@ export default async function ArticlePage({ params }: { params: { slug: string }
         dangerouslySetInnerHTML={{ __html: jsonLd(schema) }}
       />
 
-      <header className="container-x pb-12 pt-36 md:pt-48">
+      <header className="container-x pb-10 pt-28 md:pt-36">
         <div className="flex items-center gap-3">
           <span className="label text-terre">{article.category}</span>
           <span className="label text-lin">{dateFmt.format(new Date(article.date))}</span>

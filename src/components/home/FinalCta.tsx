@@ -4,7 +4,7 @@ import { ScrollReveal } from "@/components/animations/ScrollReveal";
 /** CTA final (brief §7 section 12) — « Votre projet commence ici ». */
 export function FinalCta() {
   return (
-    <section className="container-x py-28 text-center md:py-40">
+    <section className="container-x py-20 text-center md:py-28">
       <ScrollReveal>
         <p
           className="display-tagline"

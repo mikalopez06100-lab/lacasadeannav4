@@ -9,7 +9,7 @@ export function PageHeader({
   intro?: string;
 }) {
   return (
-    <header className="container-x pb-16 pt-36 md:pb-24 md:pt-48">
+    <header className="container-x pb-12 pt-28 md:pb-16 md:pt-36">
       <p className="label text-lin">{label}</p>
       <h1 className="display-h1 mt-4">{title}</h1>
       {intro && <p className="mt-8 max-w-prose text-lin">{intro}</p>}

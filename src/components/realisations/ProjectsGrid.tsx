@@ -71,7 +71,7 @@ export function ProjectsGrid({ items }: { items: GridItem[] }) {
                 />
               )}
               <div className="project-tile-over" aria-hidden="true">
-                <span className="font-display text-xl font-semibold uppercase tracking-[0.06em] md:text-2xl">
+                <span className="font-display text-lg font-semibold uppercase tracking-[0.06em] md:text-xl">
                   {p.title}
                 </span>
                 <span className="label mt-2 text-terre">{p.location}</span>
