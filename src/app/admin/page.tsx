@@ -18,7 +18,7 @@ export default async function AdminHome() {
   const counts = await Promise.all(SECTIONS.map(async (s) => (await listEntries(s.kind)).entries.length));
   const checks = [
     { ok: hasDatabase(), label: "Base de données (Neon)" },
-    { ok: Boolean(process.env.BLOB_READ_WRITE_TOKEN), label: "Stockage des photos (Vercel Blob)" },
+    { ok: Boolean(process.env.BLOB_STORE_ID || process.env.BLOB_READ_WRITE_TOKEN), label: "Stockage des photos (Vercel Blob)" },
     { ok: Boolean(process.env.BREVO_API_KEY), label: "Envoi d'e-mails (Brevo)" },
   ];
 

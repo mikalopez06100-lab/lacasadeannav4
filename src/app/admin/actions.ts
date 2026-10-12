@@ -3,7 +3,7 @@
 import { revalidatePath, revalidateTag } from "next/cache";
 import { headers } from "next/headers";
 import { redirect } from "next/navigation";
-import { logout, requestLoginLink, requireAdmin } from "@/lib/auth";
+import { loginWithPassword, logout, requestLoginLink, requireAdmin } from "@/lib/auth";
 import {
   deleteEntry,
   reorderEntries,
@@ -30,6 +30,12 @@ export async function requestLoginAction(_prev: LoginState, form: FormData): Pro
   const res = await requestLoginLink(email, origin);
   if (!res.ok) return { status: "error", message: res.error };
   return { status: "sent", devLink: res.devLink };
+}
+
+export async function passwordLoginAction(_prev: LoginState, form: FormData): Promise<LoginState> {
+  const error = await loginWithPassword(String(form.get("email") ?? ""), String(form.get("password") ?? ""));
+  if (error) return { status: "error", message: error };
+  redirect("/admin");
 }
 
 export async function logoutAction() {

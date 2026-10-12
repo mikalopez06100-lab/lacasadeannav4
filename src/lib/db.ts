@@ -43,6 +43,11 @@ async function ensureSchema(sql: NeonQueryFunction<false, false>) {
       primary key (kind, id)
     )`;
   await sql`
+    create table if not exists admin_login_attempts (
+      email text not null,
+      at timestamptz not null default now()
+    )`;
+  await sql`
     create table if not exists admin_login_tokens (
       token_hash text primary key,
       email text not null,

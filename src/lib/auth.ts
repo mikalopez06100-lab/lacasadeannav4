@@ -1,7 +1,7 @@
 import "server-only";
 import { cookies } from "next/headers";
 import { redirect } from "next/navigation";
-import { createHash, randomBytes } from "node:crypto";
+import { createHash, randomBytes, timingSafeEqual } from "node:crypto";
 import { getSql } from "@/lib/db";
 import { site } from "@/content/site";
 import { adminEmails, SESSION_COOKIE, SESSION_DAYS, signSession, verifySession } from "@/lib/session";
@@ -78,6 +78,56 @@ export async function requestLoginLink(rawEmail: string, origin: string): Promis
   return { ok: true };
 }
 
+/* ------------------------------------------------------------------ */
+/* Connexion par mot de passe (alternative tant que l'envoi d'e-mails n'est pas prêt) */
+/* ------------------------------------------------------------------ */
+
+const MAX_ATTEMPTS = 5;
+const LOCK_MINUTES = 15;
+
+export const passwordLoginEnabled = () => Boolean(process.env.ADMIN_PASSWORD);
+export const magicLinkEnabled = () => Boolean(process.env.BREVO_API_KEY) || process.env.NODE_ENV !== "production";
+
+/**
+ * Mot de passe partagé (variable ADMIN_PASSWORD, chiffrée dans Vercel), valable pour
+ * les seules adresses de ADMIN_EMAILS. 5 essais ratés par adresse → blocage 15 min.
+ */
+export async function loginWithPassword(rawEmail: string, password: string): Promise<string | null> {
+  const expected = process.env.ADMIN_PASSWORD;
+  const email = rawEmail.trim().toLowerCase();
+  if (!expected) return "La connexion par mot de passe n'est pas activée.";
+  const sql = await getSql();
+  if (!sql) return "La base de données n'est pas encore configurée.";
+
+  const [{ fails }] = (await sql`
+    select count(*)::int as fails from admin_login_attempts
+    where email = ${email} and at > now() - make_interval(mins => ${LOCK_MINUTES})`) as { fails: number }[];
+  if (fails >= MAX_ATTEMPTS) {
+    return `Trop d'essais. Réessayez dans ${LOCK_MINUTES} minutes.`;
+  }
+
+  const digest = (s: string) => createHash("sha256").update(s).digest();
+  const ok = adminEmails().includes(email) && timingSafeEqual(digest(password), digest(expected));
+  if (!ok) {
+    await sql`insert into admin_login_attempts (email) values (${email})`;
+    return "Adresse ou mot de passe incorrect.";
+  }
+
+  await sql`delete from admin_login_attempts where email = ${email} or at < now() - interval '1 day'`;
+  await openSession(email);
+  return null;
+}
+
+async function openSession(email: string) {
+  cookies().set(SESSION_COOKIE, await signSession(email), {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "lax",
+    path: "/",
+    maxAge: SESSION_DAYS * 86400,
+  });
+}
+
 /** Vérifie un jeton de lien magique (usage unique) et ouvre la session. */
 export async function consumeLoginToken(token: string): Promise<boolean> {
   const sql = await getSql();
@@ -88,13 +138,7 @@ export async function consumeLoginToken(token: string): Promise<boolean> {
     returning email`) as { email: string }[];
   const email = rows[0]?.email;
   if (!email || !adminEmails().includes(email)) return false;
-  cookies().set(SESSION_COOKIE, await signSession(email), {
-    httpOnly: true,
-    secure: process.env.NODE_ENV === "production",
-    sameSite: "lax",
-    path: "/",
-    maxAge: SESSION_DAYS * 86400,
-  });
+  await openSession(email);
   return true;
 }
 
