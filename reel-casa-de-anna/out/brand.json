@@ -1,0 +1,23 @@
+{
+  "source": "https://lacasadeanna.com (relevé Playwright getComputedStyle, 24/11/2026) + dépôt lacasadeannav4",
+  "fonts": {
+    "titres": { "family": "Josefin Sans", "weights": [300, 400, 600], "usage": "h1/h2 en 600, letter-spacing -0.035em", "origine": "Google Fonts (self-hosted via next/font)", "fichiers": "assets/fonts/josefin-sans-latin-*.woff2 (@fontsource 5.3.0)" },
+    "corps": { "family": "Inter", "weights": "100-900 (variable)", "usage": "texte 16px ; labels 12px 500 uppercase letter-spacing 0.1em", "origine": "Google Fonts (self-hosted via next/font)", "fichiers": "assets/fonts/inter-latin-wght-normal.woff2 (@fontsource-variable 5.3.0)" }
+  },
+  "colors": {
+    "fond": "#ffffff",
+    "sable": "#e6e0d3",
+    "encre": "#0c0a08",
+    "accent_titres": "#7d724b",
+    "cta": "#5c3a1e",
+    "texte_secondaire": "#94897a",
+    "texte_sur_photo": "#efebe3"
+  },
+  "colors_notes": "Deux palettes coexistent dans le code : les variables CSS (:root) donnent fond #fff, sable #f4f1ea, terre #7d724b, lin #6e675c ; les classes Tailwind compilent sable #e6e0d3, terre #5c3a1e, lin #94897a, crème #efebe3. Le rendu réel mélange les deux (ex. italiques d'accent en #7d724b, bouton CTA en #5c3a1e).",
+  "logo": {
+    "noir": "assets/logo/logo-black.png",
+    "beige": "assets/logo/logo-beige.png",
+    "blanc": "assets/logo/logo-white.webp",
+    "pictogramme": "assets/logo/pictogram-black.png"
+  }
+}

@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8"><title>Cover reel</title>
+<!-- Couverture 1080×1920. Tout l'essentiel tient dans la zone 4:5 de la grille (y 285 → 1635). -->
+<style>
+@font-face { font-family: "Josefin Sans"; font-weight: 600; src: url(../assets/fonts/josefin-sans-latin-600-normal.woff2) format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 100 900; src: url(../assets/fonts/inter-latin-wght-normal.woff2) format("woff2"); }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 1080px; height: 1920px; background: #fff; position: relative; overflow: hidden; font-family: Inter; }
+.band { position: absolute; left: 0; top: 285px; width: 1080px; height: 1350px; overflow: hidden; }
+.band img.ph { width: 100%; height: 100%; object-fit: cover; object-position: 50% 50%; }
+.shade { position: absolute; left: 0; right: 0; bottom: 0; height: 55%; background: linear-gradient(to bottom, rgba(12,10,8,0), rgba(12,10,8,0.62)); }
+.top { position: absolute; left: 0; right: 0; top: 0; height: 25%; background: linear-gradient(to top, rgba(12,10,8,0), rgba(12,10,8,0.35)); }
+.logo { position: absolute; top: 70px; left: 50%; width: 250px; transform: translateX(-50%); }
+h1 { position: absolute; left: 80px; right: 80px; bottom: 150px; text-align: center; font-family: "Josefin Sans"; font-weight: 600; font-size: 112px; line-height: 1.04; letter-spacing: -0.035em; color: #efebe3; }
+.url { position: absolute; left: 0; right: 0; bottom: 78px; text-align: center; font-weight: 500; font-size: 26px; letter-spacing: 0.18em; text-transform: uppercase; color: rgba(239,235,227,0.85); }
+</style></head>
+<body>
+<div class="band"><img class="ph" src="../assets/photos/cover-chalet-vue-lac.webp"><div class="top"></div><div class="shade"></div>
+<img class="logo" src="../assets/logo/logo-white.webp"><h1>Notre nouveau site est en ligne</h1><div class="url">lacasadeanna.com</div></div>
+</body></html>

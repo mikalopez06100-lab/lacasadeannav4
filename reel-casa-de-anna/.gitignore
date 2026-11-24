@@ -1,0 +1,7 @@
+# Régénérables via capture/*.cjs et capture/prepare.py (trop lourds pour le dépôt)
+render/frames-*/
+assets/site/*.png
+!assets/site/screen-*.png
+!assets/site/bottom-nav.png
+assets/photos/
+audio/*

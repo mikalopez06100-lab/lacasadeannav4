@@ -1,0 +1,133 @@
+{
+  "body": {
+    "sel": "body",
+    "fontFamily": "__Inter_d8ebd1, __Inter_Fallback_d8ebd1, system-ui, sans-serif",
+    "fontWeight": "400",
+    "fontSize": "16px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(12, 10, 8)",
+    "bg": "rgb(255, 255, 255)",
+    "text": "[{\"@context\":\"https://schema.org\",\"@type\":\"InteriorDesigner\",\"name\":\"La Casa de "
+  },
+  "h1": {
+    "sel": "h1",
+    "fontFamily": "__Josefin_Sans_24e676, __Josefin_Sans_Fallback_24e676, system-ui, sans-serif",
+    "fontWeight": "600",
+    "fontSize": "66.4px",
+    "letterSpacing": "-2.324px",
+    "textTransform": "none",
+    "color": "rgb(239, 235, 227)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "text": "Des intérieursqui racontent une vie."
+  },
+  "h2": {
+    "sel": "h2",
+    "fontFamily": "__Josefin_Sans_24e676, __Josefin_Sans_Fallback_24e676, system-ui, sans-serif",
+    "fontWeight": "600",
+    "fontSize": "46.08px",
+    "letterSpacing": "-1.3824px",
+    "textTransform": "none",
+    "color": "rgb(12, 10, 8)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "text": "Nos réalisations"
+  },
+  "p": {
+    "sel": "main p",
+    "fontFamily": "__Inter_d8ebd1, __Inter_Fallback_d8ebd1, system-ui, sans-serif",
+    "fontWeight": "500",
+    "fontSize": "12px",
+    "letterSpacing": "1.2px",
+    "textTransform": "uppercase",
+    "color": "rgba(238, 234, 226, 0.8)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "text": "Studio de design d'intérieur"
+  },
+  "a": {
+    "sel": "main a",
+    "fontFamily": "__Inter_d8ebd1, __Inter_Fallback_d8ebd1, system-ui, sans-serif",
+    "fontWeight": "500",
+    "fontSize": "12px",
+    "letterSpacing": "1.2px",
+    "textTransform": "uppercase",
+    "color": "rgb(92, 58, 30)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "text": "Voir tout →"
+  },
+  "button": {
+    "sel": "main a[href*=\"contact\"]",
+    "fontFamily": "__Inter_d8ebd1, __Inter_Fallback_d8ebd1, system-ui, sans-serif",
+    "fontWeight": "500",
+    "fontSize": "12px",
+    "letterSpacing": "1.2px",
+    "textTransform": "uppercase",
+    "color": "rgb(239, 235, 227)",
+    "bg": "rgb(92, 58, 30)",
+    "text": "Prendre rendez-vous"
+  },
+  "header": {
+    "sel": "header",
+    "fontFamily": "__Inter_d8ebd1, __Inter_Fallback_d8ebd1, system-ui, sans-serif",
+    "fontWeight": "400",
+    "fontSize": "16px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(12, 10, 8)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "text": ""
+  },
+  "footer": {
+    "sel": "footer",
+    "fontFamily": "__Inter_d8ebd1, __Inter_Fallback_d8ebd1, system-ui, sans-serif",
+    "fontWeight": "400",
+    "fontSize": "16px",
+    "letterSpacing": "normal",
+    "textTransform": "none",
+    "color": "rgb(12, 10, 8)",
+    "bg": "rgb(230, 224, 211)",
+    "text": "La Casa de AnnaLa Casa de Anna · Maison — mobilier· BientôtBureau & showroom20 c"
+  },
+  "em": {
+    "sel": "h1 em, h1 i, h1 .accent-italic, .accent-italic",
+    "fontFamily": "__Josefin_Sans_24e676, __Josefin_Sans_Fallback_24e676, system-ui, sans-serif",
+    "fontWeight": "600",
+    "fontSize": "66.4px",
+    "letterSpacing": "-2.324px",
+    "textTransform": "none",
+    "color": "rgb(239, 235, 227)",
+    "bg": "rgba(0, 0, 0, 0)",
+    "text": "racontent une vie"
+  },
+  "rootVars": {
+    "--cream": "#fff",
+    "--ink": "#0c0a08",
+    "--sand": "#f4f1ea",
+    "--terre": "#7d724b",
+    "--lin": "#6e675c",
+    "--h1": "clamp(2.25rem,3.5vw + 1rem,4.5rem)",
+    "--tagline": "clamp(2.25rem,3.5vw + 1rem,4.5rem)",
+    "--h2": "clamp(1.75rem,2.2vw + 0.9rem,3rem)"
+  },
+  "fontFaces": [
+    "__Josefin_Sans_24e676 300 italic unloaded",
+    "__Josefin_Sans_24e676 300 italic loaded",
+    "__Josefin_Sans_24e676 400 italic unloaded",
+    "__Josefin_Sans_24e676 400 italic loaded",
+    "__Josefin_Sans_24e676 600 italic unloaded",
+    "__Josefin_Sans_24e676 700 italic unloaded",
+    "__Josefin_Sans_24e676 300 normal unloaded",
+    "__Josefin_Sans_24e676 400 normal unloaded",
+    "__Josefin_Sans_24e676 400 normal loaded",
+    "__Josefin_Sans_24e676 600 normal unloaded",
+    "__Josefin_Sans_24e676 600 normal loaded",
+    "__Josefin_Sans_24e676 700 normal unloaded",
+    "__Josefin_Sans_Fallback_24e676 normal normal error",
+    "__Inter_d8ebd1 100 900 normal unloaded",
+    "__Inter_d8ebd1 100 900 normal loaded",
+    "__Inter_Fallback_d8ebd1 normal normal error"
+  ],
+  "logos": [
+    "https://lacasadeanna.com/_next/image?url=%2Fassets%2Fbrand%2Flogo-white.webp&w=1080&q=75&dpl=dpl_Bp4ReKnWQGBUuswxtW35S9Fmusrr"
+  ],
+  "metaDescription": "Studio de design d'intérieur sur mesure fondé par Natalia Vastel et Coline Rouvière. Consultation, conception, clé-en-main, mobilier sur mesure et rideaux confectionnés. Ancré à Veyrier-du-Lac, au bord du lac d'Annecy — projets partout en France et à l'international."
+}
