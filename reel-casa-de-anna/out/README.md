@@ -49,3 +49,22 @@ node render/render.cjs subs 3 && node render/render.cjs muet 3 && node render/co
 ffmpeg -framerate 30 -i render/frames-subs/f%05d.png -c:v libx264 -preset veryfast -crf 18 -pix_fmt yuv420p -movflags +faststart out/reel-casa-de-anna.mp4
 ```
 Aperçu d'un instant : ouvrir `scenes/reel.html?t=12.5` (ou `&subs=0`).
+
+## Changements v2
+
+Fichiers : `reel-casa-de-anna-v2.mp4` (50,0 s, 13,3 Mo), `reel-muet-v2.mp4` (12,2 Mo), `sous-titres-v2.srt`, `controles-v2/`.
+La v1 est intacte (`reel.html`, `timings.json`, fichiers sans suffixe). Sources v2 : `scenes/reel-v2.html`, `build_timings_v2.py` → `timings-v2.json`. Couverture inchangée.
+
+- **Scènes 1 à 5** : inchangées (code identique à la v1).
+- **S6 (28–33 s)** : photos et défilé des marques conservés. Dans la dernière seconde, fondu vers le logo La Casa de Anna, « lacasadeanna.com » et « Lien en bio ». L'ancien écran de fin et la ligne de crédit sont supprimés.
+- **S7 (33–43 s)** : le fond passe du beige au crème #F0EDE8 en 0,6 s. L'iPhone (accueil La Casa de Anna) est à gauche, relié au logo MasterPrompt par un trait or tracé de gauche à droite, avec le texte « Site conçu avec MasterPrompt ». L'iPhone glisse ensuite au centre, l'écran passe à la page formation, qui défile, avec le texte « L'IA pour les indépendants ».
+- **S8 (43–50 s)** : fond navy, logo, « Formation IA gratuite », « pour indépendants, zéro jargon », bouton or « Commentez IA » avec une bulle (2 pulsations sans rebond), ligne DM Mono. Image totalement immobile pendant les **3,6 dernières secondes** (mesuré image par image).
+- **Sous-titres S7–S8** : même style, fond navy semi-transparent, mot actif en or. Sur S1–S6, aucun élément MasterPrompt (vérifié).
+
+### Écarts v2 (à lire)
+1. **Durée de S7 et S8** : le brief prévoit 6 s chacune, mais la phrase 7 fait ~30 mots, soit 5 mots/s (illisible en sous-titres, intenable à l'oral). S7 dure donc 10 s et S8 7 s. Total **50 s**, à la limite haute de la fourchette 40–50 s. Pour revenir à ~45 s, il faut raccourcir la phrase 7.
+2. **Logo** : le fichier du brief (`C:\Users\ppmpc\…\logo.png`) est sur ton PC et inaccessible d'ici. J'ai pris `https://www.masterprompt.fr/logo.png` (633×167). Son texte est blanc : pour le fond crème de S7, j'ai généré `assets/masterprompt-logo-navy.png` (blanc → navy, or conservé). Remplace-le par l'original si besoin.
+3. **URL formation** : `masterprompt.fr/casa` renvoie une 404. J'ai capturé `https://www.masterprompt.fr/formation` (titre : « Formation IA gratuite »). Pour en changer : `URL_FORMATION=… node capture/formation.cjs`.
+4. **Or sur crème** : #F59E0B sur #F0EDE8 = 1,84:1, illisible. En S7, le texte en couleur est en or foncé #b46f04 (3,45:1, suffisant pour du grand texte gras). Le bouton or + navy en S8 donne **8,1:1** (≥ 4,5 ✔).
+5. **Visage** : la page formation montre la miniature vidéo de Michaël (fin de S7).
+6. **Mode A (Whisper)** : toujours pas implémenté, faute d'audio pour le tester. Les timings v2 ont le même format, prêts à être remplacés par l'alignement.

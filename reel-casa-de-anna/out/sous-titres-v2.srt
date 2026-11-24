@@ -1,0 +1,67 @@
+1
+00:00:00,200 --> 00:00:02,900
+Ça y est, notre nouveau site est en ligne.
+
+2
+00:00:03,200 --> 00:00:05,057
+On voulait un site qui nous ressemble :
+
+3
+00:00:05,107 --> 00:00:07,900
+calme, lumineux, et qui raconte vraiment nos projets.
+
+4
+00:00:08,200 --> 00:00:10,157
+Vous y retrouvez nos réalisations :
+
+5
+00:00:10,207 --> 00:00:13,726
+le chalet face au lac, Madrid, la Corse, l'Alpe d'Huez…
+
+6
+00:00:13,776 --> 00:00:15,900
+et la villa de Jávea, en cours.
+
+7
+00:00:16,200 --> 00:00:19,690
+Chaque projet, avec ses matières, ses détails,
+
+8
+00:00:19,740 --> 00:00:21,900
+et les mots de nos clients.
+
+9
+00:00:22,200 --> 00:00:25,123
+Nos six façons de travailler ensemble,
+
+10
+00:00:25,173 --> 00:00:27,900
+de la consultation au clé-en-main.
+
+11
+00:00:28,200 --> 00:00:30,029
+Et notre showroom à Bluffy.
+
+12
+00:00:30,079 --> 00:00:32,900
+Votre projet commence ici : lien en bio.
+
+13
+00:00:33,200 --> 00:00:36,314
+Ce site, on l'a conçu avec Michaël, de MasterPrompt.
+
+14
+00:00:36,364 --> 00:00:39,652
+Il aide les indépendants à utiliser l'IA pour gagner du temps,
+
+15
+00:00:39,702 --> 00:00:42,900
+et franchement, on s'en sert maintenant tous les jours.
+
+16
+00:00:43,200 --> 00:00:45,905
+Vous êtes indépendant ? Sa formation IA est gratuite.
+
+17
+00:00:45,955 --> 00:00:48,150
+Commentez IA, on vous envoie le lien.

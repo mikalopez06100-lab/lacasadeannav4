@@ -1,0 +1,893 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "mode": "B",
+ "version": 2,
+ "duration": 50,
+ "scenes": [
+  {
+   "id": "S1",
+   "start": 0,
+   "end": 3
+  },
+  {
+   "id": "S2",
+   "start": 3,
+   "end": 8
+  },
+  {
+   "id": "S3",
+   "start": 8,
+   "end": 16
+  },
+  {
+   "id": "S4",
+   "start": 16,
+   "end": 22
+  },
+  {
+   "id": "S5",
+   "start": 22,
+   "end": 28
+  },
+  {
+   "id": "S6",
+   "start": 28,
+   "end": 33
+  },
+  {
+   "id": "S7",
+   "start": 33,
+   "end": 43
+  },
+  {
+   "id": "S8",
+   "start": 43,
+   "end": 50
+  }
+ ],
+ "sentences": [
+  {
+   "id": 1,
+   "scene": "S1",
+   "start": 0.2,
+   "end": 2.9,
+   "text": "Ça y est, notre nouveau site est en ligne.",
+   "chunks": [
+    {
+     "text": "Ça y est, notre nouveau site est en ligne.",
+     "words": [
+      {
+       "w": "Ça",
+       "start": 0.2,
+       "end": 0.378
+      },
+      {
+       "w": "y",
+       "start": 0.378,
+       "end": 0.512
+      },
+      {
+       "w": "est,",
+       "start": 0.512,
+       "end": 0.779
+      },
+      {
+       "w": "notre",
+       "start": 0.913,
+       "end": 1.225
+      },
+      {
+       "w": "nouveau",
+       "start": 1.225,
+       "end": 1.625
+      },
+      {
+       "w": "site",
+       "start": 1.625,
+       "end": 1.893
+      },
+      {
+       "w": "est",
+       "start": 1.893,
+       "end": 2.115
+      },
+      {
+       "w": "en",
+       "start": 2.115,
+       "end": 2.294
+      },
+      {
+       "w": "ligne.",
+       "start": 2.294,
+       "end": 2.65
+      }
+     ],
+     "start": 0.2,
+     "end": 2.9
+    }
+   ]
+  },
+  {
+   "id": 2,
+   "scene": "S2",
+   "start": 3.2,
+   "end": 7.9,
+   "text": "On voulait un site qui nous ressemble : calme, lumineux, et qui raconte vraiment nos projets.",
+   "chunks": [
+    {
+     "text": "On voulait un site qui nous ressemble :",
+     "words": [
+      {
+       "w": "On",
+       "start": 3.2,
+       "end": 3.35
+      },
+      {
+       "w": "voulait",
+       "start": 3.35,
+       "end": 3.686
+      },
+      {
+       "w": "un",
+       "start": 3.686,
+       "end": 3.836
+      },
+      {
+       "w": "site",
+       "start": 3.836,
+       "end": 4.06
+      },
+      {
+       "w": "qui",
+       "start": 4.06,
+       "end": 4.247
+      },
+      {
+       "w": "nous",
+       "start": 4.247,
+       "end": 4.471
+      },
+      {
+       "w": "ressemble",
+       "start": 4.471,
+       "end": 4.883
+      },
+      {
+       "w": ":",
+       "start": 4.883,
+       "end": 4.995
+      }
+     ],
+     "start": 3.2,
+     "end": 5.057
+    },
+    {
+     "text": "calme, lumineux, et qui raconte vraiment nos projets.",
+     "words": [
+      {
+       "w": "calme,",
+       "start": 5.107,
+       "end": 5.406
+      },
+      {
+       "w": "lumineux,",
+       "start": 5.518,
+       "end": 5.93
+      },
+      {
+       "w": "et",
+       "start": 6.042,
+       "end": 6.192
+      },
+      {
+       "w": "qui",
+       "start": 6.192,
+       "end": 6.379
+      },
+      {
+       "w": "raconte",
+       "start": 6.379,
+       "end": 6.715
+      },
+      {
+       "w": "vraiment",
+       "start": 6.715,
+       "end": 7.089
+      },
+      {
+       "w": "nos",
+       "start": 7.089,
+       "end": 7.276
+      },
+      {
+       "w": "projets.",
+       "start": 7.276,
+       "end": 7.65
+      }
+     ],
+     "start": 5.107,
+     "end": 7.9
+    }
+   ]
+  },
+  {
+   "id": 3,
+   "scene": "S3",
+   "start": 8.2,
+   "end": 15.9,
+   "text": "Vous y retrouvez nos réalisations : le chalet face au lac, Madrid, la Corse, l'Alpe d'Huez… et la villa de Jávea, en cours.",
+   "chunks": [
+    {
+     "text": "Vous y retrouvez nos réalisations :",
+     "words": [
+      {
+       "w": "Vous",
+       "start": 8.2,
+       "end": 8.468
+      },
+      {
+       "w": "y",
+       "start": 8.468,
+       "end": 8.601
+      },
+      {
+       "w": "retrouvez",
+       "start": 8.601,
+       "end": 9.092
+      },
+      {
+       "w": "nos",
+       "start": 9.092,
+       "end": 9.315
+      },
+      {
+       "w": "réalisations",
+       "start": 9.315,
+       "end": 9.94
+      },
+      {
+       "w": ":",
+       "start": 9.94,
+       "end": 10.074
+      }
+     ],
+     "start": 8.2,
+     "end": 10.157
+    },
+    {
+     "text": "le chalet face au lac, Madrid, la Corse, l'Alpe d'Huez…",
+     "words": [
+      {
+       "w": "le",
+       "start": 10.207,
+       "end": 10.386
+      },
+      {
+       "w": "chalet",
+       "start": 10.386,
+       "end": 10.743
+      },
+      {
+       "w": "face",
+       "start": 10.743,
+       "end": 11.01
+      },
+      {
+       "w": "au",
+       "start": 11.01,
+       "end": 11.189
+      },
+      {
+       "w": "lac,",
+       "start": 11.189,
+       "end": 11.457
+      },
+      {
+       "w": "Madrid,",
+       "start": 11.59,
+       "end": 11.992
+      },
+      {
+       "w": "la",
+       "start": 12.126,
+       "end": 12.304
+      },
+      {
+       "w": "Corse,",
+       "start": 12.304,
+       "end": 12.661
+      },
+      {
+       "w": "l'Alpe",
+       "start": 12.795,
+       "end": 13.152
+      },
+      {
+       "w": "d'Huez…",
+       "start": 13.152,
+       "end": 13.553
+      }
+     ],
+     "start": 10.207,
+     "end": 13.726
+    },
+    {
+     "text": "et la villa de Jávea, en cours.",
+     "words": [
+      {
+       "w": "et",
+       "start": 13.776,
+       "end": 13.955
+      },
+      {
+       "w": "la",
+       "start": 13.955,
+       "end": 14.133
+      },
+      {
+       "w": "villa",
+       "start": 14.133,
+       "end": 14.446
+      },
+      {
+       "w": "de",
+       "start": 14.446,
+       "end": 14.624
+      },
+      {
+       "w": "Jávea,",
+       "start": 14.624,
+       "end": 14.981
+      },
+      {
+       "w": "en",
+       "start": 15.115,
+       "end": 15.293
+      },
+      {
+       "w": "cours.",
+       "start": 15.293,
+       "end": 15.65
+      }
+     ],
+     "start": 13.776,
+     "end": 15.9
+    }
+   ]
+  },
+  {
+   "id": 4,
+   "scene": "S4",
+   "start": 16.2,
+   "end": 21.9,
+   "text": "Chaque projet, avec ses matières, ses détails, et les mots de nos clients.",
+   "chunks": [
+    {
+     "text": "Chaque projet, avec ses matières, ses détails,",
+     "words": [
+      {
+       "w": "Chaque",
+       "start": 16.2,
+       "end": 16.649
+      },
+      {
+       "w": "projet,",
+       "start": 16.649,
+       "end": 17.155
+      },
+      {
+       "w": "avec",
+       "start": 17.324,
+       "end": 17.661
+      },
+      {
+       "w": "ses",
+       "start": 17.661,
+       "end": 17.942
+      },
+      {
+       "w": "matières,",
+       "start": 17.942,
+       "end": 18.56
+      },
+      {
+       "w": "ses",
+       "start": 18.728,
+       "end": 19.009
+      },
+      {
+       "w": "détails,",
+       "start": 19.009,
+       "end": 19.571
+      }
+     ],
+     "start": 16.2,
+     "end": 19.69
+    },
+    {
+     "text": "et les mots de nos clients.",
+     "words": [
+      {
+       "w": "et",
+       "start": 19.74,
+       "end": 19.964
+      },
+      {
+       "w": "les",
+       "start": 19.964,
+       "end": 20.245
+      },
+      {
+       "w": "mots",
+       "start": 20.245,
+       "end": 20.582
+      },
+      {
+       "w": "de",
+       "start": 20.582,
+       "end": 20.807
+      },
+      {
+       "w": "nos",
+       "start": 20.807,
+       "end": 21.088
+      },
+      {
+       "w": "clients.",
+       "start": 21.088,
+       "end": 21.65
+      }
+     ],
+     "start": 19.74,
+     "end": 21.9
+    }
+   ]
+  },
+  {
+   "id": 5,
+   "scene": "S5",
+   "start": 22.2,
+   "end": 27.9,
+   "text": "Nos six façons de travailler ensemble, de la consultation au clé-en-main.",
+   "chunks": [
+    {
+     "text": "Nos six façons de travailler ensemble,",
+     "words": [
+      {
+       "w": "Nos",
+       "start": 22.2,
+       "end": 22.51
+      },
+      {
+       "w": "six",
+       "start": 22.51,
+       "end": 22.819
+      },
+      {
+       "w": "façons",
+       "start": 22.819,
+       "end": 23.315
+      },
+      {
+       "w": "de",
+       "start": 23.315,
+       "end": 23.562
+      },
+      {
+       "w": "travailler",
+       "start": 23.562,
+       "end": 24.306
+      },
+      {
+       "w": "ensemble,",
+       "start": 24.306,
+       "end": 24.987
+      }
+     ],
+     "start": 22.2,
+     "end": 25.123
+    },
+    {
+     "text": "de la consultation au clé-en-main.",
+     "words": [
+      {
+       "w": "de",
+       "start": 25.173,
+       "end": 25.42
+      },
+      {
+       "w": "la",
+       "start": 25.42,
+       "end": 25.668
+      },
+      {
+       "w": "consultation",
+       "start": 25.668,
+       "end": 26.535
+      },
+      {
+       "w": "au",
+       "start": 26.535,
+       "end": 26.783
+      },
+      {
+       "w": "clé-en-main.",
+       "start": 26.783,
+       "end": 27.65
+      }
+     ],
+     "start": 25.173,
+     "end": 27.9
+    }
+   ]
+  },
+  {
+   "id": 6,
+   "scene": "S6",
+   "start": 28.2,
+   "end": 32.9,
+   "text": "Et notre showroom à Bluffy. Votre projet commence ici : lien en bio.",
+   "chunks": [
+    {
+     "text": "Et notre showroom à Bluffy.",
+     "words": [
+      {
+       "w": "Et",
+       "start": 28.2,
+       "end": 28.398
+      },
+      {
+       "w": "notre",
+       "start": 28.398,
+       "end": 28.744
+      },
+      {
+       "w": "showroom",
+       "start": 28.744,
+       "end": 29.238
+      },
+      {
+       "w": "à",
+       "start": 29.238,
+       "end": 29.387
+      },
+      {
+       "w": "Bluffy.",
+       "start": 29.387,
+       "end": 29.832
+      }
+     ],
+     "start": 28.2,
+     "end": 30.029
+    },
+    {
+     "text": "Votre projet commence ici : lien en bio.",
+     "words": [
+      {
+       "w": "Votre",
+       "start": 30.079,
+       "end": 30.425
+      },
+      {
+       "w": "projet",
+       "start": 30.425,
+       "end": 30.821
+      },
+      {
+       "w": "commence",
+       "start": 30.821,
+       "end": 31.315
+      },
+      {
+       "w": "ici",
+       "start": 31.315,
+       "end": 31.562
+      },
+      {
+       "w": ":",
+       "start": 31.562,
+       "end": 31.711
+      },
+      {
+       "w": "lien",
+       "start": 31.859,
+       "end": 32.156
+      },
+      {
+       "w": "en",
+       "start": 32.156,
+       "end": 32.353
+      },
+      {
+       "w": "bio.",
+       "start": 32.353,
+       "end": 32.65
+      }
+     ],
+     "start": 30.079,
+     "end": 32.9
+    }
+   ]
+  },
+  {
+   "id": 7,
+   "scene": "S7",
+   "start": 33.2,
+   "end": 42.9,
+   "text": "Ce site, on l'a conçu avec Michaël, de MasterPrompt. Il aide les indépendants à utiliser l'IA pour gagner du temps, et franchement, on s'en sert maintenant tous les jours.",
+   "chunks": [
+    {
+     "text": "Ce site, on l'a conçu avec Michaël, de MasterPrompt.",
+     "words": [
+      {
+       "w": "Ce",
+       "start": 33.2,
+       "end": 33.373
+      },
+      {
+       "w": "site,",
+       "start": 33.373,
+       "end": 33.677
+      },
+      {
+       "w": "on",
+       "start": 33.807,
+       "end": 33.98
+      },
+      {
+       "w": "l'a",
+       "start": 33.98,
+       "end": 34.197
+      },
+      {
+       "w": "conçu",
+       "start": 34.197,
+       "end": 34.5
+      },
+      {
+       "w": "avec",
+       "start": 34.5,
+       "end": 34.761
+      },
+      {
+       "w": "Michaël,",
+       "start": 34.761,
+       "end": 35.194
+      },
+      {
+       "w": "de",
+       "start": 35.324,
+       "end": 35.497
+      },
+      {
+       "w": "MasterPrompt.",
+       "start": 35.497,
+       "end": 36.148
+      }
+     ],
+     "start": 33.2,
+     "end": 36.314
+    },
+    {
+     "text": "Il aide les indépendants à utiliser l'IA pour gagner du temps,",
+     "words": [
+      {
+       "w": "Il",
+       "start": 36.364,
+       "end": 36.538
+      },
+      {
+       "w": "aide",
+       "start": 36.538,
+       "end": 36.798
+      },
+      {
+       "w": "les",
+       "start": 36.798,
+       "end": 37.015
+      },
+      {
+       "w": "indépendants",
+       "start": 37.015,
+       "end": 37.622
+      },
+      {
+       "w": "à",
+       "start": 37.622,
+       "end": 37.752
+      },
+      {
+       "w": "utiliser",
+       "start": 37.752,
+       "end": 38.185
+      },
+      {
+       "w": "l'IA",
+       "start": 38.185,
+       "end": 38.445
+      },
+      {
+       "w": "pour",
+       "start": 38.445,
+       "end": 38.705
+      },
+      {
+       "w": "gagner",
+       "start": 38.705,
+       "end": 39.052
+      },
+      {
+       "w": "du",
+       "start": 39.052,
+       "end": 39.225
+      },
+      {
+       "w": "temps,",
+       "start": 39.225,
+       "end": 39.572
+      }
+     ],
+     "start": 36.364,
+     "end": 39.652
+    },
+    {
+     "text": "et franchement, on s'en sert maintenant tous les jours.",
+     "words": [
+      {
+       "w": "et",
+       "start": 39.702,
+       "end": 39.876
+      },
+      {
+       "w": "franchement,",
+       "start": 39.876,
+       "end": 40.483
+      },
+      {
+       "w": "on",
+       "start": 40.613,
+       "end": 40.786
+      },
+      {
+       "w": "s'en",
+       "start": 40.786,
+       "end": 41.046
+      },
+      {
+       "w": "sert",
+       "start": 41.046,
+       "end": 41.306
+      },
+      {
+       "w": "maintenant",
+       "start": 41.306,
+       "end": 41.826
+      },
+      {
+       "w": "tous",
+       "start": 41.826,
+       "end": 42.086
+      },
+      {
+       "w": "les",
+       "start": 42.086,
+       "end": 42.303
+      },
+      {
+       "w": "jours.",
+       "start": 42.303,
+       "end": 42.65
+      }
+     ],
+     "start": 39.702,
+     "end": 42.9
+    }
+   ]
+  },
+  {
+   "id": 8,
+   "scene": "S8",
+   "start": 43.2,
+   "end": 48.15,
+   "text": "Vous êtes indépendant ? Sa formation IA est gratuite. Commentez IA, on vous envoie le lien.",
+   "chunks": [
+    {
+     "text": "Vous êtes indépendant ? Sa formation IA est gratuite.",
+     "words": [
+      {
+       "w": "Vous",
+       "start": 43.2,
+       "end": 43.443
+      },
+      {
+       "w": "êtes",
+       "start": 43.443,
+       "end": 43.686
+      },
+      {
+       "w": "indépendant",
+       "start": 43.686,
+       "end": 44.213
+      },
+      {
+       "w": "?",
+       "start": 44.213,
+       "end": 44.334
+      },
+      {
+       "w": "Sa",
+       "start": 44.334,
+       "end": 44.497
+      },
+      {
+       "w": "formation",
+       "start": 44.497,
+       "end": 44.942
+      },
+      {
+       "w": "IA",
+       "start": 44.942,
+       "end": 45.104
+      },
+      {
+       "w": "est",
+       "start": 45.104,
+       "end": 45.307
+      },
+      {
+       "w": "gratuite.",
+       "start": 45.307,
+       "end": 45.753
+      }
+     ],
+     "start": 43.2,
+     "end": 45.905
+    },
+    {
+     "text": "Commentez IA, on vous envoie le lien.",
+     "words": [
+      {
+       "w": "Commentez",
+       "start": 45.955,
+       "end": 46.401
+      },
+      {
+       "w": "IA,",
+       "start": 46.401,
+       "end": 46.603
+      },
+      {
+       "w": "on",
+       "start": 46.725,
+       "end": 46.887
+      },
+      {
+       "w": "vous",
+       "start": 46.887,
+       "end": 47.13
+      },
+      {
+       "w": "envoie",
+       "start": 47.13,
+       "end": 47.454
+      },
+      {
+       "w": "le",
+       "start": 47.454,
+       "end": 47.616
+      },
+      {
+       "w": "lien.",
+       "start": 47.616,
+       "end": 47.9
+      }
+     ],
+     "start": 45.955,
+     "end": 48.15
+    }
+   ]
+  }
+ ]
+}

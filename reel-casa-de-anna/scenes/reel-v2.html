@@ -1,0 +1,472 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Reel La Casa de Anna v2</title>
+<!--
+  Reel « Notre nouveau site est en ligne » — 1080×1920.
+  Timeline unique pilotée par window.seek(t) (secondes). Aucune animation liée à l'horloge :
+  chaque style est une fonction pure de t. Paramètres d'URL : ?subs=0 (sans sous-titres), ?t=12.5 (aperçu).
+  Les temps viennent de timings-v2.js (build_timings_v2.py). v2 : S6 modifiée, S7 (transition MasterPrompt) et S8 (CTA) nouvelles.
+  Identité MasterPrompt (navy/gold/cream, DM Sans/DM Mono) cantonnée à S7, S8 et à leurs sous-titres.
+-->
+<script src="timings-v2.js"></script>
+<style>
+@font-face { font-family: "Josefin Sans"; font-weight: 300; src: url(../assets/fonts/josefin-sans-latin-300-normal.woff2) format("woff2"); }
+@font-face { font-family: "Josefin Sans"; font-weight: 300; font-style: italic; src: url(../assets/fonts/josefin-sans-latin-300-italic.woff2) format("woff2"); }
+@font-face { font-family: "Josefin Sans"; font-weight: 400; src: url(../assets/fonts/josefin-sans-latin-400-normal.woff2) format("woff2"); }
+@font-face { font-family: "Josefin Sans"; font-weight: 400; font-style: italic; src: url(../assets/fonts/josefin-sans-latin-400-italic.woff2) format("woff2"); }
+@font-face { font-family: "Josefin Sans"; font-weight: 600; src: url(../assets/fonts/josefin-sans-latin-600-normal.woff2) format("woff2"); }
+@font-face { font-family: "DM Sans"; font-weight: 400; src: url(../assets/fonts/dm-sans-latin-400-normal.woff2) format("woff2"); }
+@font-face { font-family: "DM Sans"; font-weight: 500; src: url(../assets/fonts/dm-sans-latin-500-normal.woff2) format("woff2"); }
+@font-face { font-family: "DM Sans"; font-weight: 700; src: url(../assets/fonts/dm-sans-latin-700-normal.woff2) format("woff2"); }
+@font-face { font-family: "DM Mono"; font-weight: 400; src: url(../assets/fonts/dm-mono-latin-400-normal.woff2) format("woff2"); }
+@font-face { font-family: "DM Mono"; font-weight: 500; src: url(../assets/fonts/dm-mono-latin-500-normal.woff2) format("woff2"); }
+@font-face { font-family: "Inter"; font-weight: 100 900; src: url(../assets/fonts/inter-latin-wght-normal.woff2) format("woff2"); }
+
+:root {
+  --fond: #ffffff; --sable: #e6e0d3; --encre: #0c0a08; --accent: #7d724b;
+  --cta: #5c3a1e; --lin: #94897a; --creme: #efebe3;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--fond); }
+#stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--fond);
+  font-family: "Inter", sans-serif; color: var(--encre); -webkit-font-smoothing: antialiased; }
+.scene { position: absolute; inset: 0; opacity: 0; visibility: hidden; }
+.bg-fond { background: var(--fond); } .bg-sable { background: var(--sable); }
+.abs { position: absolute; }
+.display { font-family: "Josefin Sans", sans-serif; font-weight: 600; letter-spacing: -0.035em; line-height: 1.08; }
+.accent { color: var(--accent); }
+.label { font-family: "Inter"; font-weight: 500; text-transform: uppercase; letter-spacing: 0.16em; }
+.frame { position: absolute; overflow: hidden; background: var(--sable); }
+.frame img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; will-change: transform, opacity; }
+.shade { position: absolute; left: 0; right: 0; bottom: 0; height: 45%;
+  background: linear-gradient(to bottom, rgba(12,10,8,0), rgba(12,10,8,0.55)); }
+.center { left: 0; right: 0; text-align: center; }
+
+/* iPhone minimaliste : cadre fin, ombre douce */
+.phone { position: absolute; background: #0c0a08; padding: 13px; border-radius: 84px;
+  box-shadow: 0 50px 90px -30px rgba(12,10,8,0.35), 0 18px 36px -18px rgba(12,10,8,0.25); }
+.phone .screen { position: relative; overflow: hidden; border-radius: 71px; background: #fff; }
+.phone .screen img.page { position: absolute; left: 0; top: 0; display: block; will-change: transform; }
+.phone .screen img.nav { position: absolute; left: 50%; transform: translateX(-50%); }
+
+/* S1 */
+#s1 .frame { left: 0; top: 250px; width: 1080px; height: 1350px; }
+#s1 .logo { position: absolute; top: 300px; left: 50%; width: 230px; transform: translateX(-50%); }
+#s1 .title { top: 1110px; font-size: 92px; color: var(--creme); }
+#s1 .title span { display: inline-block; }
+
+/* S2, S5 téléphone centré */
+.phone.big { left: 233px; width: 586px; }
+.phone.big .screen { width: 560px; height: 1214px; }
+.phone.small { width: 526px; }
+.phone.small .screen { width: 500px; height: 1084px; border-radius: 64px; }
+.phone.small { border-radius: 77px; }
+#s2 .title, #s5 .title { top: 262px; font-size: 66px; }
+
+/* S3, S6 cadres photo */
+#s3 .frame { left: 110px; top: 262px; width: 860px; height: 1075px; }
+#s3 .place { position: absolute; left: 44px; bottom: 40px; font-size: 28px; color: var(--creme); }
+#s3 .place.on { }
+#s6 .frame { left: 110px; top: 400px; width: 860px; height: 860px; }
+#s6 .title { top: 262px; font-size: 66px; }
+#s6 .ticker { position: absolute; left: 0; right: 0; top: 1296px; height: 40px; overflow: hidden;
+  -webkit-mask-image: linear-gradient(to right, transparent, #000 14%, #000 86%, transparent); }
+#s6 .ticker .row { position: absolute; top: 0; white-space: nowrap; font-size: 25px; color: var(--lin); }
+
+/* S4 matières */
+#s4 .phone { left: 78px; top: 300px; }
+#s4 .mat-label { left: 660px; top: 520px; font-size: 22px; color: var(--lin); }
+#s4 .mat { position: absolute; left: 660px; width: 345px; }
+#s4 .mat .name { font-family: "Josefin Sans"; font-weight: 400; font-size: 44px; letter-spacing: -0.01em; padding: 26px 0 24px; }
+#s4 .mat .rule { height: 2px; background: rgba(12,10,8,0.16); transform-origin: left center; }
+
+/* S5 cartes */
+#s5 .card { position: absolute; left: 110px; width: 860px; height: 116px; background: #fff;
+  display: flex; align-items: center; gap: 34px; padding: 0 40px;
+  box-shadow: 0 1px 0 rgba(12,10,8,0.06), 0 14px 30px -20px rgba(12,10,8,0.28); }
+#s5 .card .num { font-family: "Josefin Sans"; font-style: italic; font-weight: 300; font-size: 40px; color: var(--lin); width: 56px; }
+#s5 .card .name { font-family: "Josefin Sans"; font-weight: 600; font-size: 44px; letter-spacing: -0.02em; }
+
+/* S6 fin : signature La Casa de Anna */
+#s6end { position: absolute; inset: 0; background: var(--fond); opacity: 0; }
+#s6end .logo { position: absolute; top: 560px; left: 50%; width: 400px; transform: translateX(-50%); }
+#s6end .url { top: 820px; font-size: 44px; color: var(--encre); }
+#s6end .bio { top: 900px; font-size: 26px; color: var(--lin); }
+
+/* MasterPrompt — S7 / S8 uniquement */
+.mp { --navy: #0D1B2A; --gold: #F59E0B; --mpcream: #F0EDE8; font-family: "DM Sans", sans-serif; }
+#s7 { background: #e6e0d3; }
+#s7 .phone { top: 420px; }
+#s7 .mpline { position: absolute; left: 584px; top: 975px; width: 0; height: 3px; background: #F59E0B; transform-origin: left center; }
+#s7 .mplogo { position: absolute; left: 700px; top: 936px; width: 300px; }
+#s7 .mptext { left: 80px; right: 80px; top: 268px; text-align: center; font-family: "DM Sans"; font-weight: 700; font-size: 62px; line-height: 1.1; letter-spacing: -0.02em; color: #0D1B2A; }
+#s7 .mptext em { font-style: normal; color: #b46f04; }
+#s8 { background: #0D1B2A; }
+#s8 .mplogo { position: absolute; top: 290px; left: 50%; width: 460px; transform: translateX(-50%); }
+#s8 .h { top: 620px; font-family: "DM Sans"; font-weight: 700; font-size: 104px; line-height: 1.02; letter-spacing: -0.03em; color: #F0EDE8; }
+#s8 .sub { top: 870px; font-family: "DM Sans"; font-weight: 400; font-size: 42px; color: rgba(240,237,232,0.72); }
+#s8 .btn { position: absolute; top: 1000px; left: 50%; display: flex; align-items: center; gap: 22px; background: #F59E0B; color: #0D1B2A;
+  font-family: "DM Sans"; font-weight: 700; font-size: 50px; padding: 30px 56px 30px 46px; border-radius: 999px; white-space: nowrap; }
+#s8 .btn svg { width: 50px; height: 50px; }
+#s8 .mono { top: 1190px; font-family: "DM Mono"; font-weight: 400; font-size: 30px; color: rgba(240,237,232,0.7); letter-spacing: 0.01em; }
+
+/* Sous-titres incrustés : tiers bas, au-dessus de la zone de sécurité (bas à 1490 px) */
+#subs { position: absolute; left: 80px; right: 80px; bottom: 430px; display: flex; justify-content: center; pointer-events: none; z-index: 50; }
+#subs .box { max-width: 900px; padding: 16px 30px 18px; border-radius: 14px; background: rgba(12,10,8,0.56);
+  font-family: "Inter"; font-weight: 500; font-size: 41px; line-height: 1.3; text-align: center; color: rgba(255,255,255,0.74); text-wrap: balance; }
+#subs .w { transition: none; }
+#subs .w.on { color: #fff; }
+#subs.mp .box { background: rgba(13,27,42,0.78); color: rgba(240,237,232,0.74); }
+#subs.mp .w.on { color: #F59E0B; }
+</style>
+</head>
+<body>
+<div id="stage">
+
+  <!-- S1 : chalet vue lac -->
+  <section class="scene bg-fond" id="s1">
+    <div class="frame"><img id="s1img" src="../assets/photos/cover-chalet-vue-lac.webp" style="object-position:50% 50%"><div class="shade"></div></div>
+    <img class="logo" src="../assets/logo/logo-white.webp" alt="">
+    <div class="abs center display title" id="s1title"></div>
+  </section>
+
+  <!-- S2 : accueil dans l'iPhone -->
+  <section class="scene bg-sable" id="s2">
+    <div class="abs center display title" id="s2title">Des intérieurs qui<br><span class="accent">racontent une vie.</span></div>
+    <div class="phone big" id="s2phone" style="top:470px"><div class="screen">
+      <img class="page" id="s2page" src="../assets/site/screen-accueil.png">
+      <img class="nav" src="../assets/site/screen-nav-560.png" style="bottom:28px">
+    </div></div>
+  </section>
+
+  <!-- S3 : réalisations -->
+  <section class="scene bg-fond" id="s3">
+    <div class="frame" id="s3frame"></div>
+  </section>
+
+  <!-- S4 : chalet vue lac + matières -->
+  <section class="scene bg-sable" id="s4">
+    <div class="phone small" id="s4phone"><div class="screen">
+      <img class="page" id="s4page" src="../assets/site/screen-chalet.png">
+      <img class="nav" src="../assets/site/screen-nav-500.png" style="bottom:25px">
+    </div></div>
+    <div class="abs label mat-label" id="s4label">Matières</div>
+    <div id="s4mats"></div>
+  </section>
+
+  <!-- S5 : prestations -->
+  <section class="scene bg-sable" id="s5">
+    <div class="phone big" id="s5phone" style="top:470px"><div class="screen">
+      <img class="page" id="s5page" src="../assets/site/screen-prestations.png">
+      <img class="nav" src="../assets/site/screen-nav-560.png" style="bottom:28px">
+    </div></div>
+    <div class="abs center display title" id="s5title">Six façons de<br><span class="accent">travailler ensemble</span></div>
+    <div id="s5cards"></div>
+  </section>
+
+  <!-- S6 : showroom -->
+  <section class="scene bg-fond" id="s6">
+    <div class="frame" id="s6frame"></div>
+    <div class="ticker"><div class="row label" id="s6row"></div></div>
+    <div id="s6end">
+      <img class="logo" src="../assets/logo/logo-black.png" alt="">
+      <div class="abs center url">lacasadeanna.com</div>
+      <div class="abs center label bio">Lien en bio</div>
+    </div>
+  </section>
+
+  <!-- S7 : transition vers MasterPrompt -->
+  <section class="scene mp" id="s7">
+    <div class="abs mptext" id="s7t1">Site conçu avec <em>MasterPrompt</em></div>
+    <div class="abs mptext" id="s7t2">L'IA pour <em>les indépendants</em></div>
+    <div class="phone small" id="s7phone"><div class="screen">
+      <img class="page" id="s7home" src="../assets/site/screen-accueil-500.png">
+      <img class="nav" id="s7nav" src="../assets/site/screen-nav-500.png" style="bottom:25px">
+      <img class="page" id="s7form" src="../assets/site/screen-formation.png">
+    </div></div>
+    <div class="mpline" id="s7line"></div>
+    <img class="mplogo" id="s7logo" src="../assets/masterprompt-logo-navy.png" alt="">
+  </section>
+
+  <!-- S8 : appel à l'action -->
+  <section class="scene mp" id="s8">
+    <img class="mplogo" id="s8logo" src="../assets/masterprompt-logo.png" alt="">
+    <div class="abs center h" id="s8h">Formation IA<br>gratuite</div>
+    <div class="abs center sub" id="s8sub">pour indépendants, zéro jargon</div>
+    <div class="btn" id="s8btn"><svg viewBox="0 0 24 24" fill="none" stroke="#0D1B2A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-9 8.4 9 9 0 0 1-3.9-.9L3 20.5l1.5-4.6A8.4 8.4 0 0 1 3 11.5a8.5 8.5 0 0 1 9-8.4 8.4 8.4 0 0 1 9 8.4z"/></svg>Commentez IA</div>
+    <div class="abs center mono" id="s8mono">ou → @masterprompt · masterprompt.fr</div>
+  </section>
+
+  <div id="subs"><div class="box" id="subbox"></div></div>
+</div>
+
+<script>
+const T = window.TIMINGS;
+const params = new URLSearchParams(location.search);
+const SHOW_SUBS = params.get('subs') !== '0';
+const $ = (id) => document.getElementById(id);
+const scene = (id) => T.scenes.find((s) => s.id === id);
+
+// ---- courbes (aucun rebond) ----
+const clamp = (x, a = 0, b = 1) => Math.min(b, Math.max(a, x));
+const prog = (t, a, b) => clamp((t - a) / (b - a));
+const p2io = (x) => (x < 0.5 ? 2 * x * x : 1 - Math.pow(-2 * x + 2, 2) / 2);
+const p3io = (x) => (x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2);
+const expoOut = (x) => (x >= 1 ? 1 : 1 - Math.pow(2, -10 * x));
+const lerp = (a, b, k) => a + (b - a) * k;
+// interpolation par images-clés [[t, v], ...] avec power2.inOut entre chaque clé
+function keys(t, ks, ease = p2io) {
+  if (t <= ks[0][0]) return ks[0][1];
+  for (let i = 1; i < ks.length; i++) if (t <= ks[i][0]) return lerp(ks[i - 1][1], ks[i][1], ease(prog(t, ks[i - 1][0], ks[i][0])));
+  return ks[ks.length - 1][1];
+}
+// apparition douce : opacité + montée
+function rise(el, t, start, dur = 0.9, dy = 28) {
+  const k = expoOut(prog(t, start, start + dur));
+  el.style.opacity = k; el.style.transform = (el.dataset.base || '') + ` translateY(${(1 - k) * dy}px)`;
+}
+
+// ---- construction ----
+const XF = 0.5; // durée des fondus enchaînés entre scènes
+const SC = Object.fromEntries(T.scenes.map((s) => [s.id, s]));
+
+// S1 : titre mot par mot
+const s1words = 'Notre nouveau site|est en ligne.'.split('|').map((l) => l.split(' '));
+$('s1title').innerHTML = s1words.map((l) => l.map((w) => `<span>${w}</span>`).join(' ')).join('<br>');
+const s1spans = [...$('s1title').querySelectorAll('span')];
+
+// S3 : projets
+const PROJECTS = [
+  { img: 'chalet-21.webp', place: 'Veyrier-du-Lac', key: /chalet/i, pos: '50% 50%' },
+  { img: 'cover-madrid.webp', place: 'Madrid', key: /madrid/i, pos: '45% 50%' },
+  { img: 'cover-corse.webp', place: 'Corse', key: /corse/i, pos: '55% 50%' },
+  { img: 'cover-alpe-d-huez.webp', place: "Alpe d'Huez", key: /alpe/i, pos: '50% 55%' },
+  { img: 'cover-javea.webp', place: 'Jávea — en cours', key: /j[aá]vea/i, pos: '30% 50%' },
+];
+PROJECTS.forEach((p, i) => {
+  const wrap = document.createElement('div'); wrap.className = 'abs'; wrap.style.inset = '0';
+  wrap.innerHTML = `<img src="../assets/photos/${p.img}" style="object-position:${p.pos}"><div class="shade" style="height:30%"></div><div class="place label">${p.place}</div>`;
+  $('s3frame').appendChild(wrap); p.el = wrap; p.imgEl = wrap.querySelector('img'); p.label = wrap.querySelector('.place');
+});
+
+// S4 : matières
+const MATS = ['Vieux bois', 'Pierre naturelle', 'Métal noir', 'Lin & bouclette'];
+MATS.forEach((m, i) => {
+  const d = document.createElement('div'); d.className = 'mat'; d.style.top = 566 + i * 124 + 'px';
+  d.innerHTML = `<div class="name">${m}</div><div class="rule"></div>`; $('s4mats').appendChild(d);
+});
+const matEls = [...document.querySelectorAll('#s4 .mat')];
+
+// S5 : prestations (sans prix)
+const PRESTA = ['Consultation', 'Conception', 'Clé-en-main', 'Mobilier sur mesure', 'Rideaux & banquettes', 'Projets pros'];
+PRESTA.forEach((p, i) => {
+  const c = document.createElement('div'); c.className = 'card';
+  c.innerHTML = `<span class="num">0${i + 1}</span><span class="name">${p}</span>`; c.style.zIndex = 10 - i; $('s5cards').appendChild(c);
+});
+const cards = [...document.querySelectorAll('#s5 .card')];
+
+// S6 : showroom + marques partenaires (texte seul)
+const SHOW = [
+  { img: 'showroom-dining.webp', pos: '50% 60%' },
+  { img: 'showroom-detail.webp', pos: '50% 60%' },
+  { img: 'showroom-night.webp', pos: '50% 50%' },
+];
+SHOW.forEach((p) => {
+  const wrap = document.createElement('div'); wrap.className = 'abs'; wrap.style.inset = '0';
+  wrap.innerHTML = `<img src="../assets/photos/${p.img}" style="object-position:${p.pos}">`; $('s6frame').appendChild(wrap); p.el = wrap; p.imgEl = wrap.querySelector('img');
+});
+const s6title = document.createElement('div'); s6title.className = 'abs center display title'; s6title.innerHTML = 'Notre showroom <span class="accent">à Bluffy</span>'; $('s6').appendChild(s6title);
+const BRANDS = ['Mobliberica', 'Gazzda', 'Bolia', 'Mobitec', 'Audo', 'Estiluz', 'Ralph M', 'Alma Light', 'Harto', 'Mushkane', 'Blomus', 'Casamance', 'Bilboquet', 'Mural Concept', 'Maison Sengler'];
+$('s6row').textContent = BRANDS.join('   ·   ') + '   ·   ' + BRANDS.join('   ·   ');
+
+// Sous-titres : blocs à plat
+const CHUNKS = T.sentences.flatMap((s) => s.chunks);
+let currentChunk = null;
+function renderSubs(t) {
+  const box = $('subbox');
+  if (!SHOW_SUBS) { $('subs').style.display = 'none'; return; }
+  $('subs').classList.toggle('mp', t >= SC.S7.start);
+  const c = CHUNKS.find((c) => t >= c.start - 0.08 && t < c.end);
+  if (!c) { box.style.opacity = 0; return; }
+  if (c !== currentChunk) {
+    box.innerHTML = c.words.map((w) => `<span class="w">${w.w}</span>`).join(' ');
+    currentChunk = c;
+  }
+  box.style.opacity = Math.min(prog(t, c.start - 0.08, c.start + 0.08), 1 - prog(t, c.end - 0.12, c.end));
+  const spans = box.children;
+  c.words.forEach((w, i) => spans[i].classList.toggle('on', t >= w.start && t < (c.words[i + 1]?.start ?? c.end)));
+}
+
+// mot repère dans une phrase (pour caler les photos sur la voix, mode A)
+function wordTime(sentence, re, fallback) {
+  for (const c of T.sentences[sentence - 1].chunks) for (const w of c.words) if (re.test(w.w)) return w.start;
+  return fallback;
+}
+
+// ---- visibilité des scènes : la scène entrante se fond par-dessus la sortante ----
+function sceneAlpha(id, t) {
+  const s = SC[id]; const i = T.scenes.indexOf(s);
+  const a = i === 0 ? 1 : p2io(prog(t, s.start - XF / 2, s.start + XF / 2));
+  const next = T.scenes[i + 1];
+  const gone = next && t > next.start + XF / 2;
+  return gone ? 0 : a;
+}
+
+// ---- seek ----
+window.seek = function (t) {
+  for (const s of T.scenes) {
+    const el = $(s.id.toLowerCase()); const a = sceneAlpha(s.id, t);
+    el.style.opacity = a; el.style.visibility = a > 0 ? 'visible' : 'hidden';
+    el.style.zIndex = T.scenes.indexOf(s) + 1;
+  }
+  const S1 = SC.S1, S2 = SC.S2, S3 = SC.S3, S4 = SC.S4, S5 = SC.S5, S6 = SC.S6, S7 = SC.S7, S8 = SC.S8;
+
+  // S1 — Ken Burns 1,00 → 1,06 ; titre mot par mot
+  {
+    const k = prog(t, S1.start, S1.end + XF);
+    $('s1img').style.transform = `scale(${1 + 0.06 * k})`;
+    $('s1img').style.transformOrigin = '50% 45%';
+    s1spans.forEach((sp, i) => rise(sp, t, S1.start + 0.25 + i * 0.2, 0.8, 22));
+  }
+
+  // S2 — iPhone, défilement de l'accueil, pause sur le titre
+  {
+    const d = S2.end - S2.start, a = S2.start;
+    const ph = $('s2phone'); const k = expoOut(prog(t, a - 0.1, a + 1.0));
+    ph.style.transform = `translateY(${(1 - k) * 90}px)`;
+    const y = keys(t, [[a, 0], [a + 0.25 * d, 0], [a + 0.42 * d, 110], [a + 0.72 * d, 1060], [a + 0.82 * d, 1110], [a + 1.04 * d, 1440]]);
+    $('s2page').style.transform = `translateY(${-y * 560 / 393}px)`;
+    rise($('s2title'), t, a + 0.35, 1.0, 24);
+  }
+
+  // S3 — 5 projets, chacun calé sur le mot prononcé
+  {
+    const a = S3.start, d = S3.end - S3.start;
+    const starts = PROJECTS.map((p, i) => (i === 0 ? a - XF / 2 : wordTime(3, p.key, a + (d * i) / 5) - 0.15));
+    for (let i = 1; i < starts.length; i++) starts[i] = Math.max(starts[i], starts[i - 1] + 0.9); // jamais moins de 0,9 s par photo
+    PROJECTS.forEach((p, i) => {
+      const s = starts[i], e = i + 1 < starts.length ? starts[i + 1] + 0.6 : S3.end + XF;
+      p.el.style.opacity = i === 0 ? 1 : p2io(prog(t, s, s + 0.55));
+      p.el.style.visibility = t >= s && t <= e ? 'visible' : 'hidden';
+      p.imgEl.style.transform = `scale(${1.0 + 0.045 * prog(t, s, e)})`;
+      const lk = expoOut(prog(t, s + 0.2, s + 1.0));
+      p.label.style.opacity = lk; p.label.style.transform = `translateY(${(1 - lk) * 14}px)`;
+    });
+  }
+
+  // S4 — page Chalet vue lac (titre → galerie) + 4 matières
+  {
+    const a = S4.start, d = S4.end - S4.start;
+    const ph = $('s4phone'); const k = expoOut(prog(t, a - 0.1, a + 1.0));
+    ph.style.transform = `translateY(${(1 - k) * 90}px)`;
+    const y = keys(t, [[a, 0], [a + 0.12 * d, 0], [a + 0.42 * d, 600], [a + 0.62 * d, 760], [a + 1.04 * d, 1560]]);
+    $('s4page').style.transform = `translateY(${-y * 500 / 393}px)`;
+    rise($('s4label'), t, a + 0.4, 0.9, 16);
+    matEls.forEach((m, i) => {
+      const s = a + 0.9 + i * 0.95;
+      const kk = expoOut(prog(t, s, s + 1.0));
+      m.querySelector('.name').style.opacity = kk;
+      m.querySelector('.name').style.transform = `translateX(${(1 - kk) * 30}px)`;
+      m.querySelector('.rule').style.transform = `scaleX(${p2io(prog(t, s - 0.1, s + 0.8))})`;
+    });
+  }
+
+  // S5 — titre de la page, puis 6 cartes empilées qui se déploient
+  {
+    const a = S5.start, d = S5.end - S5.start;
+    const ph = $('s5phone');
+    const kin = expoOut(prog(t, a - 0.1, a + 1.0));
+    const kout = p2io(prog(t, a + 0.36 * d, a + 0.36 * d + 0.9));
+    ph.style.transform = `translateY(${(1 - kin) * 90 + kout * 700}px)`;
+    ph.style.opacity = 1 - kout;
+    const y = keys(t, [[a, 0], [a + 0.15 * d, 0], [a + 0.4 * d, 70]]);
+    $('s5page').style.transform = `translateY(${-y * 560 / 393}px)`;
+    rise($('s5title'), t, a + 0.36 * d + 0.1, 1.0, 24);
+    const c0 = a + 0.36 * d + 0.35; // arrivée du paquet
+    cards.forEach((c, i) => {
+      const appear = expoOut(prog(t, c0, c0 + 0.7));
+      const stackY = 640 + i * 10, rowY = 480 + i * 132;
+      const m = expoOut(prog(t, c0 + 0.75 + i * 0.13, c0 + 0.75 + i * 0.13 + 1.1));
+      const yy = lerp(stackY, rowY, m) + (1 - appear) * 60;
+      const sc = lerp(1 - i * 0.02, 1, m);
+      c.style.opacity = appear;
+      c.style.transform = `translateY(${yy}px) scale(${sc})`;
+      c.style.top = '0px';
+    });
+  }
+
+  // S6 — showroom (nuit en dernier) + défilé discret des marques
+  {
+    const a = S6.start, d = S6.end - S6.start;
+    const starts = [a - XF / 2, a + d * 0.34, a + d * 0.66];
+    SHOW.forEach((p, i) => {
+      const s = starts[i], e = i < 2 ? starts[i + 1] + 0.6 : S6.end + XF;
+      p.el.style.opacity = i === 0 ? 1 : p2io(prog(t, s, s + 0.6));
+      p.el.style.visibility = t >= s && t <= e ? 'visible' : 'hidden';
+      p.imgEl.style.transform = `scale(${1.0 + 0.04 * prog(t, s, e)})`;
+    });
+    rise(s6title, t, a + 0.3, 1.0, 20);
+    $('s6row').style.transform = `translateX(${-60 - (t - a) * 80}px)`;
+    $('s6row').parentElement.style.opacity = p2io(prog(t, a + 0.4, a + 1.2));
+    // dernière seconde : logo + URL + « Lien en bio »
+    $('s6end').style.opacity = p2io(prog(t, S6.end - 1.0, S6.end - 0.45));
+  }
+
+  // S7 — fond beige → crème MP ; iPhone + trait gold + logo ; puis iPhone au centre, page formation
+  {
+    const a = S7.start, d = S7.end - S7.start;
+    const kb = p2io(prog(t, a, a + 0.6));
+    const mix = (x, y) => Math.round(lerp(x, y, kb));
+    $('s7').style.background = `rgb(${mix(230, 240)},${mix(224, 237)},${mix(211, 232)})`;
+    const ph = $('s7phone'); const pin = expoOut(prog(t, a + 0.3, a + 1.3));
+    ph.style.opacity = p2io(prog(t, a + 0.25, a + 0.7));
+    const mid = a + 0.45 * d; // bascule vers la formation
+    const slide = p3io(prog(t, mid, mid + 1.2));
+    ph.style.left = lerp(40, 277, slide) + 'px';
+    ph.style.transform = `translateY(${(1 - pin) * 90}px)`;
+    // trait gold qui se dessine de gauche à droite, puis logo
+    const lk = p2io(prog(t, a + 0.7, a + 1.6));
+    const out = 1 - p2io(prog(t, mid - 0.3, mid + 0.3));
+    $('s7line').style.width = 104 * lk + 'px'; $('s7line').style.opacity = out;
+    const lg = expoOut(prog(t, a + 1.3, a + 2.3));
+    $('s7logo').style.opacity = lg * out; $('s7logo').style.transform = `translateX(${(1 - lg) * 24}px)`;
+    $('s7t1').style.opacity = expoOut(prog(t, a + 0.5, a + 1.5)) * out;
+    $('s7t1').style.transform = `translateY(${(1 - expoOut(prog(t, a + 0.5, a + 1.5))) * 22}px)`;
+    rise($('s7t2'), t, mid + 0.6, 1.0, 22);
+    // écran : accueil Casa → page formation (fondu), défilement lent
+    const fk = p2io(prog(t, mid + 0.3, mid + 1.0));
+    $('s7form').style.opacity = fk; $('s7nav').style.opacity = 1 - fk;
+    const y = keys(t, [[mid + 0.8, 0], [mid + 1.6, 0], [S7.end + 0.3, 620]]);
+    $('s7form').style.transform = `translateY(${-y * 500 / 393}px)`;
+  }
+
+  // S8 — CTA navy ; bouton gold qui pulse 2 fois ; bloc immobile ≥ 3 s à la fin
+  {
+    const a = S8.start;
+    $('s8logo').dataset.base = 'translateX(-50%)';
+    rise($('s8logo'), t, a + 0.1, 1.0, 16);
+    rise($('s8h'), t, a + 0.3, 1.0, 24);
+    rise($('s8sub'), t, a + 0.55, 1.0, 18);
+    const p1 = Math.sin(Math.PI * prog(t, a + 1.6, a + 2.4)), p2 = Math.sin(Math.PI * prog(t, a + 2.6, a + 3.4));
+    $('s8btn').dataset.base = `translateX(-50%) scale(${1 + 0.05 * Math.max(p1, p2)})`;
+    rise($('s8btn'), t, a + 0.8, 1.0, 18);
+    rise($('s8mono'), t, a + 1.0, 1.0, 14);
+    // tout est immobile à partir de a + 3.4 s (scène de 7 s → 3,6 s d'image fixe)
+  }
+
+  renderSubs(t);
+};
+
+// prêt quand polices et images sont décodées
+window.ready = (async () => {
+  await Promise.all(['600 40px "Josefin Sans"', '400 40px "Josefin Sans"', 'italic 300 40px "Josefin Sans"', '500 40px Inter', '400 40px Inter', '700 40px "DM Sans"', '400 40px "DM Sans"', '400 40px "DM Mono"'].map((f) => document.fonts.load(f)));
+  await document.fonts.ready;
+  await Promise.all([...document.images].map((im) => (im.complete ? im.decode().catch(() => {}) : new Promise((r) => { im.onload = () => im.decode().then(r, r); im.onerror = r; }))));
+  window.seek(parseFloat(params.get('t') || '0'));
+  return true;
+})();
+</script>
+</body>
+</html>
