@@ -82,7 +82,7 @@ export function MenuOverlay({
           Instagram {site.social.instagramHandle}
         </a>
         <a href={sites.maison.url} target="_blank" rel="noopener noreferrer" className="label text-lin transition-colors hover:text-cream">
-          Maison · Mobilier {sites.maison.live ? "" : "(bientôt)"}
+          Boutique
         </a>
       </div>
     </div>

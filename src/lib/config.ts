@@ -1,0 +1,15 @@
+/**
+ * Réglages ponctuels du site (boutique, opérations temporaires).
+ * Une seule source pour l'URL de la boutique : à utiliser partout.
+ */
+
+/** Boutique en ligne SumUp (mobilier, décoration, cadeaux). */
+export const SHOP_URL = "https://la-casa-de-anna.sumupstore.com";
+
+/** Bandeau « Vente de Noël » — affiché tant que la date courante est antérieure à SALE_END. */
+export const SALE_BANNER_TEXT =
+  "Vente de Noël · Sélection cadeaux & décoration — Samedi 28 novembre, 10h–18h · Showroom, 20 chemin du Maltondu, Bluffy";
+export const SALE_BANNER_LINK = "Voir la boutique →";
+export const SALE_BANNER_TEXT_MOBILE = "Vente de Noël · Sam. 28 nov., 10h–18h · Showroom Bluffy";
+export const SALE_BANNER_LINK_MOBILE = "Boutique →";
+export const SALE_END = "2026-11-28T18:00:00+01:00";

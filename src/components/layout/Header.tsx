@@ -26,7 +26,7 @@ export function Header() {
   return (
     <header
       className={cn(
-        "fixed inset-x-0 top-0 z-40 flex items-center justify-center py-5 transition-colors duration-300",
+        "fixed inset-x-0 top-[var(--sale-banner-h,0px)] z-40 flex items-center justify-center py-5 transition-colors duration-300",
         scrolled && "bg-cream/70 backdrop-blur-sm",
       )}
     >

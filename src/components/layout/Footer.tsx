@@ -24,8 +24,8 @@ export function Footer() {
           rel="noopener noreferrer"
           className="label mt-6 inline-flex items-center gap-2 text-lin transition-colors hover:text-terre"
         >
-          La Casa de Anna · Maison — mobilier
-          <span className="text-terre">{sites.maison.live ? "→" : "· Bientôt"}</span>
+          Boutique
+          <span className="text-terre">→</span>
         </a>
 
         <div className="mt-12 grid gap-8 border-t border-ink/10 pt-10 md:grid-cols-3">

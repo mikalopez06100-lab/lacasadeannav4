@@ -2,6 +2,7 @@ import { localBusinessSchema, foundersSchema, jsonLd } from "@/lib/seo";
 import { SmoothScroll } from "@/components/providers/SmoothScroll";
 import { CustomCursor } from "@/components/cursor/CustomCursor";
 import { Header } from "@/components/layout/Header";
+import { SaleBanner } from "@/components/layout/SaleBanner";
 import { Footer } from "@/components/layout/Footer";
 import { BottomNav } from "@/components/layout/BottomNav";
 
@@ -17,8 +18,10 @@ export default function SiteLayout({ children }: { children: React.ReactNode }) 
       />
       <SmoothScroll>
         <CustomCursor />
+        <SaleBanner />
         <Header />
-        <main>{children}</main>
+        {/* Le bandeau (fixe) publie sa hauteur : le contenu glisse d'autant, le hero de l'accueil la compense */}
+        <main className="pt-[var(--sale-banner-h,0px)]">{children}</main>
         <Footer />
         <BottomNav />
       </SmoothScroll>

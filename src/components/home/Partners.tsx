@@ -6,7 +6,7 @@ import { ScrollReveal } from "@/components/animations/ScrollReveal";
 /**
  * Marques partenaires — double bandeau marquee infini :
  *   ligne du haut défile vers la droite, ligne du bas vers la gauche.
- * + passerelle vers le 2e site (La Casa de Anna · Maison, mobilier.lacasadeanna.com).
+ * + passerelle vers la boutique en ligne (lib/config.ts → SHOP_URL).
  */
 function MarqueeRow({ reverse, duration }: { reverse?: boolean; duration: string }) {
   const items = partnerBrands.map((brand, i) => (
@@ -72,7 +72,7 @@ export function Partners() {
               Le catalogue mobilier sur La Casa de Anna · Maison
             </span>
             <span className="label whitespace-nowrap text-terre transition-transform group-hover:translate-x-1">
-              {maison.live ? "Découvrir →" : "Bientôt →"}
+              Découvrir la boutique →
             </span>
           </a>
           <p className="mt-2 text-sm text-lin">{maison.domain}</p>

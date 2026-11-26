@@ -43,7 +43,7 @@ export default async function HomePage() {
       />
 
       {/* 01 — Hero (photo d'accueil Notion) */}
-      <section className="relative flex h-svh min-h-[640px] items-center justify-center overflow-hidden bg-cream">
+      <section className="relative -mt-[var(--sale-banner-h,0px)] flex h-svh min-h-[640px] items-center justify-center overflow-hidden bg-cream">
         <Image
           src="/assets/img/hero/accueil-wide.jpg"
           alt="Natalia et Coline sur la balcon — La Casa de Anna"

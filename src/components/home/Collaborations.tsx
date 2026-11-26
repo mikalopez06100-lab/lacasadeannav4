@@ -55,9 +55,9 @@ export function Collaborations() {
           ))}
 
           <a
-            href={maison.live ? maison.url : "#showroom"}
-            target={maison.live ? "_blank" : undefined}
-            rel={maison.live ? "noopener noreferrer" : undefined}
+            href={maison.url}
+            target="_blank"
+            rel="noopener noreferrer"
             className="collab-card group"
           >
             <span className="flex flex-1 items-center justify-center">
@@ -70,7 +70,7 @@ export function Collaborations() {
               />
             </span>
             <span className="label text-center text-lin transition-colors group-hover:text-terre">
-              Mobilier &amp; showroom {maison.live ? "↗" : "· bientôt"}
+              Mobilier &amp; showroom ↗
             </span>
           </a>
         </ScrollReveal>

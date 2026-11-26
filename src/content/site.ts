@@ -1,3 +1,5 @@
+import { SHOP_URL } from "@/lib/config";
+
 /**
  * Source de vérité unique — identité, NAP, réseaux, architecture marque mère.
  * Tout composant / schema JSON-LD lit ici. Aucun de ces faits n'est dupliqué ailleurs.
@@ -39,8 +41,7 @@ export const site = {
 
 /**
  * Architecture marque mère (brief DA §2, tension n°3).
- * Le site Maison (mobilier) n'est pas encore construit (inputs client bloquants),
- * mais le cross-link est prêt : on n'aura pas à refondre quand il arrivera.
+ * « Maison » = la boutique en ligne (SumUp), URL centralisée dans lib/config.ts.
  */
 export const sites = {
   studio: {
@@ -53,10 +54,9 @@ export const sites = {
   maison: {
     id: "maison",
     label: "Maison",
-    domain: "mobilier.lacasadeanna.com",
-    url:
-      process.env.NEXT_PUBLIC_MAISON_URL ?? "https://mobilier.lacasadeanna.com",
-    live: false, // ⏳ en attente du cadrage client (statut marques, modèle, nommage)
+    domain: new URL(SHOP_URL).host,
+    url: SHOP_URL,
+    live: true,
   },
 } as const;
 

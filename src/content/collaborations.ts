@@ -1,7 +1,7 @@
 /**
  * Collaborations — partenaires qui partagent les bureaux de Bluffy (brief client v2).
- * Liens fournis par le client. Le 4e bloc renvoie vers le futur site mobilier
- * (content/site.ts → sites.maison), ou vers le showroom tant qu'il n'est pas en ligne.
+ * Liens fournis par le client. Le 4e bloc renvoie vers la boutique en ligne
+ * (content/site.ts → sites.maison → lib/config.ts SHOP_URL).
  */
 
 export type Collaboration = {
