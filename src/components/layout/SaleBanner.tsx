@@ -71,21 +71,23 @@ export function SaleBanner() {
       ref={ref}
       role="region"
       aria-label="Vente de Noël"
-      className="fixed inset-x-0 top-0 z-50 bg-terre text-cream"
+      className="sale-banner fixed inset-x-0 top-0 z-50 overflow-hidden text-cream"
     >
-      <div className="container-x flex items-center justify-center gap-3 py-2 pr-10 text-center text-[12px] leading-snug md:text-[13px]">
-        <p>
-          <span className="lg:hidden">{SALE_BANNER_TEXT_MOBILE}</span>
-          <span className="hidden lg:inline">{SALE_BANNER_TEXT}</span>
-          {" · "}
-          <a
-            href={SHOP_URL}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="whitespace-nowrap font-medium underline decoration-cream/50 underline-offset-4 transition-colors hover:decoration-cream"
-          >
+      <div className="relative flex items-center py-2 pl-4 pr-11 text-[11.5px] leading-snug md:text-[13px] lg:justify-center lg:px-12">
+        <p className="flex w-full items-center justify-between gap-3 text-left lg:w-auto lg:justify-center lg:text-center">
+          <span className="min-w-0 [text-wrap:balance]">
+            <span className="sale-star mr-1.5" aria-hidden="true">
+              ✦
+            </span>
+            <span className="lg:hidden">{SALE_BANNER_TEXT_MOBILE}</span>
+            <span className="hidden lg:inline">{SALE_BANNER_TEXT}</span>
+          </span>
+          <a href={SHOP_URL} target="_blank" rel="noopener noreferrer" className="sale-cta shrink-0">
             <span className="lg:hidden">{SALE_BANNER_LINK_MOBILE}</span>
             <span className="hidden lg:inline">{SALE_BANNER_LINK}</span>
+            <span className="sale-arrow" aria-hidden="true">
+              →
+            </span>
           </a>
         </p>
       </div>
@@ -93,7 +95,7 @@ export function SaleBanner() {
         type="button"
         onClick={close}
         aria-label="Fermer le bandeau"
-        className="absolute right-2 top-1/2 flex h-8 w-8 -translate-y-1/2 items-center justify-center text-cream/80 transition-colors hover:text-cream"
+        className="absolute right-2 top-1/2 z-10 flex h-8 w-8 -translate-y-1/2 items-center justify-center rounded-full text-cream/70 transition-colors hover:bg-cream/10 hover:text-cream"
       >
         <svg viewBox="0 0 16 16" width="12" height="12" aria-hidden="true" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round">
           <path d="M3 3l10 10M13 3L3 13" />

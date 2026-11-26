@@ -312,6 +312,112 @@
 }
 
 /* ============================================================
+   Bandeau temporaire (vente de Noël) — SaleBanner
+   Reflet lumineux lent, étoile qui scintille, flèche du bouton qui avance.
+   ============================================================ */
+
+.sale-banner {
+  background: linear-gradient(90deg, #4f3119 0%, #5c3a1e 50%, #4f3119 100%);
+  animation: sale-in 0.7s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+/* reflet : une bande claire traverse le bandeau toutes les 7 s */
+.sale-banner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(105deg, transparent 35%, rgba(239, 235, 227, 0.16) 50%, transparent 65%);
+  transform: translateX(-100%);
+  animation: sale-sheen 7s ease-in-out 1.2s infinite;
+}
+.sale-star {
+  display: inline-block;
+  color: #e6c98f;
+  animation: sale-twinkle 2.8s ease-in-out infinite;
+}
+.sale-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  border-radius: 999px;
+  background: #efebe3;
+  color: #5c3a1e;
+  padding: 0.3em 0.85em 0.3em 0.95em;
+  font-size: 10.5px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  line-height: 1.4;
+  white-space: nowrap;
+  box-shadow: 0 1px 0 rgba(12, 10, 8, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.4);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.sale-cta:hover {
+  background: #fff;
+  transform: translateY(-1px);
+}
+.sale-cta .sale-arrow {
+  display: inline-block;
+  animation: sale-nudge 2.4s ease-in-out infinite;
+}
+@media (min-width: 768px) {
+  .sale-cta {
+    font-size: 11px;
+  }
+}
+
+@keyframes sale-in {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+@keyframes sale-sheen {
+  0% {
+    transform: translateX(-100%);
+  }
+  35%,
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes sale-twinkle {
+  0%,
+  100% {
+    opacity: 1;
+    transform: scale(1) rotate(0deg);
+  }
+  50% {
+    opacity: 0.45;
+    transform: scale(0.8) rotate(20deg);
+  }
+}
+@keyframes sale-nudge {
+  0%,
+  60%,
+  100% {
+    transform: translateX(0);
+  }
+  30% {
+    transform: translateX(3px);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sale-banner,
+  .sale-banner::after,
+  .sale-star,
+  .sale-cta .sale-arrow {
+    animation: none;
+  }
+  .sale-banner::after {
+    display: none;
+  }
+}
+
+/* ============================================================
    Curseur personnalisé — desktop pointer fin uniquement
    ============================================================ */
 
