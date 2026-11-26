@@ -75,14 +75,23 @@ export function MenuOverlay({
             </Link>
           </span>
         ))}
+        {/* Boutique en ligne (externe, nouvel onglet), même taille que les autres entrées */}
+        <span className="line-mask">
+          <a
+            href={sites.maison.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            onClick={onClose}
+            className="menu-link block font-display text-4xl italic text-cream transition-colors duration-200 hover:text-terre md:text-6xl"
+          >
+            Boutique
+          </a>
+        </span>
       </nav>
 
       <div className="container-x mt-16 flex flex-wrap items-center gap-x-8 gap-y-3">
         <a href={site.social.instagram} target="_blank" rel="noopener noreferrer" className="label text-lin transition-colors hover:text-cream">
           Instagram {site.social.instagramHandle}
-        </a>
-        <a href={sites.maison.url} target="_blank" rel="noopener noreferrer" className="label text-lin transition-colors hover:text-cream">
-          Boutique
         </a>
       </div>
     </div>
