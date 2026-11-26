@@ -336,6 +336,7 @@
   animation: sale-twinkle 2.8s ease-in-out infinite;
 }
 .sale-cta {
+  position: relative;
   display: inline-flex;
   align-items: center;
   gap: 0.4em;
@@ -351,10 +352,23 @@
   white-space: nowrap;
   box-shadow: 0 1px 0 rgba(12, 10, 8, 0.15), inset 0 0 0 1px rgba(255, 255, 255, 0.4);
   transition: background-color 0.3s ease, transform 0.3s ease;
+  /* légère pulsation : une fois à l'arrivée (1 s), puis toutes les 6 s */
+  animation: sale-pulse 6s ease-in-out 1s infinite;
+}
+/* halo crème qui s'élargit et s'efface pendant la pulsation */
+.sale-cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  box-shadow: 0 0 0 0 rgba(239, 235, 227, 0.55);
+  animation: sale-halo 6s ease-out 1s infinite;
 }
 .sale-cta:hover {
   background: #fff;
   transform: translateY(-1px);
+  animation: none;
 }
 .sale-cta .sale-arrow {
   display: inline-block;
@@ -366,6 +380,25 @@
   }
 }
 
+@keyframes sale-pulse {
+  0%,
+  16%,
+  100% {
+    transform: scale(1);
+  }
+  8% {
+    transform: scale(1.06);
+  }
+}
+@keyframes sale-halo {
+  0% {
+    box-shadow: 0 0 0 0 rgba(239, 235, 227, 0.55);
+  }
+  22%,
+  100% {
+    box-shadow: 0 0 0 9px rgba(239, 235, 227, 0);
+  }
+}
 @keyframes sale-in {
   from {
     transform: translateY(-100%);
@@ -409,6 +442,8 @@
   .sale-banner,
   .sale-banner::after,
   .sale-star,
+  .sale-cta,
+  .sale-cta::before,
   .sale-cta .sale-arrow {
     animation: none;
   }
