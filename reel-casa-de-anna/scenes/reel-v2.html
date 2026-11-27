@@ -10,7 +10,10 @@
   Les temps viennent de timings-v2.js (build_timings_v2.py). v2 : S6 modifiée, S7 (transition MasterPrompt) et S8 (CTA) nouvelles.
   Identité MasterPrompt (navy/gold/cream, DM Sans/DM Mono) cantonnée à S7, S8 et à leurs sous-titres.
 -->
-<script src="timings-v2.js"></script>
+<script>
+  // ?timings=timings-v2-final.js : voix réelle (sous-titres Whisper) ; défaut : guide v2
+  document.write('<script src="' + (new URLSearchParams(location.search).get('timings') || 'timings-v2.js') + '"><\/script>');
+</script>
 <style>
 @font-face { font-family: "Josefin Sans"; font-weight: 300; src: url(../assets/fonts/josefin-sans-latin-300-normal.woff2) format("woff2"); }
 @font-face { font-family: "Josefin Sans"; font-weight: 300; font-style: italic; src: url(../assets/fonts/josefin-sans-latin-300-italic.woff2) format("woff2"); }
@@ -287,8 +290,8 @@ let currentChunk = null;
 function renderSubs(t) {
   const box = $('subbox');
   if (!SHOW_SUBS) { $('subs').style.display = 'none'; return; }
-  $('subs').classList.toggle('mp', t >= SC.S7.start);
   const c = CHUNKS.find((c) => t >= c.start - 0.08 && t < c.end);
+  $('subs').classList.toggle('mp', c && 'mp' in c ? c.mp : t >= SC.S7.start);
   if (!c) { box.style.opacity = 0; return; }
   if (c !== currentChunk) {
     box.innerHTML = c.words.map((w) => `<span class="w">${w.w}</span>`).join(' ');
@@ -301,7 +304,8 @@ function renderSubs(t) {
 
 // mot repère dans une phrase (pour caler les photos sur la voix, mode A)
 function wordTime(sentence, re, fallback) {
-  for (const c of T.sentences[sentence - 1].chunks) for (const w of c.words) if (re.test(w.w)) return w.start;
+  // repères visuels : toujours ceux de la v2 (T.guide), même quand les sous-titres viennent de la voix réelle
+  for (const c of (T.guide || T.sentences)[sentence - 1].chunks) for (const w of c.words) if (re.test(w.w)) return w.start;
   return fallback;
 }
 

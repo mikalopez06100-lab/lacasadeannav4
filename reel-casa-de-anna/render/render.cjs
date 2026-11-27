@@ -10,7 +10,7 @@ const N = Math.round(T.duration * T.fps);
   const t0 = Date.now();
   await Promise.all([...Array(W).keys()].map(async (w) => {
     const p = await b.newPage({ viewport: { width: 1080, height: 1920 }, deviceScaleFactor: 1 });
-    await p.goto('file://' + path.resolve(__dirname, '../scenes/' + (process.env.HTML || 'reel.html')) + (variant === 'muet' ? '?subs=0' : ''));
+    await p.goto('file://' + path.resolve(__dirname, '../scenes/' + (process.env.HTML || 'reel.html')) + '?' + (variant === 'muet' ? 'subs=0&' : '') + (process.env.TIMINGS_JS ? 'timings=' + process.env.TIMINGS_JS : ''));
     await p.evaluate(() => window.ready);
     for (let f = w; f < N; f += W) {
       await p.evaluate((t) => window.seek(t), f / T.fps);

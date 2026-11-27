@@ -68,3 +68,14 @@ La v1 est intacte (`reel.html`, `timings.json`, fichiers sans suffixe). Sources 
 4. **Or sur crème** : #F59E0B sur #F0EDE8 = 1,84:1, illisible. En S7, le texte en couleur est en or foncé #b46f04 (3,45:1, suffisant pour du grand texte gras). Le bouton or + navy en S8 donne **8,1:1** (≥ 4,5 ✔).
 5. **Visage** : la page formation montre la miniature vidéo de Michaël (fin de S7).
 6. **Mode A (Whisper)** : toujours pas implémenté, faute d'audio pour le tester. Les timings v2 ont le même format, prêts à être remplacés par l'alignement.
+
+## Version finale v2 (voix de Natalia)
+
+Fichier : `reel-casa-de-anna-v2-final.mp4` (1080×1920, 30 fps, 50,03 s, 14,5 Mo, voix AAC 192 kb/s, sans musique). Sous-titres : `sous-titres-v2-final.srt`.
+
+- **Timeline v2 inchangée** : Natalia a enregistré en direct sur la v2. Les scènes et les repères visuels (photos de S3) n'ont pas été recalés, et l'audio est posé à 0 s.
+- **Audio** : `audio/voix-natalia-16lufs.wav` (48 kHz, 50,01 s) est déjà à -16 LUFS intégrés, avec un true peak à -1,5 dBFS. Il est utilisé tel quel, sans retraitement.
+- **Sous-titres** : transcription Whisper (faster-whisper large-v3, français, horodatage au mot) via `capture/transcribe.py`, découpage par `build_timings_v2_final.py`. Les sous-titres suivent ce qu'elle dit réellement (« Vous y trouverez… », « Ce site a été conçu par Michaël de MasterPrompt »). Seule correction : l'homophone « aux clés-en-main » est écrit « au clé-en-main ». Le style navy/or s'applique dès la phrase sur MasterPrompt (32,7 s).
+- **Durée** : 1 501 images (50,03 s), pour couvrir tout l'audio (50,01 s). Le dernier mot finit à 48,0 s, rien n'est coupé.
+- **Synchro, écart voix – guide v2** : photos de S3 à moins de 0,2 s (chalet +0,09, Madrid -0,19, Corse -0,08, Alpe -0,05, Jávea +0,08). « Ce site a été conçu… » commence 0,26 s avant S7. « Vous êtes indépendant ? » commence 0,18 s avant S8. « Commentez IA » (46,0 s) tombe pendant la 2ᵉ pulsation du bouton. Le texte « L'IA pour les indépendants » apparaît vers 38,1 s, à la fin de la phrase correspondante (35,5–38,3 s).
+- Images de contrôle : `controles-v2-final/`.
